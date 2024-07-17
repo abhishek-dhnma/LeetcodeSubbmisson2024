@@ -17,14 +17,20 @@ public:
         unordered_map<int,TreeNode*> Hashtable;
         unordered_set<int> RootSetParent;
 
+        int Parent, Child; 
+
         for(int i=0; i<descriptions.size(); i++){
-            if( Hashtable.find(descriptions[i][0]) == Hashtable.end() ){
-                Hashtable[descriptions[i][0]] = new TreeNode(descriptions[i][0]);
+            Parent = descriptions[i][0];
+            Child = descriptions[i][1];
+
+
+            if( Hashtable.find(Parent) == Hashtable.end() ){
+                Hashtable[Parent] = new TreeNode(Parent);
             }
-            if( Hashtable.find(descriptions[i][1]) == Hashtable.end() ){
-                Hashtable[descriptions[i][1]] = new TreeNode( descriptions[i][1]);
+            if( Hashtable.find(Child) == Hashtable.end() ){
+                Hashtable[Child] = new TreeNode(Child);
             }
-            RootSetParent.insert(descriptions[i][1]);
+            RootSetParent.insert(Child);
         }
 
         TreeNode* head;
