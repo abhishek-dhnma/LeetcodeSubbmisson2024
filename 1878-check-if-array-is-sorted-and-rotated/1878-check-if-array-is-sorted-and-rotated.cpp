@@ -6,14 +6,14 @@ public:
 
         int rotationPoint  = 0;
          // Count the number of decreasing points
-        for(int i=0; i<n-1; i++){
-            if( nums[i] > nums[i+1]){
+        for(int i=0; i<n; i++){
+            if( nums[i] > nums[(i+1) % n]){
                rotationPoint++;
                 if(rotationPoint > 1) return false;
             }
         }
 
 
-        return  rotationPoint == 0 ||  nums[n - 1] <= nums[0];
+        return  true;
     }
 };
