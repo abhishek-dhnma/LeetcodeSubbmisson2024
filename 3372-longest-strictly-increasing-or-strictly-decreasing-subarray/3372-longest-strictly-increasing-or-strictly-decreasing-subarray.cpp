@@ -1,53 +1,28 @@
 class Solution {
 public:
     int longestMonotonicSubarray(vector<int>& nums) {
-
-        //Pure brute force
         int n = nums.size();
-        vector<vector<int>> subarray;
+        if(n == 1) return 1;
 
-        // Generate all subarrays
-        for (int i = 0; i < n; i++) {
-            for (int j = i; j < n; j++) {
-                vector<int> sub;
-                for (int k = i; k <= j; k++) {
-                    sub.push_back(nums[k]);
-                }
-                subarray.push_back(sub);
+        int inc = 1, dec = 1;
+        int maxlength = 1;
+
+        for(int i=1; i<n; i++){
+
+            if(nums[i] > nums[i-1]){
+                inc ++;
+                dec = 1;
+            }else if(nums[i] < nums[i-1]){
+                dec++;
+                inc = 1;
+            }else{
+                inc = dec = 1;
             }
+            maxlength = max(maxlength, max(inc, dec));
+
         }
 
-        int incc = 1, dess = 1;
-
-        // Check for increasing sequences
-        for (auto& sub : subarray) {
-            bool isIncreasing = true;
-            for (int i = 0; i < sub.size() - 1; i++) {
-                if (sub[i] >= sub[i + 1]) {
-                    isIncreasing = false;
-                    break;
-                }
-            }
-            if (isIncreasing) {
-                incc = max(incc, (int)sub.size()); // Update longest increasing subarray length
-            }
-        }
-
-        // Check for decreasing sequences
-        for (auto& sub : subarray) {
-            bool isDecreasing = true;
-            for (int i = 0; i < sub.size() - 1; i++) {
-                if (sub[i] <= sub[i + 1]) {
-                    isDecreasing = false;
-                    break;
-                }
-            }
-            if (isDecreasing) {
-                dess = max(dess, (int)sub.size()); // Update longest decreasing subarray length
-            }
-        }
-
-        return max(incc, dess);
+        return maxlength; 
         
     }
 };
