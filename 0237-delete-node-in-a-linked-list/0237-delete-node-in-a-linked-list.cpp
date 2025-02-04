@@ -14,6 +14,7 @@ public:
         while(curr){
             curr->val = curr->next->val;
             if(curr->next->next == NULL){
+                delete curr->next;
                 curr->next = NULL;
             }
             curr = curr->next;
