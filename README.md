@@ -11,4 +11,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0237-delete-node-in-a-linked-list](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0237-delete-node-in-a-linked-list) |
+## Hash Table
+|  |
+| ------- |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+## String
+|  |
+| ------- |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+## Counting
+|  |
+| ------- |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 <!---LeetCode Topics End-->
