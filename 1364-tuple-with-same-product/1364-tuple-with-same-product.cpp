@@ -14,11 +14,11 @@ public:
 
         int ans = 0;
 
-        for(const auto& [m , c] : freq){
+        for(const auto& [product , count] : freq){
 
-                        if(c >=2 ){
+                        if(count >=2 ){
                 
-                ans += c*(c-1)*4;
+                ans += count * (count-1) * 4;
             }
 
         }
