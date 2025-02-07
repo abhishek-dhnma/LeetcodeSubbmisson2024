@@ -7,8 +7,6 @@ public:
 
         unordered_map<int, int> freq;
 
-        unordered_set<int> s;
-
         vector<int> result;
 
         for (const auto& q : queries) {
@@ -21,7 +19,6 @@ public:
                 freq[balls[b]]--;
 
                 if (freq[balls[b]] == 0) {
-                    s.erase(balls[b]);
                     freq.erase(balls[b]);
                 }
             }
@@ -29,9 +26,7 @@ public:
             balls[b] = c;
             freq[c]++;
 
-            s.insert(c);
-
-            result.push_back(s.size());
+            result.push_back(freq.size());
         }
 
         return result;
