@@ -1,8 +1,8 @@
 class NumberContainers {
 public:
-
-    unordered_map<int, int> container;
-    unordered_map<int, set<int>> helper;
+    
+    unordered_map<int, int> idxToNum;
+    unordered_map<int, priority_queue<int, vector<int>, greater<int>>> numToIdx;
 
     NumberContainers() {
         
@@ -10,25 +10,29 @@ public:
     
     void change(int index, int number) {
 
-        if(container.count(index)){
-            int prenum = container[index];
-            helper[prenum].erase(index);
-            if(helper[prenum].empty()){
-                helper.erase(prenum);
-            }
-        }
-        container[index] = number;
-        helper[number].insert(index);
+            idxToNum[index] = number;
+
+            numToIdx[number].push(index); // O(log N)
+        
     }
     
     int find(int number) {
 
-        if(helper.count(number)){
-            return *helper[number].begin();
+        if(!numToIdx.count(number)){
+            return -1;
         }
 
-        return -1;
+        auto& pq = numToIdx[number];
+
+        while(!pq.empty()){
+            int idx = pq.top();
+
+            if(idxToNum[idx] == number) return idx;
+
+            pq.pop();
+        }
         
+        return -1;
     }
 };
 
