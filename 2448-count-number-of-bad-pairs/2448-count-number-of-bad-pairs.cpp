@@ -4,16 +4,17 @@ public:
 
         int n = nums.size();
 
-        long long result = 0;
+        long long badPairs = 0;
     
         unordered_map<int, int> freq;
         for(int j=0; j<n; j++){
-            int elementsSeenBeforeJ = j;
-            result += (elementsSeenBeforeJ - freq[nums[j]-j]);
+            int TotalPairs = j;
+            int goodPairs = freq[nums[j]-j];
+            badPairs += (TotalPairs - goodPairs);
 
             freq[nums[j]-j]++;
         }
 
-        return result;
+        return badPairs;
     }
 };
