@@ -13,7 +13,7 @@ public:
 
         unordered_map<long long, long long> freq;
         for(int j=0; j<n; j++){
-            long long elementsSeenBeforeJ = j;
+            int elementsSeenBeforeJ = j;
             result += (elementsSeenBeforeJ - freq[modifiedNums[j]]);
 
             freq[modifiedNums[j]]++;
