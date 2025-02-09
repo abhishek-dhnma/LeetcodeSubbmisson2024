@@ -5,19 +5,13 @@ public:
         int n = nums.size();
 
         long long result = 0;
-
-        vector<int> modifiedNums;
-        for(int i=0; i<n; i++){
-            modifiedNums.push_back(nums[i] - i);
-        }
-
-        unordered_map<long long, long long> freq;
+    
+        unordered_map<int, int> freq;
         for(int j=0; j<n; j++){
             int elementsSeenBeforeJ = j;
-            result += (elementsSeenBeforeJ - freq[modifiedNums[j]]);
+            result += (elementsSeenBeforeJ - freq[nums[j]-j]);
 
-            freq[modifiedNums[j]]++;
-
+            freq[nums[j]-j]++;
         }
 
         return result;
