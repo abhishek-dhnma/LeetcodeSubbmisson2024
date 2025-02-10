@@ -1,20 +1,24 @@
 class Solution {
 public:
     string clearDigits(string s) {
+        // Now interviwer Asks to do IN-PLACE without 
+        // Any EXTRA SPACE 
+        // AND with linear Time Complexity
 
-        int n = s.size();
+        int i = 0;
+        int j = 0;
 
-        if (n == 1)
-            return s;
-
-        for (int i = 1; i < n; i++) {
-
-            if (isdigit(s[i])) {
-                    s.erase(i - 1, 2);
-                    i = 0;
-                    n -= 2;
+        while(i < s.length() ){
+            if(isdigit(s[i])){
+                j = max(j-1,0);
+            }else{
+                s[j] = s[i];
+                j++;
             }
+            i++;
         }
-        return s;
+
+        return s.substr(0,j);
+        
     }
 };
