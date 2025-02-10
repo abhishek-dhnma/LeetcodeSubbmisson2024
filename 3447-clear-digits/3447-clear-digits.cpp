@@ -5,7 +5,7 @@ public:
         stack<char> stk;
         int n = s.size();
 
-        for(int i=0; i<n; i++){
+        for(int i=0; i<n; i++){ // O(N)
             if(isdigit(s[i])){
                 stk.pop();
             }
@@ -16,7 +16,7 @@ public:
 
         string ans = "";
 
-        while(!stk.empty()){
+        while(!stk.empty()){ //O(N)
 
             char c = stk.top();
 
@@ -24,10 +24,10 @@ public:
             stk.pop();
 
         }
-        reverse(ans.begin(), ans.end());
+        reverse(ans.begin(), ans.end()); // O(log N)
 
         return ans;
-
+    
         
     }
 };
