@@ -1,17 +1,20 @@
 class Solution {
 public:
     string clearDigits(string s) {
-        
-        string ans = "";
 
-        for(int i=0; i<s.size(); i++){
-            if(isdigit(s[i])){
-                ans.erase(ans.begin() + ans.size()-1);
-            }else{
-                ans += s[i];
+        int n = s.size();
+
+        if (n == 1)
+            return s;
+
+        for (int i = 1; i < n; i++) {
+
+            if (isdigit(s[i])) {
+                    s.erase(i - 1, 2);
+                    i = 0;
+                    n -= 2;
             }
         }
-
-        return ans;
+        return s;
     }
 };
