@@ -12,7 +12,7 @@ public:
             if (isdigit(s[i])) {
                     s.erase(i - 1, 2);
                     i = 0;
-                    n = n - 2;
+                    n -= 2;
             }
         }
         return s;
