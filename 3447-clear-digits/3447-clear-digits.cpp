@@ -4,21 +4,17 @@ public:
 
         int n = s.size();
 
-        if(n == 1) return s;
+        if (n == 1)
+            return s;
 
-        for(int i=0; i<n; i++){
+        for (int i = 1; i < n; i++) {
 
-            if(isdigit(s[i])) {
-                if(i >= 1){
-                s.erase(i-1,2);
-                i=0;
-                n = s.size();
+            if (isdigit(s[i])) {
+                    s.erase(i - 1, 2);
+                    i = 0;
+                    n = n - 2;
             }
-            cout << s << " ";
         }
-        }
-        //cout << s ;
         return s;
-        
     }
 };
