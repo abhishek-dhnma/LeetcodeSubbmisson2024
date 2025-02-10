@@ -2,19 +2,32 @@ class Solution {
 public:
     string clearDigits(string s) {
 
+        stack<char> stk;
         int n = s.size();
 
-        if (n == 1)
-            return s;
-
-        for (int i = 1; i < n; i++) {
-
-            if (isdigit(s[i])) {
-                    s.erase(i - 1, 2);
-                    i = 0;
-                    n -= 2;
+        for(int i=0; i<n; i++){
+            if(isdigit(s[i])){
+                stk.pop();
+            }
+            else{
+                stk.push(s[i]);
             }
         }
-        return s;
+
+        string ans = "";
+
+        while(!stk.empty()){
+
+            char c = stk.top();
+
+            ans += c;
+            stk.pop();
+
+        }
+        reverse(ans.begin(), ans.end());
+
+        return ans;
+
+        
     }
 };
