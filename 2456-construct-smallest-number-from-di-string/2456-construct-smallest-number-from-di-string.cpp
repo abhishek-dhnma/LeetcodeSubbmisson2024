@@ -7,16 +7,14 @@ public:
 
         string num = "";
 
-        int counter = 1;
         stack<char> st;
 
         for(int i=0; i<=n; i++){
-            st.push(counter + '0');
-            counter++;
+            st.push(i+1);
 
             if(i == n || pattern[i] == 'I'){
                 while(!st.empty()){
-                    num += st.top();
+                    num += to_string(st.top());
                     st.pop();
                 }
             }
