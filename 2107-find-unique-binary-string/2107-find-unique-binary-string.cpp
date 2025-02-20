@@ -1,47 +1,23 @@
 class Solution {
 public:
-    int binaryToDecimal(string s)
-{
-    bitset<32> bits(s);
-    int number = bits.to_ulong();
-    return number;
-}
 
-string toBinary(int n) {
-    bitset<5> b(n);
-    return b.to_string();
-}
+    // Simplify Brute Force
 
     string findDifferentBinaryString(vector<string>& nums) {
-        int n = nums.size();
+                int n = nums.size();
+        unordered_set<int> seen;
 
-        int size = 1 << n; // Efficient way to compute 2^n
-
-        vector<bool> mp(size,false);
-
-        for(const auto& str : nums){
-            
-            int nmbr = binaryToDecimal(str);
-
-            mp[nmbr] = true;
-
+        // Convert all binary strings to decimal and store in set
+        for (const auto& str : nums) {
+            seen.insert(bitset<16>(str).to_ulong());
         }
 
-        string ans = "";
-
-        for(int i=0; i<size; i++){
-            if(!mp[i]){
-
-                 bitset<16> b(i);
-                ans=  b.to_string().substr(16-n);
-                break;
-                
+        // Find the first missing number
+        for (int i = 0; i < (1 << n); i++) {
+            if (!seen.count(i)) {
+                return bitset<16>(i).to_string().substr(16 - n); // Return n-bit binary string
             }
         }
-
-        
-
-        return ans;
-        
+        return ""; // Should never reach here
     }
 };
