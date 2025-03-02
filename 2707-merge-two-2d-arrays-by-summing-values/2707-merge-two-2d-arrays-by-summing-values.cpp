@@ -12,24 +12,21 @@ public:
         
 
         while (i < n1 && j < n2) {
-            vector<int> temp;
             if (nums1[i][0] == nums2[j][0]) {
 
-                temp.push_back(nums1[i][0]);
-                temp.push_back(nums1[i][1] + nums2[j][1]);
+                res.push_back({nums1[i][0], nums1[i][1] + nums2[j][1]});
                 i++;
                 j++;
 
             } else if (nums1[i][0] < nums2[j][0]) {
                 
-                temp = nums1[i];
+                res.push_back(nums1[i]);
                 i++;
 
             } else {
-               temp = nums2[j];
+               res.push_back(nums2[j]);
                j++;
             }
-            res.push_back(temp);
 
         }
         
