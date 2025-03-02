@@ -1,45 +1,41 @@
 class Solution {
 public:
-    vector<vector<int>> mergeArrays(vector<vector<int>>& nums1,
-                                    vector<vector<int>>& nums2) {
+    vector<vector<int>> mergeArrays(vector<vector<int>>& nums1, vector<vector<int>>& nums2) {
+
+        //USING POINTER 
 
         vector<vector<int>> res;
 
-        int i = 0;
-        int j = 0;
-        int n1 = nums1.size();
-        int n2 = nums2.size();
-        
+         auto ptr1 = nums1.begin(), ptr2 = nums2.begin();  // Using iterators (pointers)
 
-        while (i < n1 && j < n2) {
-            if (nums1[i][0] == nums2[j][0]) {
-
-                res.push_back({nums1[i][0], nums1[i][1] + nums2[j][1]});
-                i++;
-                j++;
-
-            } else if (nums1[i][0] < nums2[j][0]) {
-                
-                res.push_back(nums1[i]);
-                i++;
-
-            } else {
-               res.push_back(nums2[j]);
-               j++;
+        while (ptr1 != nums1.end() && ptr2 != nums2.end()) {
+            if ((*ptr1)[0] == (*ptr2)[0]) {  
+                res.push_back({(*ptr1)[0], (*ptr1)[1] + (*ptr2)[1]});
+                ptr1++; ptr2++;  // Move both pointers
+            } 
+            else if ((*ptr1)[0] < (*ptr2)[0]) {
+                res.push_back(*ptr1);
+                ptr1++;  // Move pointer for nums1
+            } 
+            else {
+                res.push_back(*ptr2);
+                ptr2++;  // Move pointer for nums2
             }
-
-        }
-        
-        while(i < n1){
-            res.push_back(nums1[i]);
-            i++;
         }
 
-        while(j < n2){
-            res.push_back(nums2[j]);
-            j++;
+        // Add remaining elements from nums1
+        while (ptr1 != nums1.end()) {
+            res.push_back(*ptr1);
+            ptr1++;
+        }
+
+        // Add remaining elements from nums2
+        while (ptr2 != nums2.end()) {
+            res.push_back(*ptr2);
+            ptr2++;
         }
 
         return res;
+        
     }
 };
