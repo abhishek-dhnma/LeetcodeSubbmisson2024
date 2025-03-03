@@ -2,18 +2,37 @@ class Solution {
 public:
     vector<int> pivotArray(vector<int>& nums, int pivot) {
 
-        vector<int> sm, lg, eq;
+        int n = nums.size();
 
-        for(const auto & num : nums){
-            if(num < pivot) sm.push_back(num);
-            else if(num > pivot) lg.push_back(num);
-            else eq.push_back(num);
+        vector<int> res(n);
+        
+        int i =0, j = n-1;
+        int x = 0, y = n-1;
+        
+        while(i < n && j >=0){
+            if(nums[i] < pivot){
+                res[x] = nums[i];
+                x++;
+            }
+
+            if(nums[j] > pivot){
+                res[y] = nums[j];
+                y--;
+            }
+
+            i++;
+            j--;
+
         }
 
-        sm.insert(sm.end(), eq.begin(), eq.end());
-        sm.insert(sm.end(), lg.begin(), lg.end());
-        
-        
-        return sm;
+        while( x <= y){
+
+            res[x] =  pivot;
+            res[y] = pivot;
+            x++;
+            y--;
+        }
+
+        return res;
     }
 };
