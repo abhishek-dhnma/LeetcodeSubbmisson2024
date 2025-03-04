@@ -17,6 +17,6 @@ void fun(int n){
 
         fun(n);
 
-        return !(num.find('2') != string::npos);
+        return num.find('2') == string::npos;
     }
 };
