@@ -1,22 +1,22 @@
 class Solution {
 public:
-string num = "";
-void fun(int n){
-    if(n == 0) return;
+    string num = "";
+    void fun(int n){
+        int r = 0;
+        
+        while(n != 0){
 
-    int x = n % 3;
-    n /= 3;
-    if(x < 0) n+=1;
+            r = n % 3;
+            n /= 3;
 
-     fun(n);
-     num += to_string(x);
+            num += to_string(r); 
+        }
 
-}
+    }
+
     bool checkPowersOfThree(int n) {
-
-
         fun(n);
-
+        cout << num;
         return num.find('2') == string::npos;
     }
 };
