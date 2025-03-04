@@ -1,17 +1,13 @@
 class Solution {
 public:
-    
+    bool checkPowersOfThree(int n) {
 
-    void fun(int n, string& num){
-        while(n != 0){
-            num = to_string( n % 3) + num;
+        while(n > 0){
+            if(n%3 == 2) return false;
             n /= 3;
         }
-    }
 
-    bool checkPowersOfThree(int n) {
-        string num = "";
-        fun(n, num);
-        return num.find('2') == string::npos;
+        return true;
+        
     }
 };
