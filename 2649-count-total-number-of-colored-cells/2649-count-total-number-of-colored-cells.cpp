@@ -2,18 +2,9 @@ class Solution {
 public:
     long long coloredCells(int n) {
 
-        // pattern observation
+        // math pattern observation
 
-        int t= 1;
-        long long cell = 1;
-
-        while( t <= n){
-
-            cell += (4 * (t-1));
-            t++;
-        }
-
-        return cell;
+        return 1 + (2 * (long long)(n-1) * n);
         
     }
 };
