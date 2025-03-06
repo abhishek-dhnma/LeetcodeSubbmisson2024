@@ -9,17 +9,14 @@ public:
 
         int repeated = 0;
 
-        for(int i=0; i<n; i++){
-            for(int j=0; j<n; j++){
-               counts[ grid[i][j] ]++;
-                actual_sum += grid[i][j];
-            }
-        }
-
-        for(int i=0; i<=n*n; i++){
-            if(counts[i] == 2) {
-                repeated = i;
-                break;
+     for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                int val = grid[i][j];
+                counts[val]++;
+                actual_sum += val;
+                if (counts[val] == 2) {
+                    repeated = val;
+                }
             }
         }
 
