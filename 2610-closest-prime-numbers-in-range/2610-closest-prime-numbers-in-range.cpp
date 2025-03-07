@@ -2,49 +2,48 @@ class Solution {
 public:
     vector<int> closestPrimes(int left, int right) {
 
-        const int N = 1e6 +1;
-        vector<bool> isPrime(N,true);
-        vector<int> primes;
+if (right < 2) return {-1, -1};  // No primes exist below 2
 
-
-        // Sieve of Eratosthenes to find all primes up to 10^6
-        isPrime[0] = isPrime[1] = false;
-
-        for(int i=2; i*i<N; i++){
-            if(isPrime[i]){
-                for(int j = i*i; j<N; j+=i){
+        // Step 1: Use Sieve of Eratosthenes to get small primes up to sqrt(10^6)
+        const int N = sqrt(1e6) + 1;
+        vector<bool> isPrime(N, true);
+        vector<int> smallPrimes;
+        
+        for (int i = 2; i < N; ++i) {
+            if (isPrime[i]) {
+                smallPrimes.push_back(i);
+                for (int j = i * i; j < N; j += i) {
                     isPrime[j] = false;
                 }
             }
-
         }
 
-
-        // Collect primes in the range [left, right]
-
-        for(int i=left; i<=right; i++){
-            if(isPrime[i]){
-                primes.push_back(i);
+        // Step 2: Use Segmented Sieve to mark primes in range [left, right]
+        vector<bool> isSegmentPrime(right - left + 1, true);
+        
+        for (int prime : smallPrimes) {
+            int start = max(prime * prime, (left + prime - 1) / prime * prime);
+            for (int j = start; j <= right; j += prime) {
+                isSegmentPrime[j - left] = false;
             }
         }
 
-        if(primes.size() < 2) return {-1,-1}; // Not enough primes for a pair
+        // Step 3: Collect primes in range & find closest pair in one pass
+        int prevPrime = -1, minDiff = INT_MAX;
+        pair<int, int> closestPair = {-1, -1};
 
-        // Find the closest prime pair
-        int minDiff = INT_MAX;
-        pair<int, int> res = {-1, -1};
-
-        for(int i =1; i < primes.size(); i++){
-            int diff = primes[i] - primes[i-1];
-            if(diff < minDiff){
-                minDiff = diff;
-                res = {primes[i-1], primes[i]};
+        for (int i = left; i <= right; ++i) {
+            if (i < 2) continue;
+            if (isSegmentPrime[i - left]) {
+                if (prevPrime != -1 && i - prevPrime < minDiff) {
+                    minDiff = i - prevPrime;
+                    closestPair = {prevPrime, i};
+                }
+                prevPrime = i;
             }
-
         }
 
-
-    return {res.first, res.second};
+        return (closestPair.first == -1) ? vector<int>{-1, -1} : vector<int>{closestPair.first, closestPair.second};
         
     }
 };
