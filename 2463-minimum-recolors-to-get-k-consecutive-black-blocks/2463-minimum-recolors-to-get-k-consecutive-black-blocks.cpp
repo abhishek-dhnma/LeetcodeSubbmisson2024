@@ -23,7 +23,6 @@ public:
                 }
             }
             if (t == 0) {
-                cout << "i " << i << " break";
                 break;
             }
         }
