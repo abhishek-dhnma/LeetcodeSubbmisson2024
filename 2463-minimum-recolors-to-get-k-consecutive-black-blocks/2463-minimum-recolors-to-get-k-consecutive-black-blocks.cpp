@@ -2,31 +2,31 @@ class Solution {
 public:
     int minimumRecolors(string blocks, int k) {
 
+        //Sliding Window
+        int whiteCount = 0;
         int n = blocks.size();
-
         int ans = INT_MAX;
 
-        for (int i = 0; i < n; i++) {
-            int t = 0;
-            int b = 0;
-
-            for (int j = i; j < n; j++) {
-
-                if (blocks[j] == 'W') {
-                    t++;
-                }
-                b++;
-
-                if (b == k) {
-                    ans = min(t, ans);
-                    break;
-                }
+        for(int i = 0; i < k; i++){
+            if(blocks[i] == 'W') {
+                whiteCount++;
             }
-            if (t == 0) {
-                break;
-            }
+
         }
 
+
+        ans = whiteCount;
+
+        for(int i=k ; i<n ; i++){
+
+            if( blocks[i-k] == 'W' ) whiteCount--;
+            if(blocks[i] == 'W' ) whiteCount++;
+            
+            ans = min(ans, whiteCount);
+            
+        } 
+
         return ans;
+        
     }
 };
