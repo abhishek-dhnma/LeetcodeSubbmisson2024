@@ -1,36 +1,56 @@
 class Solution {
 public:
     int numberOfAlternatingGroups(vector<int>& colors, int k) {
+
+        // Another way to solve this question
+
         int n = colors.size();
-        int N = n + (k-1);
+        int N = k - 1;
 
-        for(int i=0; i<N;i++){
-            colors.push_back(colors[i]);
-        }
-        
-        // Khandani Sliding Window Template
+        int len = 1;
+        int result = 0;
+        int lastColor = colors[0];
 
-        int result = 0 ;
+        int i = 1;
 
-        int i = 0;
-        int j = 1;
+        while (i < n) {
 
-        while(j < N){
-            
-            if(colors[j] == colors[j-1]){
-                i=j;
+            if (colors[i] == lastColor) {
+                len = 1;
+                lastColor = colors[i];
+                i++;
+                continue;
             }
 
-            if(j-i+1 == k){
-                i++;
+            len++;
+            if (len >= k) {
                 result++;
             }
-            
 
-    j++;
+            lastColor = colors[i];
+
+            i++;
         }
 
-        return result;      
-        
+        i = 0;
+
+        while (i < N) {
+
+            if (colors[i] == lastColor) {
+                len = 1;
+                lastColor = colors[i];
+                i++;
+                continue;
+            }
+            len++;
+            if (len >= k) {
+                result++;
+            }
+
+            lastColor = colors[i];
+            i++;
+        }
+
+        return result;
     }
 };
