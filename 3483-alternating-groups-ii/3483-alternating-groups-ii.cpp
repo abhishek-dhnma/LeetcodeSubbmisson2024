@@ -17,14 +17,12 @@ public:
 
             if (colors[i] == lastColor) {
                 len = 1;
-                lastColor = colors[i];
-                i++;
-                continue;
-            }
+            } else {
 
-            len++;
-            if (len >= k) {
-                result++;
+                len++;
+                if (len >= k) {
+                    result++;
+                }
             }
 
             lastColor = colors[i];
@@ -38,16 +36,16 @@ public:
 
             if (colors[i] == lastColor) {
                 len = 1;
-                lastColor = colors[i];
-                i++;
-                continue;
-            }
-            len++;
-            if (len >= k) {
-                result++;
+            } else {
+
+                len++;
+                if (len >= k) {
+                    result++;
+                }
             }
 
             lastColor = colors[i];
+
             i++;
         }
 
