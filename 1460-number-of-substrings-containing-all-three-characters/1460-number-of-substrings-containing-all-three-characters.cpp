@@ -7,15 +7,25 @@ public:
         int i = 0;
         int result = 0;
 
-        int freq[3] = {0};
+        int a = 0, b = 0, c = 0;
+
         for (int j = 0; j < n; j++) {
 
-            freq[s[j] - 'a']++;
+            if (s[j] == 'a')
+                a++;
+            if (s[j] == 'b')
+                b++;
+            if (s[j] == 'c')
+                c++;
 
-            while (freq[0] > 0 && freq[1] > 0 && freq[2] > 0) {
+            while (a > 0 && b > 0 && c > 0) {
                 result += (n - j);
-
-                freq[s[i] - 'a']--;
+                if (s[i] == 'a')
+                    a--;
+                if (s[i] == 'b')
+                    b--;
+                if (s[i] == 'c')
+                    c--;
 
                 i++;
             }
