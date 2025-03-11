@@ -9,24 +9,20 @@ public:
         int j = 0;
         int result = 0;
 
-        unordered_map<char, int> freq;
+        vector<int> freq(3,0);
         while (j < n) {
             
-                
-            freq[s[j]]++;
+            freq[s[j] - 'a' ] ++;
 
-            while(freq.size() == 3){
+            while(freq[0] > 0 && freq[1] > 0 && freq[2] > 0){
                 result += (n - j);
                 
-                freq[s[i]]--;
-                if(freq[s[i]] == 0){
-                    freq.erase(s[i]);
-                }
+                freq[s[i] - 'a']--;
+
                 i++;
             }
 
             j++;
-
 
         }
 
