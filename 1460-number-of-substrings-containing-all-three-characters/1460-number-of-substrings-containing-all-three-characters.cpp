@@ -9,7 +9,7 @@ public:
         int j = 0;
         int result = 0;
 
-        vector<int> freq(3,0);
+        int freq[3] = {0};
         while (j < n) {
             
             freq[s[j] - 'a' ] ++;
