@@ -11,9 +11,9 @@ public:
             int mid = left + (right - left)/2;
             if(nums[mid] >= target){
                 result = mid;
-                right = mid - 1; // left
+                right = mid - 1; // right
             }else{
-                left = mid +1; // right
+                left = mid +1; // left
             }
         }
 
@@ -24,14 +24,16 @@ public:
 
         int totalElements = nums.size();
         
-        int firstzeroidx = BinarySearch(nums, totalElements, 0);
-        int firstpositiveidx = BinarySearch(nums, totalElements, 1);
+        int firstZeroidx = BinarySearch(nums, totalElements, 0);
+        int firstPositiveidx = BinarySearch(nums, totalElements, 1) ;
 
-        int zerocount = firstpositiveidx - firstzeroidx;
+ 
 
-        int positivecount = totalElements - firstpositiveidx;
+        int zeroCount = firstPositiveidx - firstZeroidx;
         
-        int negativecount = totalElements - positivecount - zerocount;
+        int negativecount = firstZeroidx;
+
+        int positivecount = totalElements - firstPositiveidx;
 
         return max(positivecount, negativecount);
 
