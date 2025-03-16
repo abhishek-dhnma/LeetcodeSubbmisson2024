@@ -3,12 +3,11 @@ public:
 
     bool canRepairAll(vector<int>& ranks, int cars, long long mid){
 
-        int i = 0;
-        long long time = 0;
-        while( i < ranks.size()){
 
-            time += sqrt(mid/ranks[i]);
-            i++;
+        long long time = 0;
+        for (int rank : ranks){
+            time += sqrt(mid/rank); // Number of cars this mechanic can repair
+            if(time >= cars) return true;
         }
 
         return time >= cars;
@@ -18,6 +17,7 @@ public:
 
     long long repairCars(vector<int>& ranks, int cars) {
 
+        // Time Range
         long long l = 1;
         int maxR = *max_element(ranks.begin(), ranks.end());
         long long r = (long long)maxR * cars * cars ;
