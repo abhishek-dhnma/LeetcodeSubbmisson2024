@@ -10,9 +10,9 @@ public:
             if (!(nums[i])) {
 
                 if ((i + 1 < n) && (i + 2 < n)) {
-                    nums[i] = 1;
-                    nums[i + 1] = (nums[i + 1]) ? 0 : 1;
-                    nums[i + 2] = (nums[i + 2]) ? 0 : 1;
+                    nums[i] ^= 1;
+                    nums[i + 1] ^= 1;
+                    nums[i + 2] ^= 1;
                     flip++;
                 } else {
                     flip = -1;
