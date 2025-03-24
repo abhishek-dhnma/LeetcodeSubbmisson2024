@@ -1,60 +1,28 @@
 class Solution {
 public:
+    int countDays(int days, vector<vector<int>>& meetings) {
 
-    int mergeOverlap(vector<vector<int>>& arr){
-        if (arr.empty()) return 0;
+        sort(meetings.begin(), meetings.end());
 
-        int resIdx = 0; 
 
-    for (int i = 1; i < arr.size(); i++) {
-      
-        if (arr[resIdx][1] >= arr[i][0])           
-            arr[resIdx][1] = max(arr[resIdx][1], arr[i][1]);
+        int end = 0, start = 0, result = 0;;
 
-        else {            
-            resIdx++;
-            arr[resIdx] = arr[i];
-        }
-    }
-    arr.resize(resIdx + 1);
-    return (resIdx + 1);
 
-    }
+        for(auto& meet : meetings){
 
-    int countDays(int days, vector<vector<int>>& arr) {
+            if(meet[0] > end){
+                result += meet[0] - end - 1;
+            }
 
-        sort(arr.begin(), arr.end());
+        end = max(meet[1], end);
 
-        int newSize = mergeOverlap(arr);
-
-        int ans = 0, lastEnd = 0;
-
-        for (int i = 0; i < newSize; i++) {
-
-            // If the interval starts after 'days', stop counting
-        if( arr[i][0] > days ){
-            break;
-        }
-        // Count free days between last end and current start
-
-        if(arr[i][0] > lastEnd +1){
-            ans += (arr[i][0] - lastEnd - 1); 
         }
 
-        // Update lastEnd but cap it at 'days'
-        lastEnd = min(days, arr[i][1]);
-
-        // If lastEnd reaches 'days', no need to continue
-            if (lastEnd == days) break;
-        
+        if(days > end){
+            result +=( days - end);
         }
 
-        // If lastEnd is still less than days, add remaining free days
-        if (lastEnd < days) {
-            ans += (days - lastEnd);
-        }
-
-        return ans;
+        return result;
         
     }
 };
