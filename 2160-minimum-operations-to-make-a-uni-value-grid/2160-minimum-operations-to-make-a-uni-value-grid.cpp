@@ -10,11 +10,14 @@ public:
             }
         }
 
-        sort(vec.begin(), vec.end());
-
-        int mid = vec[vec.size()/2];
+        int  L =  vec.size();
+        //sort(vec.begin(), vec.end());
+        //Partial Sorting using nth_element
+        nth_element(begin(vec), begin(vec) + L/2 , end(vec));
 
         int result = 0;
+
+        int mid = vec[L/2];
 
         for(auto & num : vec){
 
