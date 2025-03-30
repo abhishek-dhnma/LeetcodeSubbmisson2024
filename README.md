@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
 | [1160-letter-tile-possibilities](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1364-tuple-with-same-product) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
 | [1160-letter-tile-possibilities](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1160-letter-tile-possibilities) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
@@ -156,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3001-apply-operations-to-maximize-score](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3001-apply-operations-to-maximize-score) |
 ## Tree
@@ -189,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2551-apply-operations-to-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2588-maximum-number-of-points-from-grid-queries) |
