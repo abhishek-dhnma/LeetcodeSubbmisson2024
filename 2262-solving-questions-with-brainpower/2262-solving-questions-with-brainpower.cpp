@@ -1,37 +1,23 @@
 class Solution {
 public:
-
-    long long recurion(int i, vector<vector<int>>& q, int n, vector<long long>& memo){
-
-        if(i >= n){
-            return 0;
-        }
-
-        if(memo[i] != -1){
-            return memo[i];
-        }
-
-        int ptr = q[i][0];
-        int bp = q[i][1];
-
-
-        long long take = ptr + recurion(i + bp + 1, q, n, memo);
-        long long skip = recurion(i+1,q,n,memo);
-
-        return  memo[i] = max(take, skip);
-
-    }
-
     long long mostPoints(vector<vector<int>>& q) {
-
         int n = q.size();
+        vector<long long> dp(n + 1, 0); // Extra space for out-of-bound cases
 
-        long long ans = INT_MIN;
+        for (int i = n - 1; i >= 0; i--) { // Process from right to left
+            int points = q[i][0];
+            int skip = q[i][1];
+            
+            // Take the question and move to `i + skip + 1` (if within bounds)
+            long long take = points + (i + skip + 1 < n ? dp[i + skip + 1] : 0);
+            
+            // Skip this question
+            long long notTake = dp[i + 1];
 
-        vector<long long> memo(n, -1);
-
-
-        return recurion(0,q,n,memo);
+            // Store max result
+            dp[i] = max(take, notTake);
+        }
         
+        return dp[0]; // Start from the first question
     }
 };
