@@ -4,27 +4,19 @@ public:
 
         int n = nums.size();
 
-        long long ans = INT_MIN;
+        long long result = 0;
 
-        for(int i=0; i<n; i++){
+        long long maxDiff = 0;
+        long long maxi = 0;
 
-            for(int j = i+1; j<n; j++){
-                
-                for(int k = j+1; k<n; k++){
-
-                    long long  triplet = ((long long)nums[i] - nums[j])  * (long long)nums[k];
-
-                    ans = max(ans, triplet);
-
-
-                }
-
-            }
-
-
+        for(int k=0; k<n; k++){
+            result = max(result, maxDiff * nums[k]);
+            maxDiff = max(maxDiff, maxi - nums[k]);
+            maxi = max(maxi, (long long)nums[k]);
         }
 
-        return ans < 0 ? 0 : ans;
+
         
+        return result;
     }
 };
