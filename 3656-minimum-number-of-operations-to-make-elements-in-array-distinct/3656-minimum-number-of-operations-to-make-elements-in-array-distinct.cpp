@@ -2,40 +2,20 @@ class Solution {
 public:
     int minimumOperations(vector<int>& nums) {
 
-        unordered_set<int> key;
         int n = nums.size();
-
-        int i = 0;
-
-        bool isDistinct = true;
 
         int result = 0;
 
-        while(i < n ){
+        unordered_set<int> st;
 
-            if(key.find(nums[i]) == key.end() ){
-                key.insert(nums[i]);
-                
-            }else{
-                isDistinct = false;
-                key.clear();
-                result++;
-                
+        for (int i = n - 1; i >= 0; i--) {
+            if (st.count(nums[i])) {
+                return ceil((i + 1) / 3.0);
             }
 
-            if(!isDistinct){
-
-                i =  3 * result;
-                isDistinct = true;
-                continue;
-
-            }
-
-            i++;
-
+            st.insert(nums[i]);
         }
 
         return result;
-        
     }
 };
