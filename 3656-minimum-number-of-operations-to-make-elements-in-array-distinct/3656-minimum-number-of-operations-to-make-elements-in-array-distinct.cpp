@@ -11,7 +11,7 @@ public:
 
         int result = 0;
 
-        while(i < n && i >= 0){
+        while(i < n ){
 
             if(key.find(nums[i]) == key.end() ){
                 key.insert(nums[i]);
@@ -25,7 +25,7 @@ public:
 
             if(!isDistinct){
 
-                i = n -(n - ( 3 * result));
+                i =  3 * result;
                 isDistinct = true;
                 continue;
 
