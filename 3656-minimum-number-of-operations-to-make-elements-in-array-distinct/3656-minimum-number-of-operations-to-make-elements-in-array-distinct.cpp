@@ -4,8 +4,6 @@ public:
 
         int n = nums.size();
 
-        int result = 0;
-
         unordered_set<int> st;
 
         for (int i = n - 1; i >= 0; i--) {
@@ -16,6 +14,6 @@ public:
             st.insert(nums[i]);
         }
 
-        return result;
+        return 0;
     }
 };
