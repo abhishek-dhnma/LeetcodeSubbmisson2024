@@ -1,37 +1,38 @@
 class Solution {
 public:
     int countSymmetricIntegers(int low, int high) {
+
         int count = 0;
 
-        for(int i=low; i<=high; i++){
+        for(int i=low; i<= high; i++){
 
-            string dgt = to_string(i);
-            int l = dgt.length();
+            int num = i;
 
-            if(l%2 == 0){ // odd
+            // 2 digits
 
-            int n = l/2;
-            int sumf = 0;
-            int suml = 0;
-
-            for(int j = 0; j<l; j++){
-
-                if(j <n){
-                    sumf += dgt[j];
-                }else if( j >= n){
-                    suml += dgt[j];
-
-                }
-            }
-
-            if(sumf == suml){
+            if(num >= 10 && num <=99 && (num%11==0)){
                 count++;
             }
 
+            if(num >= 1000 && num <= 9999){
+
+
+            int s1 =   (( num/100 ) % 10)  + ( num/1000 );
+            int s2 =   (( num/10 ) % 10)  + (( num/1 ) % 10); 
+
+            if(s1 == s2) {
+                count++;
             }
+
+
+            }
+
+
+
+
         }
 
         return count;
         
     }
-}; 
+};
