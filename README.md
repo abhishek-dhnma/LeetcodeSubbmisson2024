@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0038-count-and-say](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0038-count-and-say) |
 | [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
 | [1160-letter-tile-possibilities](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1160-letter-tile-possibilities) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1460-number-of-substrings-containing-all-three-characters) |
