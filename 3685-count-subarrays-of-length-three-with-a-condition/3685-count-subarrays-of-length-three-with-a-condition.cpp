@@ -8,7 +8,7 @@ public:
             int j = i + 1;
             int k = i + 2;
             if (j < n && k < n) {
-                if ((double)nums[i] + nums[k] == (double)nums[j] / 2) {
+                if (nums[i] + nums[k] == nums[j] / 2.0) {
                     count++;
                 }
             }
