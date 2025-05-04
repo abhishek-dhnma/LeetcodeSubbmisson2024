@@ -2,7 +2,7 @@ class Solution {
 public:
     int numEquivDominoPairs(vector<vector<int>>& dominoes) {
 
-        map<pair<int, int>, int> freq;
+        vector<int> vec(100);
         int ans = 0;
 
         for (auto& d : dominoes) {
@@ -10,10 +10,10 @@ public:
                 swap(d[0], d[1]);
             }
 
-            pair<int, int> key = {d[0], d[1]};
+            int key = d[0] * 10 + d[1];
 
-            ans += freq[key];
-            freq[key]++;
+            ans += vec[key];
+            vec[key]++;
         }
 
         return ans;
