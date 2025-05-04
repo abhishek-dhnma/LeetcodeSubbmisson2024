@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0416-partition-equal-subset-sum) |
 | [0797-rabbits-in-forest](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0797-rabbits-in-forest) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1364-tuple-with-same-product) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0797-rabbits-in-forest) |
 | [1160-letter-tile-possibilities](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1160-letter-tile-possibilities) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1364-tuple-with-same-product](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1364-tuple-with-same-product) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1500-count-largest-group](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1500-count-largest-group) |
@@ -99,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1160-letter-tile-possibilities](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1160-letter-tile-possibilities) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1364-tuple-with-same-product](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1364-tuple-with-same-product) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2448-count-number-of-bad-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2448-count-number-of-bad-pairs) |
