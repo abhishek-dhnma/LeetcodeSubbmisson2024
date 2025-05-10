@@ -7,19 +7,13 @@ public:
         long long zeroinnums2 = 0;
 
         for (int i = 0; i < nums1.size(); i++) {
-            if (nums1[i] == 0) {
-                zeroinnums1++;
-                sum1 += 1;
-            }
-            sum1 += nums1[i];
+           sum1 += nums1[i] == 0 ? 1 : nums1[i];
+           zeroinnums1 += nums1[i] == 0 ? 1 : 0;
         }
 
         for (int i = 0; i < nums2.size(); i++) {
-            if (nums2[i] == 0) {
-                zeroinnums2++;
-                sum2 += 1;
-            }
-            sum2 += nums2[i];
+            sum2 += nums2[i] == 0 ? 1 : nums2[i];
+           zeroinnums2 += nums2[i] == 0 ? 1 : 0;
         }
 
         if (sum1 < sum2 && (zeroinnums1 == 0)) {
