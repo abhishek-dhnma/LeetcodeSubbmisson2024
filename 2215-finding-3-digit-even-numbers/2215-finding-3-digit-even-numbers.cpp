@@ -2,31 +2,37 @@ class Solution {
 public:
     vector<int> findEvenNumbers(vector<int>& digits) {
 
-        set<int> resultSet;
+vector<int> result;
+        vector<int> freq(10, 0);
 
-        // Try all combinations of 3 digits (i, j, k)
-        for (int i = 0; i < digits.size(); i++) {
-            for (int j = 0; j < digits.size(); j++) {
-                for (int k = 0; k < digits.size(); k++) {
-                    // All digits must be from different indices
-                    if (i == j || j == k || i == k) continue;
-
-                    int a = digits[i], b = digits[j], c = digits[k];
-
-                    // Skip if first digit is 0 (not a 3-digit number)
-                    if (a == 0) continue;
-
-                    // Number must be even
-                    if (c % 2 != 0) continue;
-
-                    int num = a * 100 + b * 10 + c;
-                    resultSet.insert(num);
-                }
-            }
+        for (int d : digits) {
+            freq[d]++;
         }
 
-        // Convert set to sorted vector
-        return vector<int>(resultSet.begin(), resultSet.end());
+        // Only even numbers from 100 to 998
+        for (int num = 100; num <= 998; num += 2) {
+            int a = num / 100;
+            int b = (num / 10) % 10;
+            int c = num % 10;
+
+            // Check if digits a, b, c exist in freq
+            vector<int> needed(10, 0);
+            needed[a]++;
+            needed[b]++;
+            needed[c]++;
+
+            bool valid = true;
+            for (int i = 0; i < 10; i++) {
+                if (needed[i] > freq[i]) {
+                    valid = false;
+                    break;
+                }
+            }
+
+            if (valid) result.push_back(num);
+        }
+
+        return result;
         
     }
 };
