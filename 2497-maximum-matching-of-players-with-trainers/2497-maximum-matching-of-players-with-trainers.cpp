@@ -12,11 +12,10 @@ public:
         while( i < players.size() && j < trainers.size()){
             if(players[i] <= trainers[j]){
                 i++;
-                j++;
                 matchCount++;
-            }else {
-                j++;
             }
+                j++;
+            
         }
 
         return matchCount;
