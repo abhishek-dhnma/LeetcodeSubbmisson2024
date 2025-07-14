@@ -15,26 +15,24 @@ public:
         int sum = 0;
         int i = 0;
 
-       vector<int> temp;
+        ListNode *curr = head;
+        ListNode *prev = NULL;
 
+        while (curr != NULL) {
+            ListNode *next = curr->next;
+            curr->next = prev;
+            prev =  curr;
+            curr = next;
+        }
 
-       while(head != NULL){
-        temp.push_back(head->val);
-        head = head->next;
-       }
+        while (prev != NULL) {
 
-       for(auto & v : temp){
-        cout << v;
-       }
-    int n = temp.size();
-        for(int i= n-1; i >= 0; i--){
+            sum += (prev->val * pow(2,i));
 
-           sum += (temp[i] * pow(2, n - 1 - i));
+            prev = prev->next;
+            i++;
         }
 
         return sum;
-
-
-        
     }
 };
