@@ -8,8 +8,7 @@ public:
         unordered_set<char> vowels = {'a', 'e', 'i', 'o', 'u',
                                       'A', 'E', 'I', 'O', 'U'};
         unordered_set<char> SpecialChar = {'@', '#', '$'};
-
-        bool containsDigit = false;
+        
         bool vowelsCount = false;
         bool consonantCount = false;
 
@@ -19,7 +18,7 @@ public:
                 return false;
             }
 
-            if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
+            if (isalpha(ch)) {
 
                 if (vowels.count(ch)) {
                     vowelsCount = true;
@@ -27,14 +26,9 @@ public:
                 } else {
                     consonantCount = true;
                 }
-            } else
-
-                if (ch >= '0' && ch <= '9') {
-                containsDigit = true;
-            }
+            } 
         }
 
-        cout << containsDigit << " " << vowelsCount << " " << consonantCount;
 
         return  vowelsCount && consonantCount;
     }
