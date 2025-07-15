@@ -2,34 +2,24 @@ class Solution {
 public:
     bool isValid(string word) {
 
-        if (word.size() < 3)
+         if (word.size() < 3)
             return false;
 
-        unordered_set<char> vowels = {'a', 'e', 'i', 'o', 'u',
-                                      'A', 'E', 'I', 'O', 'U'};
-        unordered_set<char> SpecialChar = {'@', '#', '$'};
-        
-        bool vowelsCount = false;
-        bool consonantCount = false;
+        // Disallow special characters
+        regex specialCharsPattern("[@#$]");
+        if (regex_search(word, specialCharsPattern))
+            return false;
 
-        for (auto& ch : word) {
+        // At least one vowel (case-insensitive)
+        regex vowelPattern("[aeiouAEIOU]");
+        if (!regex_search(word, vowelPattern))
+            return false;
 
-            if (SpecialChar.count(ch)) {
-                return false;
-            }
+        // At least one consonant (case-insensitive)
+        regex consonantPattern("[b-df-hj-np-tv-zB-DF-HJ-NP-TV-Z]");
+        if (!regex_search(word, consonantPattern))
+            return false;
 
-            if (isalpha(ch)) {
-
-                if (vowels.count(ch)) {
-                    vowelsCount = true;
-
-                } else {
-                    consonantCount = true;
-                }
-            } 
-        }
-
-
-        return  vowelsCount && consonantCount;
+        return true;
     }
 };
