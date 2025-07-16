@@ -31,7 +31,7 @@ public:
             }
         }
 
-        return max(EvenCount,max( OddCount,AlternatingCount));
+        return max({EvenCount,OddCount,AlternatingCount});
         
     }
 };
