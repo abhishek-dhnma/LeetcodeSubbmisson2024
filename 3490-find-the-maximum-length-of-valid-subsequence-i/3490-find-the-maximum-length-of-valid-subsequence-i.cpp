@@ -1,37 +1,28 @@
 class Solution {
 public:
     int maximumLength(vector<int>& nums) {
-
         int n = nums.size();
+        
+        int sameParity = 1;  // longest subsequence with same parity
+        int diffParity = 1;  // longest subsequence with alternating parity
 
-        int EvenCount = 0;
-        int OddCount = 0;
+        int lastSame = nums[0];
+        int lastDiff = nums[0];
 
-        for(int & num : nums){
-            if(!(num%2)){
-                EvenCount++;
-            }else{
-                OddCount++;
+        for (int i = 1; i < n; ++i) {
+            // For same parity
+            if (nums[i] % 2 == lastSame % 2) {
+                sameParity++;
+                lastSame = nums[i];
+            }
+
+            // For alternating parity
+            if (nums[i] % 2 != lastDiff % 2) {
+                diffParity++;
+                lastDiff = nums[i];
             }
         }
 
-        
-
-        int AlternatingCount = 1;
-        int FirstParity = nums[0]%2;
-
-        for(int i=1; i<n; i++){
-
-            // alternating logic
-            int CurrParity = nums[i]%2;
-
-            if(CurrParity != FirstParity){
-                AlternatingCount++;
-                FirstParity = CurrParity;
-            }
-        }
-
-        return max({EvenCount,OddCount,AlternatingCount});
-        
+        return max(sameParity, diffParity);
     }
 };
