@@ -8,15 +8,17 @@ public:
 
 
         for(int i =1; i<s.size(); i++){
-            if(s[i] == s[i-1]){
+            if(s[i] == result.back()){
                 count++;
+                if(count <3){
+                result += s[i];
+            }
             }else{
+                result += s[i];
                 count = 1;
             }
 
-            if(count <3){
-                result += s[i];
-            }
+            
         }
 
         return result;
