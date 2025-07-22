@@ -3,33 +3,36 @@ public:
     int maximumUniqueSubarray(vector<int>& nums) {
 
         int n = nums.size();
-        int i =0;
-        int j =0;
 
-        int sum = 0;
+        vector<int> cumSum(n, 0);
 
-        int maxSoFar = 0;
+        cumSum[0] = nums[0];
 
-        unordered_set<int> seen;
-
-        while(j <n){
-
-            if(!seen.count(nums[j])){
-                seen.insert(nums[j]);
-                sum += nums[j];
-                maxSoFar = max(maxSoFar, sum);
-                j++;
-            }else{
-                while( i<n && seen.count(nums[j])){
-                sum -= nums[i];
-                seen.erase(nums[i]);
-                    i++;
-                }
-            }
+        for(int i=1; i<n; i++){
+            cumSum[i] = cumSum[i-1] + nums[i];
         }
 
-        return maxSoFar;
+        vector<int> idxMap(10001, -1);
 
+        int result =0;
+        int i=0;
+        int j =0;
+
+        while(j<n){
+            i = max(i, idxMap[nums[j]] +1);
+
+            int jthSum = cumSum[j];
+            int ithSum = i -1 <0 ? 0 : cumSum[i-1];
+
+            result = max(result, jthSum - ithSum);
+
+            idxMap[nums[j]] = j;
+            j++;
+
+        }
+
+
+        return result;
         
     }
 };
