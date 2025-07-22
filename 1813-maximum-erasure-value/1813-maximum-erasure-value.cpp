@@ -4,35 +4,42 @@ public:
 
         int n = nums.size();
 
-        vector<int> cumSum(n, 0);
+        vector<int> cumSum(n,0);
 
-        cumSum[0] = nums[0];
-
-        for(int i=1; i<n; i++){
-            cumSum[i] = cumSum[i-1] + nums[i];
+        for(int i=0; i<n; i++){
+            if(i==0){
+                cumSum[i] = nums[i];
+            }
+            else{
+                cumSum[i] = cumSum[i-1] + nums[i];
+            }
         }
 
-        vector<int> idxMap(10001, -1);
+        vector<int> mp(10001, -1);
 
-        int result =0;
+
         int i=0;
-        int j =0;
+        int j=0;
+
+        int maxSoFar = 0;
 
         while(j<n){
-            i = max(i, idxMap[nums[j]] +1);
 
+            i = max(i, mp[nums[j]] + 1);
+
+            int ithSum = i-1 <0 ? 0 : cumSum[i-1]; 
             int jthSum = cumSum[j];
-            int ithSum = i -1 <0 ? 0 : cumSum[i-1];
-
-            result = max(result, jthSum - ithSum);
-
-            idxMap[nums[j]] = j;
+            maxSoFar = max(maxSoFar, jthSum - ithSum );
+            mp[nums[j]] = j;
             j++;
+
+
 
         }
 
+return maxSoFar;
 
-        return result;
+
         
     }
 };
