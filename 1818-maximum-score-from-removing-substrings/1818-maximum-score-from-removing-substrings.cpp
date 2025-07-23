@@ -1,42 +1,49 @@
 class Solution {
 public:
-    int result = 0;
+    string removeSubstr(string s, string& matchStr) {
+        stack<char> st;
 
-    void removePairs(string& s, int & n, int val, char ch1, char ch2) {
-
-        for (int i = 0; i < n - 1; i++) {
-
-            while (s[i] == ch1 && s[i + 1] == ch2) {
-                s.erase(i, 2);
-                result += val;
-                i = max(0, i - 2);// Rewind to check overlapping pairs
-                n -= 2;
+        for (char& ch : s) {
+            if (ch == matchStr[1] && !st.empty() && st.top() == matchStr[0]) {
+                st.pop();
+            } else {
+                st.push(ch);
             }
         }
-    }
 
-    int maximumGain(string s, int x, int y) {
+        string temp;
 
-        char ch1;
-        char ch2;
-        int n = s.size();
-// Determine which pair to prioritize based on the higher value
-        if (x > y) {
-            ch1 = 'a';
-            ch2 = 'b';
-        } else {
-            ch1 = 'b';
-            ch2 = 'a';
-            swap(x,y); // Swap values so x is always the higher one
+        while (!st.empty()) {
+            temp.push_back(st.top());
+            st.pop();
         }
 
-        
+        reverse(temp.begin(), temp.end());
 
-        removePairs(s, n, x, ch1, ch2);
+        return temp;
+    }
+    int maximumGain(string s, int x, int y) {
 
-        removePairs(s, n, y, ch2, ch1);// Reverse pair for second pass
+        int n = s.size();
+        int score = 0;
 
+        string maxStr = (x >= y) ? "ab" : "ba";
+        string minStr = (x < y) ? "ab" : "ba";
 
-        return result;
+        // first pass
+
+        string temp_first = removeSubstr(s, maxStr);
+        int L = temp_first.length();
+
+        int charRemoved = (n - L);
+        score += (charRemoved / 2) * max(x, y);
+
+        // second pass
+        string temp_second = removeSubstr(temp_first, minStr);
+        charRemoved = L - temp_second.length();
+
+        score += (charRemoved / 2) * min(x, y);
+
+        return score;
     }
 };
