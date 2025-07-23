@@ -1,26 +1,27 @@
 class Solution {
 public:
     string removeSubstr(string s, string& matchStr) {
-        stack<char> st;
 
-        for (char& ch : s) {
-            if (ch == matchStr[1] && !st.empty() && st.top() == matchStr[0]) {
-                st.pop();
-            } else {
-                st.push(ch);
+        int i=0; // use for writing
+        int j=0; // use for reading
+        int n = s.size();
+
+        while(j<n){
+
+            s[i] = s[j]; // writing on idx i whatever j reads
+            i++;
+
+            if( i >=2 && s[i-2] ==  matchStr[0] && s[i-1] == matchStr[1]){ 
+                // found matchstr before i
+                i -= 2;
             }
+
+            j++;
         }
 
-        string temp;
-
-        while (!st.empty()) {
-            temp.push_back(st.top());
-            st.pop();
-        }
-
-        reverse(temp.begin(), temp.end());
-
-        return temp;
+        s.erase(s.begin() + i, s.end());
+    return s;
+        
     }
     int maximumGain(string s, int x, int y) {
 
