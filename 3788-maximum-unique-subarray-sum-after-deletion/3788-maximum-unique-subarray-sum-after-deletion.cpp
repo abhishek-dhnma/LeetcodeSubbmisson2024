@@ -7,18 +7,21 @@ public:
         int sum = 0;
 
         for (auto& n : nums) {
-            if (n <=0 ) {
+            if (n <= 0 ) {
                 neg = max(n, neg);
             }
 
-            else 
-                if ( !st.count(n) ) {
+            else {
+                if (  !st.count(n)) {
                     sum += n;
                     st.insert(n);
-                
+                }
             }
         }
 
+
+
+        
 
 
         return sum == 0 ? neg : sum;
