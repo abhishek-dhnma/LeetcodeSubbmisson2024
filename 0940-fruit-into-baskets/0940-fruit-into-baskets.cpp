@@ -4,33 +4,34 @@ public:
 
         int n = fruits.size();
 
+        if(n <= 2) return n;
+
         int i = 0;
         int j = 0;
 
         int maxVal = 0;
-        int currVal = 0;
+        int currWindowSize = 0;
 
-        unordered_map<int, int> mp;
+
+        unordered_map<int, int> fruitCount;
 
         while (j < n) {
 
-            mp[fruits[j]]++;
-            currVal++;
+            fruitCount[fruits[j]]++;
 
-            if (mp.size() >= 3) {
-                maxVal = max(currVal - 1, maxVal);
-                while (i < n) {
-                    mp[fruits[i]]--;
-                    currVal--;
-                    if (mp[fruits[i]] == 0) {
-                        mp.erase(fruits[i]);
-                        i++;
-                        break;
+
+                while (fruitCount.size() > 2) {
+                    fruitCount[fruits[i]]--;
+
+                    if (fruitCount[fruits[i]] == 0) {
+                        fruitCount.erase(fruits[i]);
                     }
                     i++;
                 }
-            }
-            maxVal = max(currVal, maxVal);
+
+
+            currWindowSize = j - i +1 ;
+            maxVal = max(currWindowSize, maxVal);
 
             j++;
         }
