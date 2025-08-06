@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3790-fruits-into-baskets-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3791-fruits-into-baskets-iii) |
 ## Linked List
 |  |
 | ------- |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2434-design-a-number-container-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2434-design-a-number-container-system) |
 | [3790-fruits-into-baskets-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3791-fruits-into-baskets-iii) |
 ## Math
 |  |
 | ------- |
@@ -371,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3643-zero-array-transformation-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3643-zero-array-transformation-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3791-fruits-into-baskets-iii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -439,4 +442,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3790-fruits-into-baskets-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3791-fruits-into-baskets-iii) |
 <!---LeetCode Topics End-->
