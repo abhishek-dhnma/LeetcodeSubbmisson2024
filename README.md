@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3643-zero-array-transformation-ii) |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
@@ -324,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3630-total-characters-in-string-after-transformations-ii) |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 ## Two Pointers
 |  |
 | ------- |
@@ -344,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3227-find-missing-and-repeated-values) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 ## Number Theory
 |  |
 | ------- |
