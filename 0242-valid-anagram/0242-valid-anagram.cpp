@@ -3,23 +3,23 @@ public:
     bool isAnagram(string s, string t) {
 
         // TC : O(n * log n)
-        // SC : O(1)
+        // SC : O(2N)
 
         if(s.size() != t.size()) return false;
 
-        unordered_map<char, int> map1;
-        unordered_map<char, int> map2;
+        vector<int> map1(26,0);
+        vector<int> map2(26,0);
 
         for(auto & c : s ){
-            map1[c]++;
+            map1[c - 'a']++;
         }
 
         for(auto & c : t ){
-            map2[c]++;
+            map2[c - 'a']++;
         }
 
-        for(auto & c : s){
-            if(map1[c] != map2[c]) return false;
+        for(int i=0; i<26; i++){
+            if(map1[i] != map2[i])return false;
         }
         
         return true;
