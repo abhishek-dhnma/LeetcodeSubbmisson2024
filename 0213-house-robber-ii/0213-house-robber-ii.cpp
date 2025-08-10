@@ -23,7 +23,7 @@ public:
 
         int n = nums.size();
 
-        dp = vector<int>(n + 1, -1);
+        dp = vector<int>(n , -1);
 
         if (n == 1)
             return nums[0];
@@ -32,7 +32,7 @@ public:
 
         int takeO = solve(nums, 0, n - 2);
 
-        dp = vector<int>(n + 1, -1);
+        fill(dp.begin(), dp.end(), -1);
         int notakeO = solve(nums, 1, n-1);
 
         return max(takeO, notakeO);
