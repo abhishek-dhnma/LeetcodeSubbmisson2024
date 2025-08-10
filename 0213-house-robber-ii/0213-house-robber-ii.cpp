@@ -1,40 +1,38 @@
 class Solution {
 public:
-    vector<int> dp;
-    int solve(vector<int>& nums, int i, int n) {
-
-        if (i > n) {
-            return 0;
-        }
-
-        if (dp[i] != -1)
-            return dp[i];
-        // take
-        int take = nums[i] + solve(nums, i + 2, n);
-
-        // skip
-
-        int skip = solve(nums, i + 1, n);
-
-        return dp[i] = max(take, skip);
-    }
-
     int rob(vector<int>& nums) {
-
         int n = nums.size();
-
-        dp = vector<int>(n , -1);
-
-        if (n == 1)
-            return nums[0];
-        if (n == 2)
-            return max(nums[0], nums[1]);
-
-        int takeO = solve(nums, 0, n - 2);
-
-        fill(dp.begin(), dp.end(), -1);
-        int notakeO = solve(nums, 1, n-1);
-
-        return max(takeO, notakeO);
+        
+        // Edge cases
+        if (n == 0) return 0;
+        if (n == 1) return nums[0];
+        
+        // Case 1: Rob houses from index 0 to n-2 (exclude last house)
+        vector<int> t1(n, 0);
+        t1[0] = nums[0];
+        if (n > 1) t1[1] = max(nums[0], nums[1]);
+        
+        for (int i = 2; i < n - 1; i++) {
+            int take = nums[i] + (i-2 >= 0 ? t1[i-2] : 0);
+            int skip = t1[i-1];
+            t1[i] = max(take, skip);
+        }
+        
+        int res1 = (n == 2) ? t1[1] : t1[n-2];
+        
+        // Case 2: Rob houses from index 1 to n-1 (exclude first house)
+        vector<int> t2(n, 0);
+        t2[1] = nums[1];
+        
+        for (int i = 2; i < n; i++) {
+            int take = nums[i] + (i-2 >= 1 ? t2[i-2] : 0);
+            int skip = t2[i-1];
+            t2[i] = max(take, skip);
+        }
+        
+        int res2 = t2[n-1];
+        
+        // Return the maximum of the two cases
+        return max(res1, res2);
     }
 };
