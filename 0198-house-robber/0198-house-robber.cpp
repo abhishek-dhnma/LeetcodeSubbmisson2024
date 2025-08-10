@@ -16,6 +16,7 @@ public:
         }
 
         // take 
+        
         int take = nums[i] + solve(nums,n, i+2);
 
 
