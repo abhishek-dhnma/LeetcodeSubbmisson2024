@@ -16,7 +16,11 @@ public:
     }
 
     bool reorderedPowerOf2(int n) {
-        generate();
+
+        if(st.empty()){
+generate();
+        }
+        
 
         string num = to_string(n);
         sort(num.begin(), num.end());
