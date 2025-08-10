@@ -2,25 +2,27 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
 
-        vector<int> ans;
+        unordered_map<int, int> map;
 
         int n =nums.size();
+        vector<int> ans;
 
 
-        // BRUTE FORCE 
+        // Optimal Approach
 
         for(int i=0; i<n; i++){
-            for(int j=i+1; j <n; j++){
-                if(nums[i] + nums[j] == target){
 
-                    ans.push_back(i);
-                    ans.push_back(j);
+           int y =  target - nums[i];
 
-                }
+            if(map.find(y) != map.end() ){
+                ans.push_back(i);
+                ans.push_back(map[y]);
+                break;
             }
+            map[ nums[i]] = i;
         }
 
-return ans;
+        return ans;
         
     }
 };
