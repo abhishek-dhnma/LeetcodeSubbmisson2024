@@ -3,7 +3,7 @@ public:
 
     pair<bool, int> binarySearch(vector<int>& numbers, int t, int start){
 
-        int l = 0;
+        int l = start;
         int r = numbers.size() - 1;
 
         while(l <= r){
