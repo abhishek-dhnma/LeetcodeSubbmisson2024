@@ -8,19 +8,20 @@ public:
         int area = 0;
         int maxarea = 0;
         int w;
+        int h = 0;
 
         while(i < j){
             w = j-i;
 
             if(height[i] <= height[j]){
-                area = w * height[i];
+                h = height[i];
                 i++;
-            }else if(height[i] > height[j]){
-                
-
-                area = w * height[j];
+            }else if(height[i] > height[j]){ 
+                h = height[j];
                 j--;
             }
+
+            area = w * h;
 
             maxarea = max(area, maxarea);
 
