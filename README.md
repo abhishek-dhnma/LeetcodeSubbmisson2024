@@ -338,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0213-house-robber-ii) |
+| [0338-counting-bits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0416-partition-equal-subset-sum) |
 | [0806-domino-and-tromino-tiling](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0806-domino-and-tromino-tiling) |
@@ -415,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0231-power-of-two) |
+| [0338-counting-bits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0338-counting-bits) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2478-longest-nice-subarray](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2478-longest-nice-subarray) |
