@@ -4,7 +4,7 @@ public:
 
         int n = s.size();
 
-        transform(s.begin(), s.end(), s.begin(), ::tolower);
+        
 
         // check palindrome
 
@@ -13,7 +13,7 @@ public:
 
         while(i < j) {
 
- 
+
             
             while (i < j && !isalnum(s[i])) {
                 i++;
@@ -24,7 +24,9 @@ public:
             }
 
 
-            if (s[i] != s[j]) {
+
+
+           if (tolower(s[i]) != tolower(s[j])) { // Case-insensitive comparison
                 return false;
             }
 
