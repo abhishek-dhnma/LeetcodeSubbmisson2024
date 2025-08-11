@@ -11,13 +11,9 @@ public:
 
             if (n & 1) {
 
-                powers.push_back(pow(2, i));
+                powers.push_back(1LL << i);
             }
             n = (n >> 1);
-        }
-
-        for(auto & p : powers){
-            cout << p << " ";
         }
 
         for (auto& q : queries) {
