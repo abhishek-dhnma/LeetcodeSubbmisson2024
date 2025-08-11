@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0001-two-sum) |
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0213-house-robber-ii) |
 | [0217-contains-duplicate](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0217-contains-duplicate) |
@@ -355,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0125-valid-palindrome) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0443-string-compression](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0443-string-compression) |
 | [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -392,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
