@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2478-longest-nice-subarray](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2478-longest-nice-subarray) |
 | [2479-meeting-rooms-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2479-meeting-rooms-iii) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [2529-range-product-queries-of-powers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2529-range-product-queries-of-powers) |
 | [2551-apply-operations-to-an-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2551-apply-operations-to-an-array) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2249-count-the-hidden-sequences](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2249-count-the-hidden-sequences) |
+| [2529-range-product-queries-of-powers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2529-range-product-queries-of-powers) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3643-zero-array-transformation-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3643-zero-array-transformation-ii) |
 ## Backtracking
@@ -423,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2478-longest-nice-subarray](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2478-longest-nice-subarray) |
+| [2529-range-product-queries-of-powers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2529-range-product-queries-of-powers) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Queue
