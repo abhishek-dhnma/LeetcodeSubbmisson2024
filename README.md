@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0198-house-robber) |
@@ -287,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0011-container-with-most-water) |
 | [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0797-rabbits-in-forest) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1049-minimum-domino-rotations-for-equal-row) |
@@ -354,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0167-two-sum-ii-input-array-is-sorted) |
