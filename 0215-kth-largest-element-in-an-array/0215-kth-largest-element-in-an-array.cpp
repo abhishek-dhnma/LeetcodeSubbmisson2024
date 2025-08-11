@@ -6,7 +6,7 @@ public:
         priority_queue<int> pq(nums.begin(), nums.end());
 
 
-        while((k-1)){
+        while(!pq.empty() && (k-1)){
 
             pq.pop();
             k--;
