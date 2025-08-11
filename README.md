@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0038-count-and-say](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0038-count-and-say) |
+| [0125-valid-palindrome](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0242-valid-anagram) |
 | [0443-string-compression](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0443-string-compression) |
 | [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
@@ -353,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
+| [0125-valid-palindrome](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0125-valid-palindrome) |
 | [0443-string-compression](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0443-string-compression) |
 | [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2265-partition-array-according-to-given-pivot) |
