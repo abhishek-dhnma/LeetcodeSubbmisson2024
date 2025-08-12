@@ -1,47 +1,36 @@
 class Solution {
 public:
     int mod = 1e9 + 7;
-
     vector<vector<int>> dp;
 
     int solve(int n, int nums, int x, vector<vector<int>> & dp) {
-
-        // base cases
-        // if nums power x is greater then x then so need go further
-
+        // Base cases
         if (n == 0) {
-            return 1;
+            return 1; // Found a valid combination
         }
-
-        if(n < 0){
-            return 0;
+        if (n < 0) {
+            return 0; // Invalid: sum cannot be negative
         }
         int currPower = pow(nums, x);
         if (currPower > n) {
-            return 0;
+            return 0; // Current number's x-th power is too large
         }
 
-        // n == 0  found one way here
-
-        if(dp[n][nums] != -1){
+        // Check memoized result
+        if (dp[n][nums] != -1) {
             return dp[n][nums];
         }
-        
 
-        // recursion
+        // Recursive cases
+        int take = solve(n - currPower, nums + 1, x, dp); // Include nums^x
+        int skip = solve(n, nums + 1, x, dp);            // Skip nums^x
 
-        int take = solve(n -currPower , nums + 1, x, dp);
-        int skip = solve(n, nums+1, x, dp);
-
-        return dp[n][nums] = (take + skip)%mod;
+        return dp[n][nums] = (take + skip) % mod; // Store and return result
     }
 
     int numberOfWays(int n, int x) {
         int nums = 1;
-
-        dp.resize(301,vector<int>(301,-1));
-
-
+        dp.resize(301, vector<int>(301, -1)); // Initialize DP table
         return solve(n, nums, x, dp);
     }
 };
