@@ -4,31 +4,23 @@ public:
 
         int n = nums.size();
 
-        vector<int> prefix(n+1);
-        prefix[0] = 1;
-        vector<int> suffix(n+1);
-        suffix[n] = 1;
+        vector<int> prefix(n + 1, 1);
+        vector<int> suffix(n + 1, 1);
 
+        for (int i = 1, j = n - 1; i < n, j >= 0; i++, j--) {
 
-        for(int i=1, j =n-1; i<=n, j>=0; i++, j--){
+            prefix[i] = prefix[i - 1] * nums[i - 1];
 
-            prefix[i] = prefix[i-1] * nums[i-1];
-
-            suffix[j] = suffix[j+1] * nums[j];
-            
+            suffix[j] = suffix[j + 1] * nums[j];
         }
 
         vector<int> ans(n);
 
+        for (int i = 0; i < n; i++) {
 
-        for(int i=0; i<n; i++){
-
-            ans[i] = prefix[i] * suffix[i+1];
-
-
+            ans[i] = prefix[i] * suffix[i + 1];
         }
 
         return ans;
-        
     }
 };
