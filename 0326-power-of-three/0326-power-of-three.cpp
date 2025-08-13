@@ -3,7 +3,7 @@ public:
     bool isPowerOfThree(int n) {
 
 
-        for(int i=0; i<32; i++){
+        for(int i=0; i<=19; i++){
             long p = pow(3,i);
 
             if(n == p )
