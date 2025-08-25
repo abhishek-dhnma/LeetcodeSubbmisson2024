@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1823-determine-if-string-halves-are-alike](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1823-determine-if-string-halves-are-alike) |
+| [1894-merge-strings-alternately](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1894-merge-strings-alternately) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2079-delete-duplicate-folders-in-system) |
@@ -397,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0443-string-compression](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0443-string-compression) |
 | [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
+| [1894-merge-strings-alternately](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1894-merge-strings-alternately) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2551-apply-operations-to-an-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2551-apply-operations-to-an-array) |
