@@ -1,36 +1,74 @@
 class Solution {
 public:
     vector<vector<int>> diagonalSort(vector<vector<int>>& mat) {
-        // Handle empty matrix case
-        if (mat.empty() || mat[0].empty()) return mat;
 
         int r = mat.size();
         int c = mat[0].size();
-        // Use unordered_map with vector for efficient access and sorting
-        unordered_map<int, vector<int>> mp;
 
-        // Step 1: Group elements by anti-diagonal index (i - j)
-        for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
-                mp[i - j].push_back(mat[i][j]);
+        // sort the first row
+
+        for (int i = 0; i < c; i++) {
+            int row = 0;
+            int col = i;
+
+            vector<int> dia;
+
+            while (row < r && col < c) {
+                dia.push_back(mat[row][col]);
+                row++;
+                col++;
+            }
+            sort(dia.begin(), dia.end());
+
+            row = 0;
+            col = i;
+            int k = 0;
+
+            while (row < r && col < c) {
+                mat[row][col] = dia[k];
+                k++;
+                row++;
+                col++;
             }
         }
 
-        // Step 2: Sort each diagonal's elements in ascending order
-        for (auto& [k, v] : mp) {
-            sort(v.begin(), v.end());
-        }
+        // sort the col except first one
 
-        // Step 3: Reassign sorted elements back to the matrix
-        for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
-                int idx = i - j;
-                mat[i][j] = mp[idx].front(); // Assign first element
-                mp[idx].erase(mp[idx].begin()); // Remove used element
+        for(int j=1; j<r; j++){
+            int row = j;
+            int col = 0;
+
+            vector<int> dia;
+
+            while(row < r && col < c){
+                dia.push_back(mat[row][col]);
+
+                row++;
+                col++;
+
             }
+
+            sort(dia.begin(), dia.end());
+
+            row = j;
+            col = 0;
+
+            int k = 0;
+            
+
+            while(row < r && col < c){
+
+                mat[row][col] = dia[k];
+                k++;
+                row++;
+                col++;
+
+            }
+            
+
+
         }
 
         return mat;
     }
 };
-
