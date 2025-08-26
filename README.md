@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1364-tuple-with-same-product](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1364-tuple-with-same-product) |
+| [1392-find-the-difference-of-two-arrays](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1477-product-of-the-last-k-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1477-product-of-the-last-k-numbers) |
 | [1628-count-submatrices-with-all-ones](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1628-count-submatrices-with-all-ones) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1160-letter-tile-possibilities](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1160-letter-tile-possibilities) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1364-tuple-with-same-product](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1364-tuple-with-same-product) |
+| [1392-find-the-difference-of-two-arrays](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1500-count-largest-group](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1500-count-largest-group) |
 | [1813-maximum-erasure-value](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1813-maximum-erasure-value) |
