@@ -85,11 +85,8 @@ class Trie {
 
         }
 
-        if(i == prefix.length()){
-            return true;
-        }
 
-        return  false;
+        return  true;
         
     }
 }
