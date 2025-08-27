@@ -36,12 +36,12 @@ public:
         crawler->isEnd = true;
     }
 
-    bool explore(string word, int i, TrieNode* crawler) {
+    bool explore(string & word, int i, TrieNode* crawler) {
+
+        // BASE CASE
 
         if (i == word.size())
             return crawler->isEnd;
-
-        TrieNode* help = crawler;
 
         char ch = word[i];
 
