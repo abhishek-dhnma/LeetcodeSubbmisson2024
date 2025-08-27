@@ -41,19 +41,17 @@ void exploresuggestions(TrieNode* crawler, string build, vector<string> & sugg){
         if(crawler->children[i] != nullptr){
             char nextChar = 'a' + i;
             exploresuggestions(crawler->children[i], build + nextChar, sugg);
+            if(sugg.size() == 3)return;// stop early
         }
-
-        if(sugg.size() == 3)return;
     }
 
 }
 
-void search(string word, TrieNode* crawler, vector<string> & sugg){
+void search(string word, TrieNode* root, vector<string> & sugg){
 
-    for(int i=0; i<word.size(); i++){
+        TrieNode* crawler = root;
 
-
-        char ch = word[i];
+    for(auto & ch : word){
 
         int idx = ch - 'a';
 
@@ -80,28 +78,26 @@ public:
     vector<vector<string>> suggestedProducts(vector<string>& products,
                                              string searchWord) {
 
-        TrieNode* crawler = root;
+        
 
-        sort(products.begin(), products.end());
+        sort(products.begin(), products.end()); // ensures lexicographic order
 
         for (auto& p : products) {
 
-            insert(p, crawler);
+            insert(p, root);
         }
 
         vector<vector<string>> ans;
 
         string prefix = "";
 
-        crawler = root;
+        for(auto & c : searchWord){
 
-        for(int i=0; i<searchWord.size(); i++){
-
-            prefix += searchWord[i];
+            prefix += c;
 
             vector<string> sugg;
 
-            search(prefix, crawler, sugg);
+            search(prefix, root, sugg);
 
             ans.push_back(sugg);
         }
