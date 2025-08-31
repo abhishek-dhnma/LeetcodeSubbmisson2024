@@ -1,29 +1,7 @@
 class Solution {
 public:
 
-    bool isValidSubgrid(vector<vector<char>>& board,int sr,int er, int sc,int ec){
-                unordered_set<char> sett;
-        for(int r=sr; r<=er; r++){
-            
-            
-            for(int c=sc; c<=ec; c++ ){
-                char num = board[r][c];
-                if(num == '.'){
-                    continue;
-                }
-
-                if(sett.find(num) != sett.end()){
-                    return false;
-                }
-                    sett.insert(num);
-                
-            }
-
-            
-        }
-
-        return true;
-    }
+   
     
     bool isValidSudoku(vector<vector<char>>& board) {
 
