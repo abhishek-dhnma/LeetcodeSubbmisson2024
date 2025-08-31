@@ -5,7 +5,7 @@ public:
 
         int n =9;
 
-  // ROW AND COLUMN CHECK IS DIGIT IS PRESENT OPR NOT
+  // ROW AND COLUMN CHECK IS DIGIT IS PRESENT OR NOT
     // SUDOKU RULE 1 : DIGIT SHOULD NOT PRESENT IN ITS ROW AND COLUMN 
     for (int k = 0; k < n; k++) {
         if (board[i][k] ==  digt || board[k][j] == digt) {
@@ -16,12 +16,12 @@ public:
     // CHECK 3X3 SQUARES IF THAT DIGIT IS PRESENT OR NOT
     // SUDOKU RULE 2 : DIGIT SHOULD NOT PRESENT IN ITS SQUARE
     // SUDOKU (9x9) IS DIVIDED IN 9 PARTS EACH WITH 3X3 SIZE
-    int bound = sqrt(n);
-    int sx = i / bound * bound;
-    int sy = j / bound * bound;
 
-    for (int i = sx; i < sx + bound; i++) {
-        for (int j = sy; j < sy + bound; j++) {
+    int sx = i / 3 * 3;
+    int sy = j / 3 * 3;
+
+    for (int i = sx; i < sx + 3; i++) {
+        for (int j = sy; j < sy + 3; j++) {
             if (board[i][j] == digt) {
                 return false;
             }
