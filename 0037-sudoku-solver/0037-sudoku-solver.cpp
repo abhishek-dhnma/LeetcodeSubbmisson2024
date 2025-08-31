@@ -35,10 +35,10 @@ public:
 
 
 
-    bool sudokuSolver(vector<vector<char>>& board , int n, int i, int j) {
+    bool sudokuSolver(vector<vector<char>>& board) {
 
-        for (i = 0; i < n; i++) {
-            for (j = 0; j < n; j++) {
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
 
                 if (board[i][j] == '.') {
 
@@ -48,7 +48,7 @@ public:
                             // do
                             board[i][j] = d;
                             // explore
-                            if (sudokuSolver(board, 9, i, j)) {
+                            if (sudokuSolver(board)) {
                                 return true;
                             }
                             // undo - backtrack
@@ -66,6 +66,6 @@ public:
 
     void solveSudoku(vector<vector<char>>& board) {
 
-        sudokuSolver(board, 9, 0, 0);
+        sudokuSolver(board);
     }
 };
