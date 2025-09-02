@@ -29,7 +29,6 @@ public:
 
         // Optimal Solution
         // Sort
-        // remove duplicates
         // fixed (n1), remove duplicates
 
         int n = nums.size();
@@ -41,7 +40,7 @@ public:
         sort(nums.begin(), nums.end());
 
         // fixing one element
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i <= n-3; i++) {
 
             if (i > 0 && nums[i] == nums[i - 1])
                 continue;
