@@ -2,6 +2,19 @@ class Solution {
 public:
     int numberOfPairs(vector<vector<int>>& points) {
 
+
+        auto lamba = [](vector<int>& point1, vector<int> & point2){
+
+            if(point1[0] == point2[0] ){
+                return point1[1] > point2[1];
+            }
+
+            return point1[0] < point2[0];
+
+        };
+
+        sort(points.begin(), points.end(), lamba);
+
         int count = 0;
         int n = points.size();
 
@@ -9,11 +22,12 @@ public:
             // point A
             int x1 = points[i][0];
             int y1 = points[i][1];
-            for (int j = 0; j < n; j++) {
 
-                if (i == j) {
-                    continue;
-                }
+            int maxY = INT_MIN;
+
+            for (int j = i+1; j < n; j++) {
+
+
 
                 // point B
                 int x2 = points[j][0];
@@ -21,30 +35,15 @@ public:
 
                 // check points(A,B) are valid or not
 
-                if (x1 <= x2 && y1 >= y2) {
 
-                    bool isInside = false;
+                if(y2 > y1){
 
-                    for (int k = 0; k < n; k++) {
+                    continue;
+                }
 
-                        // apart from A and B
-                        // Check other points if they lie inside or not
-                        if (k == i || k == j) {
-                            continue;
-                        }
-
-                        int x3 = points[k][0];
-                        int y3 = points[k][1];
-
-                        if (x3 >= x1 && x3 <= x2 && y3 <= y1 && y3 >= y2) {
-                            isInside = true;
-                            break;
-                        }
-                    }
-
-                    if (!isInside) {
-                        count++;
-                    }
+                if(y2 > maxY){
+                    count++;
+                    maxY =  y2;
                 }
             }
         }
