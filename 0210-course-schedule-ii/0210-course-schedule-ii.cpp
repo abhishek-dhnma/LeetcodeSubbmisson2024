@@ -1,19 +1,19 @@
 class Solution {
 public:
-    bool dfs(vector<vector<int>>& adj, int V, vector<bool>& visited,
-             stack<int>& st, vector<bool> & onStack) {
+    bool dfs(vector<vector<int>>& adj, int u, vector<bool>& visited,
+             vector<int>& order, vector<bool> & onStack) {
 
-        visited[V] = true;
-        onStack[V] = true;
+        visited[u] = true;
+        onStack[u] = true;
 
-        for (auto& v : adj[V]) {
+        for (auto& v : adj[u]) {
 
             if(onStack[v]){
                 return true;
             }
 
             if (!visited[v]) {
-                if(dfs(adj, v, visited, st, onStack)){
+                if(dfs(adj, v, visited, order, onStack)){
 
                     return true;
 
@@ -21,9 +21,10 @@ public:
             }
         }
 
-        st.push(V);
+        
 
-        onStack[V] = false;
+        onStack[u] = false;
+        order.push_back(u);
         return false;
     }
 
@@ -31,45 +32,33 @@ public:
 
         vector<vector<int>> adj(numCourses);
 
-        for (auto& link : prerequisites) {
+        for (auto& p : prerequisites) {
 
-            int u = link[1];
-            int v = link[0];
+            int u = p[1];
+            int v = p[0];
 
             adj[u].push_back(v);
         }
 
-        stack<int> st;
-
-        vector<int> ans;
+        vector<int> order;
 
         vector<bool> visited(numCourses, false);
-
-        bool status  = false;
 
         vector<bool>  onStack(numCourses, false);
 
         for (int i = 0; i < numCourses; i++) {
             if (!visited[i]) {
-                if(dfs(adj, i, visited, st, onStack)){
+                if(dfs(adj, i, visited, order, onStack)){
 
-                    status = true;
-                    break;
+                    return{};
 
                 }
             }
         }
 
-        if(status){
-            return {};
-        }
 
-        while (!st.empty()) {
+        reverse(order.begin(), order.end());
 
-            ans.push_back(st.top());
-            st.pop();
-        }
-
-        return ans;
+        return order;
     }
 };
