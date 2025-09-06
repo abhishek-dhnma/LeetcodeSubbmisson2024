@@ -6,25 +6,16 @@ public:
 
         vector<vector<int>> adj(n);
 
+        vector<int> inDegree(n, 0);
+
         for(auto & p : prerequisites){
             int u = p[1];
             int v = p[0];
 
             adj[u].push_back(v);
+            inDegree[v]++;
         }
 
-
-        // indegree 
-        vector<int> inDegree(n, 0);
-
-        for(auto & list : adj){
-
-            for(auto & l : list){
-
-                inDegree[l]++;
-            }
-
-        }
 
         // insert into queue
 
@@ -32,12 +23,8 @@ public:
 
         vector<int> ans;
 
-        int count =0 ;
-
         for(int i=0; i<n; i++){
             if(inDegree[i] == 0){
-                ans.push_back(i);
-                count++;
                 q.push(i);
             }
         }
@@ -49,6 +36,7 @@ public:
 
             int u = q.front();
             q.pop();
+            ans.push_back(u);
             
 
             for(auto & v : adj[u]){
@@ -56,8 +44,6 @@ public:
                 inDegree[v]--;
 
                 if(inDegree[v] == 0){
-                    ans.push_back(v);
-                    count++;
                     
                     q.push(v);
                 }
@@ -65,7 +51,7 @@ public:
             
         }
 
-        if(count == n){
+        if((int) ans.size() == n){
             return ans;
         }
 
