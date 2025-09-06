@@ -1,64 +1,77 @@
 class Solution {
 public:
-    bool dfs(vector<vector<int>>& adj, int u, vector<bool>& visited,
-             vector<int>& order, vector<bool> & onStack) {
-
-        visited[u] = true;
-        onStack[u] = true;
-
-        for (auto& v : adj[u]) {
-
-            if(onStack[v]){
-                return true;
-            }
-
-            if (!visited[v]) {
-                if(dfs(adj, v, visited, order, onStack)){
-
-                    return true;
-
-                }
-            }
-        }
-
-        
-
-        onStack[u] = false;
-        order.push_back(u);
-        return false;
-    }
-
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
 
-        vector<vector<int>> adj(numCourses);
+        int n = numCourses;
 
-        for (auto& p : prerequisites) {
+        vector<vector<int>> adj(n);
 
+        for(auto & p : prerequisites){
             int u = p[1];
             int v = p[0];
 
             adj[u].push_back(v);
         }
 
-        vector<int> order;
 
-        vector<bool> visited(numCourses, false);
+        // indegree 
+        vector<int> inDegree(n, 0);
 
-        vector<bool>  onStack(numCourses, false);
+        for(auto & list : adj){
 
-        for (int i = 0; i < numCourses; i++) {
-            if (!visited[i]) {
-                if(dfs(adj, i, visited, order, onStack)){
+            for(auto & l : list){
 
-                    return{};
+                inDegree[l]++;
+            }
 
-                }
+        }
+
+        // insert into queue
+
+        queue<int> q;
+
+        vector<int> ans;
+
+        int count =0 ;
+
+        for(int i=0; i<n; i++){
+            if(inDegree[i] == 0){
+                ans.push_back(i);
+                count++;
+                q.push(i);
             }
         }
 
 
-        reverse(order.begin(), order.end());
+        // Kahn's Algorithm
 
-        return order;
+        while(!q.empty()){
+
+            int u = q.front();
+            q.pop();
+            
+
+            for(auto & v : adj[u]){
+
+                inDegree[v]--;
+
+                if(inDegree[v] == 0){
+                    ans.push_back(v);
+                    count++;
+                    
+                    q.push(v);
+                }
+            }
+            
+        }
+
+        if(count == n){
+            return ans;
+        }
+
+        return {};
+
+        
+        
     }
 };
