@@ -2,21 +2,25 @@ class Solution {
 public:
     vector<int> sumZero(int n) {
 
-        vector<int> ans;
-        
+        int i = 0;
+        int j = n-1;
 
-        for (int i = 1; i <=n; i+=2) {
+        vector<int> ans(n,0);
 
-            if (i + 1 <= n) {
+        int element = 1;
+ 
+        while(i<j){
 
-                ans.push_back(i);
-                ans.push_back(-i);
+            ans[i] = element;
+            ans[j] = -element;
+            i++;
+            j--;
+            element++;
 
-            } else {
-                ans.push_back(0);
-            }
         }
 
+
         return ans;
+        
     }
 };
