@@ -4,12 +4,8 @@ public:
 
         vector<int> ans(n);
 
-        int l = 0;
-        int r = n - 1;
-
         int mid = n / 2;
-        cout << mid;
-
+        
         bool isEven = true;
 
         (n % 2 == 0) ? isEven = true : isEven = false;
