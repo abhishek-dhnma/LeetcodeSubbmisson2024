@@ -1,30 +1,39 @@
 class Solution {
 public:
-    int longestConsecutive(vector<int>& nums) {
-        if(!nums.size()) return 0;
+    int longestConsecutive(vector<int>& nums) { 
+        // insert into hashset
+        unordered_set<int> st( nums.begin(), nums.end());
 
-        unordered_set<int> st(nums.begin(), nums.end());
+        // app 2
 
         int maxLen = 0;
 
+        for(auto & elmt : st){
+            
+            if(!st.count(elmt - 1)){
+                int currLen = 1;
+                int currNum = elmt;
 
-        for(auto & num : st){
-            if(!st.count(num-1)){
-                int curNum = num;
-                int currentLen = 0;
 
-                while(st.count(curNum)){
-                    curNum += 1;
-                    currentLen += 1;
-                    
+                // check = 1 -> 2 -> 3
+
+                while(st.count(currNum + 1)){
+                    currLen++;
+                    currNum++;
                 }
 
-                maxLen = max(maxLen, currentLen);
+                // maxLength
+
+                maxLen =  max(currLen, maxLen);
+
+
             }
+
         }
 
-
         return maxLen;
+
+
         
     }
 };
