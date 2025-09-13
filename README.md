@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2478-longest-nice-subarray](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2478-longest-nice-subarray) |
 | [2479-meeting-rooms-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2479-meeting-rooms-iii) |
+| [2486-most-frequent-even-element](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2486-most-frequent-even-element) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2529-range-product-queries-of-powers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2529-range-product-queries-of-powers) |
 | [2551-apply-operations-to-an-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2551-apply-operations-to-an-array) |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2479-meeting-rooms-iii) |
+| [2486-most-frequent-even-element](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2486-most-frequent-even-element) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3227-find-missing-and-repeated-values](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3227-find-missing-and-repeated-values) |
@@ -211,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1823-determine-if-string-halves-are-alike](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1823-determine-if-string-halves-are-alike) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2448-count-number-of-bad-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2448-count-number-of-bad-pairs) |
+| [2486-most-frequent-even-element](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2486-most-frequent-even-element) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3630-total-characters-in-string-after-transformations-ii) |
