@@ -2,10 +2,10 @@ class Solution {
 public:
     int maxFreqSum(string s) {
 
-        unordered_map<int, int> freq;
+        vector<int> freq(26, 0);
 
         for(auto & ch : s){
-            freq[ch]++;
+            freq[ch - 'a']++;
         }
 
         int v = 0;
@@ -15,10 +15,10 @@ public:
         for(int i=0; i<s.size(); i++){
             if(s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' || s[i] == 'u'){
 
-                v = max(v, freq[s[i]]);
+                v = max(v, freq[s[i] - 'a']);
 
             }else{
-                c = max(c, freq[s[i]]);
+                c = max(c, freq[s[i] - 'a']);
             }
 
 
