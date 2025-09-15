@@ -11,21 +11,24 @@ public:
 
         int i = 0,words = 0;
 
+        bool isTypable = true;
+
         while(i < text.size()){
 
-            bool isTypable = true;
-
-            while(i < text.size() && text[i] != ' ' ){
-                if(alpha[text[i] - 'a']) isTypable = false;
-                i++;
+            if(text[i] == ' ' ){
+                if(isTypable){
+                    words++;
+                }
+                isTypable = true;
+            }else if(alpha[text[i] - 'a'] == 1){
+                isTypable = false;
             }
-
-            if(isTypable){
-                words++;
-            }
-
             i++;
 
+        }
+
+        if(isTypable){
+            words++;
         }
 
         return words;
