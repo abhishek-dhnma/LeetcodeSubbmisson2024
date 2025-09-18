@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0724-find-pivot-index) |
 | [0797-rabbits-in-forest](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0797-rabbits-in-forest) |
 | [0940-fruit-into-baskets](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0940-fruit-into-baskets) |
+| [1032-satisfiability-of-equality-equations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1032-satisfiability-of-equality-equations) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1253-sort-the-matrix-diagonally](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1253-sort-the-matrix-diagonally) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0567-permutation-in-string) |
 | [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
+| [1032-satisfiability-of-equality-equations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1032-satisfiability-of-equality-equations) |
 | [1160-letter-tile-possibilities](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1160-letter-tile-possibilities) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1302-delete-characters-to-make-fancy-string) |
@@ -423,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0547-number-of-provinces) |
+| [1032-satisfiability-of-equality-equations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1032-satisfiability-of-equality-equations) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2793-count-the-number-of-complete-components](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2793-count-the-number-of-complete-components) |
@@ -550,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0128-longest-consecutive-sequence) |
 | [0547-number-of-provinces](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0547-number-of-provinces) |
+| [1032-satisfiability-of-equality-equations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1032-satisfiability-of-equality-equations) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
