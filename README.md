@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2023-design-movie-rental-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2023-design-movie-rental-system) |
 | [2048-build-array-from-permutation](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2048-build-array-from-permutation) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2102-find-the-middle-index-in-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2102-find-the-middle-index-in-array) |
@@ -149,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1813-maximum-erasure-value](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1813-maximum-erasure-value) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2023-design-movie-rental-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2023-design-movie-rental-system) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2107-find-unique-binary-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2107-find-unique-binary-string) |
 | [2215-finding-3-digit-even-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2215-finding-3-digit-even-numbers) |
@@ -249,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0307-range-sum-query-mutable](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0307-range-sum-query-mutable) |
 | [1477-product-of-the-last-k-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1477-product-of-the-last-k-numbers) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2023-design-movie-rental-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2023-design-movie-rental-system) |
 | [2434-design-a-number-container-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2434-design-a-number-container-system) |
 | [3678-design-task-manager](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3797-design-spreadsheet) |
@@ -258,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0347-top-k-frequent-elements) |
 | [1397-search-suggestions-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1397-search-suggestions-system) |
+| [2023-design-movie-rental-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2023-design-movie-rental-system) |
 | [2434-design-a-number-container-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2479-meeting-rooms-iii) |
@@ -270,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [2023-design-movie-rental-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2023-design-movie-rental-system) |
 | [2434-design-a-number-container-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2434-design-a-number-container-system) |
 | [3678-design-task-manager](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3678-design-task-manager) |
 | [3790-fruits-into-baskets-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3790-fruits-into-baskets-ii) |
