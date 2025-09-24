@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1477-product-of-the-last-k-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1477-product-of-the-last-k-numbers) |
+| [1603-running-sum-of-1d-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1603-running-sum-of-1d-array) |
 | [1628-count-submatrices-with-all-ones](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1656-count-good-triplets](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1656-count-good-triplets) |
@@ -363,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0238-product-of-array-except-self) |
 | [0724-find-pivot-index](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0724-find-pivot-index) |
 | [1477-product-of-the-last-k-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1477-product-of-the-last-k-numbers) |
+| [1603-running-sum-of-1d-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1603-running-sum-of-1d-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1833-find-the-highest-altitude](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1833-find-the-highest-altitude) |
 | [2102-find-the-middle-index-in-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2102-find-the-middle-index-in-array) |
