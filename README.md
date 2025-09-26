@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0037-sudoku-solver) |
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0128-longest-consecutive-sequence) |
@@ -447,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -646,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0053-maximum-subarray) |
 | [0191-number-of-1-bits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0347-top-k-frequent-elements) |
