@@ -52,14 +52,8 @@ public:
 
         for (auto& edge : connections) {
 
-            int x = edge[0];
-            int y = edge[1];
-
-            int x_p = find(x);
-            int y_p = find(y);
-
-            if (x_p != y_p) {
-                Union(x_p, y_p);
+            if (find(edge[0]) != find(edge[1])) {
+                Union(edge[0], edge[1]);
                 components--;
             }
         }
