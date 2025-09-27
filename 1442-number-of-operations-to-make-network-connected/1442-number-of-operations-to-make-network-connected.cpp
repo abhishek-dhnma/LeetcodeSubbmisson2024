@@ -1,18 +1,21 @@
 class Solution {
 
-    int find(int x, vector<int>& parent) {
+    vector<int> parent;
+        vector<int> rank;
+
+    int find(int x) {
 
         if (x == parent[x]) {
             return x;
         }
 
-        return parent[x] = find(parent[x], parent); // path compression
+        return parent[x] = find(parent[x]); // path compression
     }
 
-    void Union(int x, int y, vector<int>& parent, vector<int> & rank) {
+    void Union(int x, int y) {
 
-        int x_parent = find(x, parent);
-        int y_parent = find(y, parent);
+        int x_parent = find(x);
+        int y_parent = find(y);
 
         if (x_parent == y_parent) {
             return;
@@ -30,12 +33,16 @@ class Solution {
 
 public:
     int makeConnected(int n, vector<vector<int>>& connections) {
-        if(connections.size() < n-1){
+        if (connections.size() < n - 1) {
             return -1;
         }
 
-        vector<int> parent(n);
-        vector<int> rank(n, 0);
+        parent.resize(n);
+        rank.assign(n,0);
+
+        iota(parent.begin(), parent.end(), 0);
+
+        
 
         for (int i = 0; i < n; i++) {
             parent[i] = i;
@@ -43,31 +50,20 @@ public:
 
         int components = n;
 
+        for (auto& edge : connections) {
 
-        for(auto & edge : connections){
-
-            int x = edge[0]; 
+            int x = edge[0];
             int y = edge[1];
 
+            int x_p = find(x);
+            int y_p = find(y);
 
-          int x_p =  find(x, parent);
-          int y_p =  find(y, parent);
-
-          if(x_p == y_p){
-            continue;
-          }else{
-
-            Union(x_p, y_p, parent, rank);
-            components--;
-
-
-
-          }
-
-        
-
+            if (x_p != y_p) {
+                Union(x_p, y_p);
+                components--;
+            }
         }
 
-        return components-1;
+        return components - 1;
     }
 };
