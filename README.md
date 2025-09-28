@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1628-count-submatrices-with-all-ones](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1656-count-good-triplets](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1656-count-good-triplets) |
+| [1753-path-with-minimum-effort](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1753-path-with-minimum-effort) |
 | [1813-maximum-erasure-value](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1813-maximum-erasure-value) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1833-find-the-highest-altitude](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1833-find-the-highest-altitude) |
@@ -266,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0347-top-k-frequent-elements) |
 | [0744-network-delay-time](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0744-network-delay-time) |
 | [1397-search-suggestions-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1397-search-suggestions-system) |
+| [1753-path-with-minimum-effort](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1753-path-with-minimum-effort) |
 | [2023-design-movie-rental-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2023-design-movie-rental-system) |
 | [2434-design-a-number-container-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -425,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0744-network-delay-time) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1753-path-with-minimum-effort](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1753-path-with-minimum-effort) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -439,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0744-network-delay-time) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1753-path-with-minimum-effort](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1753-path-with-minimum-effort) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -518,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1253-sort-the-matrix-diagonally](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1253-sort-the-matrix-diagonally) |
 | [1628-count-submatrices-with-all-ones](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1628-count-submatrices-with-all-ones) |
+| [1753-path-with-minimum-effort](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1753-path-with-minimum-effort) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [3227-find-missing-and-repeated-values](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3227-find-missing-and-repeated-values) |
@@ -553,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0611-valid-triangle-number) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1397-search-suggestions-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1397-search-suggestions-system) |
+| [1753-path-with-minimum-effort](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1753-path-with-minimum-effort) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -587,6 +593,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0547-number-of-provinces) |
 | [1032-satisfiability-of-equality-equations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1032-satisfiability-of-equality-equations) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1753-path-with-minimum-effort](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1753-path-with-minimum-effort) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2793-count-the-number-of-complete-components) |
