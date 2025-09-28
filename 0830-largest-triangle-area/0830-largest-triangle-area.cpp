@@ -17,9 +17,9 @@ public:
                     double x3 = points[k][0];
                     double y3 = points[k][1];
 
-                    double area =  abs(  (x1 * (y2-y3)) + (x2 * (y3 - y1 )) + (x3 * (y1 - y2)) ) * 0.5;
+                    double shoelace_formula =  abs(  (x1 * (y2-y3)) + (x2 * (y3 - y1 )) + (x3 * (y1 - y2)) ) * 0.5;
                     
-                    maxAns = max(maxAns, area);
+                    maxAns = max(maxAns, shoelace_formula);
 
 
                 }
