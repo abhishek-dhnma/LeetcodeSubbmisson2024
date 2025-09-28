@@ -47,11 +47,7 @@ public:
 
             
         }
-
-        for(auto & nd : result){
-            cout << nd << " " ;
-        }
-
+        
         int ans;
         for(int i=0; i<n; i++){
 
