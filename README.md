@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0679-24-game](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0679-24-game) |
 | [0724-find-pivot-index](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0724-find-pivot-index) |
 | [0797-rabbits-in-forest](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0797-rabbits-in-forest) |
+| [0830-largest-triangle-area](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0830-largest-triangle-area) |
 | [0940-fruit-into-baskets](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0940-fruit-into-baskets) |
 | [1032-satisfiability-of-equality-equations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1032-satisfiability-of-equality-equations) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1049-minimum-domino-rotations-for-equal-row) |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0679-24-game](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0679-24-game) |
 | [0797-rabbits-in-forest](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0797-rabbits-in-forest) |
 | [0826-soup-servings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0826-soup-servings) |
+| [0830-largest-triangle-area](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0830-largest-triangle-area) |
 | [0900-reordered-power-of-2](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0900-reordered-power-of-2) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -688,6 +690,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [0830-largest-triangle-area](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0830-largest-triangle-area) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 ## Bucket Sort
