@@ -263,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0347-top-k-frequent-elements) |
+| [0744-network-delay-time](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0744-network-delay-time) |
 | [1397-search-suggestions-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1397-search-suggestions-system) |
 | [2023-design-movie-rental-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2023-design-movie-rental-system) |
 | [2434-design-a-number-container-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2434-design-a-number-container-system) |
@@ -420,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0210-course-schedule-ii) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0547-number-of-provinces](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0547-number-of-provinces) |
+| [0744-network-delay-time](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0744-network-delay-time) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2400-minimum-score-after-removals-on-a-tree) |
@@ -433,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0547-number-of-provinces) |
+| [0744-network-delay-time](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0744-network-delay-time) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -444,6 +447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0547-number-of-provinces) |
+| [0744-network-delay-time](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0744-network-delay-time) |
 | [1032-satisfiability-of-equality-equations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1032-satisfiability-of-equality-equations) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -593,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0744-network-delay-time) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
