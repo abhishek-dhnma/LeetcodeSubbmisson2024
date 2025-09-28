@@ -1,61 +1,68 @@
 class Solution {
 public:
-    // All 8 possible directions (horizontal, vertical, and diagonal)
-    vector<vector<int>> dir = {
-        {0, 1},  {1, 0},   {-1, 0}, {0, -1},   // 4 directions (up, down, left, right)
-        {1, 1},  {-1, -1}, {1, -1}, {-1, 1}    // 4 diagonals
-    };
+    typedef pair<int, pair<int, int>> p;
+
+    vector<vector<int>> direction = {{0, 1}, {1, 0},  {-1, 0}, {0, -1},
+                               {1, 1}, {-1, 1}, {1, -1}, {-1, -1}};
 
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
+
         int n = grid.size();
         int m = grid[0].size();
 
-        // If grid is empty or starting cell is blocked, no path exists
         if (n == 0 || m == 0 || grid[0][0] != 0) {
             return -1;
         }
 
-        // BFS queue -> each element is a coordinate (x, y)
-        queue<pair<int, int>> que;
-        que.push({0, 0});
+        // dijkstra algo
 
-        // Mark the starting cell as visited by setting it to 1
-        grid[0][0] = 1;
+        vector<vector<int>> result(n, vector<int>(m, INT_MAX));
 
-        int level = 0; // "level" in BFS = steps taken so far
+        // min heap
+        priority_queue<p, vector<p>, greater<p>> pq;
 
-        while (!que.empty()) {
-            int N = que.size(); // Number of nodes at current BFS level
+        pq.push({0, {0, 0}});
+        result[0][0] = 0;
 
-            while (N--) {
-                auto cur = que.front();
-                int x = cur.first;
-                int y = cur.second;
-                que.pop();
+        while (!pq.empty()) {
 
-                // If we reached the bottom-right cell, return path length
-                if (x == n - 1 && y == n - 1) {
-                    return level + 1;  // +1 since we count steps starting at (0,0)
-                }
+            auto pr = pq.top();
+            
 
-                // Explore all 8 directions
-                for (auto& d : dir) {
-                    int x_ = x + d[0];
-                    int y_ = y + d[1];
+            int d = pr.first;
+            int x = pr.second.first;
+            int y = pr.second.second;
+            pq.pop();
 
-                    // Check boundaries and if the next cell is not blocked
-                    if (x_ >= 0 && x_ < n && y_ >= 0 && y_ < n &&
-                        grid[x_][y_] == 0) {
 
-                        que.push({x_, y_});
-                        grid[x_][y_] = 1; // mark visited
+            for(auto & dir : direction){
+                int x_ = x + dir[0];
+                int y_ = y + dir[1];
+                int dist = 1;
+
+
+                if(x_ >= 0 && x_ <n && y_ >= 0 && y_<n && grid[x_][y_] == 0){
+
+
+                    if(d + dist< result[x_][y_]){
+                        
+                    pq.push( {d + dist , {x_,y_}});
+                    grid[x_][y_] = 1;
+                    result[x_][y_] = d + dist;
+
+
                     }
+                    
                 }
             }
-            level++; // increment distance after finishing current BFS level
+
+
         }
 
-        // If queue is empty and target was never reached, no path exists
-        return -1;
+        if(result[n-1][n-1] == INT_MAX){
+            return -1;
+        }
+
+        return result[n - 1][n - 1] + 1;
     }
 };
