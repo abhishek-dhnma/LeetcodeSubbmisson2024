@@ -7,15 +7,14 @@ public:
 
 
         if(m > n) return -1;
+        if(m == 0) return 0;
+
+
         int i = 0;
 
-        while(i<n){
+        while(i<=n-m){
 
-          if(i + m > n) return -1;
-
-          string chk = haystack.substr(i,m);
-
-          if(chk == needle){
+          if(haystack.substr(i,m) == needle){
             return i;
           }
 
@@ -23,9 +22,7 @@ public:
 
         }
 
-
         return -1;
 
-        
     }
 };
