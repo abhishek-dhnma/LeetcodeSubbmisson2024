@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0013-roman-to-integer](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0037-sudoku-solver) |
 | [0128-longest-consecutive-sequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0128-longest-consecutive-sequence) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0013-roman-to-integer](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0013-roman-to-integer) |
 | [0038-count-and-say](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0038-count-and-say) |
 | [0091-decode-ways](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0125-valid-palindrome) |
@@ -293,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0013-roman-to-integer) |
 | [0070-climbing-stairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0326-power-of-three) |
