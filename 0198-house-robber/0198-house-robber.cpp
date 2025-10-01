@@ -1,30 +1,31 @@
 class Solution {
 public:
-    int rob(vector<int>& nums) {
 
-        // BOTTOM UP APPROACH
+    int solve(vector<int>& nums, int i, vector<int> & dp){
 
-        int n = nums.size();
-
-        if(n ==1) return nums[0];
-
-        vector<int> bu(n+1,0);
-
-        bu[0] = 0;
-        bu[1] = nums[0];
-
-        for(int i=2; i<=n; i++){
-
-            int steal = nums[i-1] + bu[i-2];
-            int skip = bu[i-1];
-
-            bu[i]  = max(steal, skip);
-
+        if(i >= nums.size()){
+            return 0;
         }
 
+        if(dp[i] != -1){
+            return dp[i];
+        }
 
-        return bu[n];
-        
-        
+        if(i == nums.size()-1){
+            return dp[i] = nums[i];
+        }
+
+        int choosehouse = nums[i] + solve(nums, i+2, dp);
+        int dontchoosehouse = solve(nums, i+1, dp);
+
+        return dp[i] = max(choosehouse, dontchoosehouse);
+
+    }
+
+    int rob(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> dp(n, -1);
+
+        return solve(nums, 0, dp);
     }
 };
