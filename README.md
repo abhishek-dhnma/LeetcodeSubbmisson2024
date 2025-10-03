@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0307-range-sum-query-mutable](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0307-range-sum-query-mutable) |
 | [0347-top-k-frequent-elements](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0368-largest-divisible-subset) |
+| [0407-trapping-rain-water-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0416-partition-equal-subset-sum) |
 | [0498-diagonal-traverse](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0498-diagonal-traverse) |
 | [0611-valid-triangle-number](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0611-valid-triangle-number) |
@@ -273,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0347-top-k-frequent-elements) |
+| [0407-trapping-rain-water-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0407-trapping-rain-water-ii) |
 | [0744-network-delay-time](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0744-network-delay-time) |
 | [1397-search-suggestions-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1397-search-suggestions-system) |
 | [1753-path-with-minimum-effort](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1753-path-with-minimum-effort) |
@@ -451,6 +453,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0207-course-schedule](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0210-course-schedule-ii) |
+| [0407-trapping-rain-water-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0407-trapping-rain-water-ii) |
 | [0547-number-of-provinces](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0744-network-delay-time) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -532,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0037-sudoku-solver) |
+| [0407-trapping-rain-water-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0498-diagonal-traverse) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1253-sort-the-matrix-diagonally](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1253-sort-the-matrix-diagonally) |
