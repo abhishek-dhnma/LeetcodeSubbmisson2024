@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0567-permutation-in-string) |
 | [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
 | [1032-satisfiability-of-equality-equations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1032-satisfiability-of-equality-equations) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1160-letter-tile-possibilities](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1160-letter-tile-possibilities) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1302-delete-characters-to-make-fancy-string) |
@@ -341,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1628-count-submatrices-with-all-ones](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1628-count-submatrices-with-all-ones) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2021-remove-all-occurrences-of-a-substring) |
