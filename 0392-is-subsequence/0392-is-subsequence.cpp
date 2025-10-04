@@ -4,24 +4,36 @@ public:
 
         int n = s.size();
         int m = t.size();
-        int i =0;
-        int j = 0;
 
+        map<char, vector<int>> mp;
 
-        while(i<n && j<m){
+        for (int i = 0; i < m; i++) {
 
-            if(s[i] == t[j]){
-                i++;
+            mp[t[i]].push_back(i);
+        }
+
+        int prev = -1;
+
+        for (int i = 0; i < n; i++) {
+
+            char ch = s[i];
+
+            if (mp.find(ch) == mp.end()) {
+
+                return false;
             }
 
-            j++;
+            vector<int> idxs = mp[ch];
+
+            auto it = upper_bound(idxs.begin(), idxs.end(), prev);
+
+            if (it == idxs.end()) {
+                return false;
+            }
+
+            prev = *it;
         }
 
-        if(i == n){
-            return true;
-        }
-
-        return false;
-        
+        return true;
     }
 };
