@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0242-valid-anagram](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0242-valid-anagram) |
+| [0392-is-subsequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0424-longest-repeating-character-replacement) |
 | [0443-string-compression](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0567-permutation-in-string) |
@@ -491,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0213-house-robber-ii) |
 | [0338-counting-bits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0368-largest-divisible-subset) |
+| [0392-is-subsequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0416-partition-equal-subset-sum) |
 | [0806-domino-and-tromino-tiling](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0806-domino-and-tromino-tiling) |
 | [0826-soup-servings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0826-soup-servings) |
@@ -519,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0283-move-zeroes) |
+| [0392-is-subsequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0567-permutation-in-string) |
 | [0611-valid-triangle-number](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0611-valid-triangle-number) |
