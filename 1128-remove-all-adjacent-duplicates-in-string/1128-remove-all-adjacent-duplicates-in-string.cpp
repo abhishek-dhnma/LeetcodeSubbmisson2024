@@ -4,25 +4,40 @@ public:
 
         string ans = "";
 
-        for(auto & ch :  s){
+        // you can also use stack 
 
-            if( !ans.empty()  && ans.back() == ch){
+        stack<char> st;
+
+        for(auto & ch : s){
+
+            if( !st.empty() && st.top() == ch){
+
                 // equal
-                ans.pop_back();
                 
-            }else {
+                st.pop();
 
-                //not equal
+            }else{
 
-                ans.push_back(ch);
+                // not equal
 
-
+                st.push(ch);
             }
 
 
         }
 
+        while(!st.empty()){
+
+            ans += st.top();
+            st.pop();
+        }
+
+        reverse(ans.begin(), ans.end());
+
+
         return ans;
+
+        
         
     }
 };
