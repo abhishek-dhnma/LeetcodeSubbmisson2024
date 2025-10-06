@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0283-move-zeroes) |
+| [0300-longest-increasing-subsequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0300-longest-increasing-subsequence) |
 | [0307-range-sum-query-mutable](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0307-range-sum-query-mutable) |
 | [0347-top-k-frequent-elements](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0368-largest-divisible-subset) |
@@ -494,6 +495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0213-house-robber-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0300-longest-increasing-subsequence) |
 | [0338-counting-bits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0392-is-subsequence) |
@@ -581,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0300-longest-increasing-subsequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0300-longest-increasing-subsequence) |
 | [0611-valid-triangle-number](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0611-valid-triangle-number) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1397-search-suggestions-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1397-search-suggestions-system) |
