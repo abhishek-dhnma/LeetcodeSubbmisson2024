@@ -4,11 +4,15 @@ public:
 
         // Bottom Up --> past answers se apna -> future ka solution banate hai
 
-        long long dp[1000001][2];
+        
 
         int n = nums.size();
 
-        for(int i=1; i<n+1; i++){
+        vector<vector<long long>> dp(n+1, vector<long long>(2,0)); // even : 0 and odd : 1 and size n+1 liya h
+
+        // 1-based indexing 
+
+        for(int i=1; i<=n; i++){
             
             // even case
             dp[i][0] = max(dp[i-1][1] - nums[i-1], dp[i-1][0]);
@@ -18,6 +22,9 @@ public:
         }
 
         return max(dp[n][0],dp[n][1]);
+
+       // TC : O(N)
+       // SC : O(N)
         
     }
 };
