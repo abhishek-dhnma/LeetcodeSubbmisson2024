@@ -1,39 +1,43 @@
 class Solution {
 public:
     int n;
-    int solve(vector<int>& nums, int  startidx, int  previousElmtidx, vector<vector<int>>& dp) {
 
-        // base case
-        if (startidx >= n) {
+    int findLIS(vector<int>& nums, int currentIndex, int prevIndex, vector<vector<int>>& dp) {
+        // base case: reached end of array
+        if (currentIndex >= n) {
             return 0;
-            // out of bound
         }
 
-        if( previousElmtidx != -1 && dp[startidx][previousElmtidx]  != -1){
-            return dp[startidx][previousElmtidx];
+        // use memoized value if available
+        if (prevIndex != -1 && dp[currentIndex][prevIndex] != -1) {
+            return dp[currentIndex][prevIndex];
         }
 
-        // recursive case
-        int take = 0;
-        if (previousElmtidx == -1 || nums[previousElmtidx] < nums[startidx]) {
-            take = 1 + solve(nums, startidx + 1, startidx, dp);
+        // option 1: include current element (if it's increasing)
+        int include = 0;
+        if (prevIndex == -1 || nums[prevIndex] < nums[currentIndex]) {
+            include = 1 + findLIS(nums, currentIndex + 1, currentIndex, dp);
         }
 
-        int skip = solve(nums, startidx + 1, previousElmtidx, dp);
-        if(previousElmtidx != -1 ){
-            dp[startidx][previousElmtidx] = max(take, skip);
+        // option 2: skip current element
+        int exclude = findLIS(nums, currentIndex + 1, prevIndex, dp);
+
+        // store result in dp if prevIndex is valid
+        if (prevIndex != -1) {
+            dp[currentIndex][prevIndex] = max(include, exclude);
         }
 
-        return  max(take, skip);
+        return max(include, exclude);
     }
 
     int lengthOfLIS(vector<int>& nums) {
-
-        int startidx = 0;
         n = nums.size();
+        if (n == 0) return 0;
 
-        vector<vector<int>> dp(n+1, vector<int>(n+1, -1));
+        // dp[i][j] stores LIS starting from index i with previous index j
+        // initialized to -1
+        vector<vector<int>> dp(n + 1, vector<int>(n + 1, -1));
 
-        return solve(nums, startidx, -1, dp);
+        return findLIS(nums, 0, -1, dp);
     }
 };
