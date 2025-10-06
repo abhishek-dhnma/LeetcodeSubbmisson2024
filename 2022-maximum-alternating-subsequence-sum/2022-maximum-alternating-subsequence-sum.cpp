@@ -8,20 +8,21 @@ public:
 
         int n = nums.size();
 
-        vector<vector<long long>> dp(n+1, vector<long long>(2,0)); // even : 0 and odd : 1 and size n+1 liya h
+        vector<vector<long long>> dp(n, vector<long long>(2,0)); // even : 1 and odd : 0 and size n liya h
 
-        // 1-based indexing 
+        dp[0][0] = 0;  // flag:false (substract)  - you can't subtract first, so 0
+        dp[0][1] = nums[0];   // flag:true (add) 
 
-        for(int i=1; i<=n; i++){
+        for(int i=1; i<n; i++){
             
             // even case
-            dp[i][0] = max(dp[i-1][1] - nums[i-1], dp[i-1][0]);
+            dp[i][0] = max(dp[i-1][1] - nums[i], dp[i-1][0]);
 
             // odd case
-            dp[i][1] = max(dp[i-1][0] + nums[i-1], dp[i-1][1]);
+            dp[i][1] = max(dp[i-1][0] + nums[i], dp[i-1][1]);
         }
 
-        return max(dp[n][0],dp[n][1]);
+        return dp[n-1][1];
 
        // TC : O(N)
        // SC : O(N)
