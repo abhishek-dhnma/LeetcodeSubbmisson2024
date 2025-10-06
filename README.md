@@ -346,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
+| [0094-binary-tree-inorder-traversal](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0094-binary-tree-inorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1628-count-submatrices-with-all-ones](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1628-count-submatrices-with-all-ones) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -437,12 +438,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0104-maximum-depth-of-binary-tree) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0207-course-schedule](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0210-course-schedule-ii) |
@@ -732,6 +735,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0104-maximum-depth-of-binary-tree) |
 ## String Matching
 |  |
