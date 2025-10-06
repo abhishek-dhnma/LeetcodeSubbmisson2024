@@ -1,36 +1,46 @@
 class Solution {
 public:
-    int n;
+    
 
-   long long dp[1000001][2];
+    long long dp[1000001][2];
 
 
-    long long solve(int i, vector<int>& nums, bool flag) {
+    long long solve(vector<int>& nums, int i, bool flag){
 
-        if (i >= n)
+
+        // base case
+
+        if(i >= nums.size()){
             return 0;
-
+        }
         if(dp[i][flag] != -1){
             return dp[i][flag];
         }
 
-        long long skip = solve(i + 1, nums, flag);
 
-        int val = nums[i];
-        if (flag == false) {
-            val = -val;
-        }
+        // recursion
 
-        long long take = solve(i + 1, nums, !flag) + val;
+        long long skip = solve(nums,i+1, flag);
 
+
+        long long take = solve(nums, i+1, !flag) + (flag ? nums[i] : -nums[i]);
+
+  
         return dp[i][flag] = max(skip, take);
+
+
     }
 
     long long maxAlternatingSum(vector<int>& nums) {
 
-        n = nums.size();
         memset(dp, -1, sizeof(dp));
 
-        return solve(0, nums, true);
+        return  solve(nums, 0, true);
+
+        // recursion : TC : O(2^N * N)
+        // with memo : TC : O(N)
+
+        
+        
     }
 };
