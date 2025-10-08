@@ -213,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1129-longest-string-chain](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1129-longest-string-chain) |
 | [1160-letter-tile-possibilities](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1160-letter-tile-possibilities) |
+| [1250-longest-common-subsequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1250-longest-common-subsequence) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -526,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0806-domino-and-tromino-tiling](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0806-domino-and-tromino-tiling) |
 | [0826-soup-servings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0826-soup-servings) |
 | [1129-longest-string-chain](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1129-longest-string-chain) |
+| [1250-longest-common-subsequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1250-longest-common-subsequence) |
 | [1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
 | [1628-count-submatrices-with-all-ones](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
