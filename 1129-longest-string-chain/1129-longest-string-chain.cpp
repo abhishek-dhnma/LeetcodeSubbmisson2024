@@ -8,25 +8,21 @@ public:
 
         int n = s1.size();
         int m = s2.size();
-        int c = 0;
 
         // if length is not s2 length is not s1 + n : false
-        if (m != n + 1) return false;
+        if ( m != n + 1) return false;
 
 
         while (i < n && j < m) {
 
             if (s1[i] == s2[j]) {
                 i++;
-            } else {
-                c++;
-                if(c > 1)return false;
-            }
+            } 
             j++;
         }
 
     
-        return true;
+        return i == n;
     }
 
     int longestStrChain(vector<string>& words) {
