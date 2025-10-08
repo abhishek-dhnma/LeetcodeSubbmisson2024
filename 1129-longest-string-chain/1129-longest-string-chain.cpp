@@ -2,14 +2,17 @@ class Solution {
 public:
     bool isPredecessor(string s1, string s2) {
 
-        if (s2.size() != s1.size() + 1) return false;
-
+        
         int i = 0;
         int j = 0;
 
         int n = s1.size();
         int m = s2.size();
         int c = 0;
+
+        // if length is not s2 length is not s1 + n : false
+        if (m != n + 1) return false;
+
 
         while (i < n && j < m) {
 
