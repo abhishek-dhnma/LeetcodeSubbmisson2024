@@ -18,12 +18,11 @@ public:
 
             if (s1[i] == s2[j]) {
                 i++;
-                j++;
             } else {
-                j++;
                 c++;
                 if(c > 1)return false;
             }
+            j++;
         }
 
     
