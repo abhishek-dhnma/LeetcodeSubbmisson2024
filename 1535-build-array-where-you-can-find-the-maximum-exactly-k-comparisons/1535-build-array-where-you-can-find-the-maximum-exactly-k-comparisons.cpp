@@ -18,7 +18,7 @@ int dp[51][51][101];
             }
         }
 
-        if(maxsofar != -1  && dp[idx][searchCost][maxsofar] != -1){
+        if(dp[idx][searchCost][maxsofar] != -1){
             return dp[idx][searchCost][maxsofar];
         }
 
@@ -32,11 +32,10 @@ int dp[51][51][101];
             }
         }
 
-        if(maxsofar != -1){
-            dp[idx][searchCost][maxsofar] = result;
-        }
-
-        return result%mod;
+        
+        
+        
+        return dp[idx][searchCost][maxsofar] = result%mod;
     }
 
 
@@ -48,6 +47,6 @@ int dp[51][51][101];
         memset(dp, -1, sizeof(dp));
 
 
-       return solve(0,0,-1);    
+       return solve(0,0,0);    
     }
 };
