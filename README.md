@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3790-fruits-into-baskets-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3791-fruits-into-baskets-iii) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3797-design-spreadsheet](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3797-design-spreadsheet) |
 ## Linked List
 |  |
@@ -272,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3447-clear-digits) |
 | [3790-fruits-into-baskets-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3790-fruits-into-baskets-ii) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Design
 |  |
 | ------- |
@@ -416,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2529-range-product-queries-of-powers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2529-range-product-queries-of-powers) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3643-zero-array-transformation-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3643-zero-array-transformation-ii) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Backtracking
 |  |
 | ------- |
