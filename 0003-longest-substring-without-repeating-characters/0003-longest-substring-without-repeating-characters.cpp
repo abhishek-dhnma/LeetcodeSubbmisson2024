@@ -7,24 +7,35 @@ public:
 
         int n = s.size();
 
-        unordered_map<char, int> mp;
+        unordered_map<char, int> mp; // freqs
 
         int maxlen = 0;
 
-        while ( j < n) {
+        // sliding window
 
-            if (mp.find(s[j]) == mp.end()) {
-                // present
-                maxlen = max(maxlen, j - i + 1);
-                mp[s[j]]++;
-                j++;
-            } else {
+        while(j<n){
 
+            // conditions
+            if( mp.find(s[j]) == mp.end()){
+                // not present
+
+            maxlen = max(maxlen, j - i + 1 );
+            // inserting
+            mp[s[j]]++;
+            j++;
+
+            }else {
+                // present 
                 mp.erase(s[i]);
                 i++;
+                // shrinking
             }
+
+
         }
 
+
         return maxlen;
+        
     }
 };
