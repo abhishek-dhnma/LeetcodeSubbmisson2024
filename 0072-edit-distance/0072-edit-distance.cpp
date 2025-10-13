@@ -2,7 +2,7 @@ class Solution {
 public:
     int n, m;
 
-    int dp[501][501];
+    vector<vector<int>> dp;
 
     int solve(string& s1, string& s2, int i, int j) {
 
@@ -45,7 +45,8 @@ public:
         if (s1 == s2) {
             return 0;
         }
-        memset(dp, -1, sizeof(dp));
+
+        dp.assign(n+1, vector<int>(m+1,-1));
 
         return solve(s1, s2, 0, 0);
     }
