@@ -22,19 +22,16 @@ public:
             return dp[i][j];
         }
 
-        // recurion
+        // recurion - just move forward and explore next characters
+        if(s1[i] == s2[j]) return dp[i][j] = solve(s1, s2, i + 1, j + 1);
 
         int rep=0, ins=0, del=0;
-        if (s1[i] != s2[j]) {
+
             rep = 1 + solve(s1, s2, i + 1, j + 1);
 
             ins = 1 + solve(s1, s2, i, j + 1);
 
             del = 1 + solve(s1, s2, i + 1, j);
-
-        } else {
-            return dp[i][j] = solve(s1, s2, i + 1, j + 1);
-        }
 
         return dp[i][j] = min({ins, del, rep});
     }
