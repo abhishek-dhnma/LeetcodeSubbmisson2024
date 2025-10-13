@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0013-roman-to-integer) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0038-count-and-say) |
+| [0072-edit-distance](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0208-implement-trie-prefix-tree) |
@@ -526,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0198-house-robber) |
