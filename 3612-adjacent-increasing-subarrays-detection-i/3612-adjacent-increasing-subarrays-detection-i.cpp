@@ -5,10 +5,6 @@ public:
 
         int n = nums.size();
 
-        if(n == 2 && k ==1){
-            return true;
-        }
-
         // edge case
         if(k*2 > n){
             return false;
