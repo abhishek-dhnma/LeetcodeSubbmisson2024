@@ -5,11 +5,6 @@ public:
 
         int n = nums.size();
 
-        // edge case
-        if(k*2 > n){
-            return false;
-        }
-
         // outer loop
 
         for(int i=0; i<n; i++){
