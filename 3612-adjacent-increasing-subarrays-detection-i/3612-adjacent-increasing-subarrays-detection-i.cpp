@@ -1,58 +1,33 @@
 class Solution {
 public:
 
-    bool solve(vector<int>& nums, int k){
+    bool isIncreaing(vector<int>& nums, int start, int end){
 
-        int n = nums.size();
 
-        // outer loop
-
-        for(int i=0; i<n; i++){
-
-            if(n-i < k*2){
+        for(int i=start+1; i< end; i++){
+            if(nums[i] <= nums[i-1]){
                 return false;
             }
-
-            
-            // window1
-            int w1 = k-1;
-            int x = i;
-            bool ok1 = true;
-            while(w1--){
-                if(k>1 && nums[x] >= nums[x+1]){
-                    ok1 = false;
-                    continue;
-                }
-                x++;
-            }
-
-
-            // window2
-            int w2 = k-1;
-            int y = i + k;
-            bool ok2 = true;
-            while(w2--){
-                if(k>1 && nums[y] >= nums[y+1]){
-                    ok2 = false;
-                    break;
-                }
-                y++;
-            }
-
-
-            if(ok1 && ok2){
-                return true;
-            }
-            
         }
 
-        return false;
-    }
+return true;
 
+    }
 
     bool hasIncreasingSubarrays(vector<int>& nums, int k) {
 
-      return solve(nums, k);
-        
+        int n = nums.size();
+
+        for(int start = 0; start + 2*k <= n; start++){
+
+            bool first = isIncreaing(nums, start, start+k);
+            bool second = isIncreaing(nums, start+k, start + 2*k);
+
+             if(first && second){
+                return true;
+             }
+        }
+
+        return false;
     }
 };
