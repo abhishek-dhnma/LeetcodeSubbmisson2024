@@ -21,7 +21,7 @@ public:
             while(w1--){
                 if(k>1 && nums[x] >= nums[x+1]){
                     ok1 = false;
-                    break;
+                    continue;
                 }
                 x++;
             }
