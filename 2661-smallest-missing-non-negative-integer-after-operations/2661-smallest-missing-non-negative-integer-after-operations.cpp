@@ -7,15 +7,7 @@ public:
 
         for(int i=0; i<n; i++){
 
-            int temp;
-
-            if(nums[i] < 0){
-
-                temp = ((nums[i]%value)+value)%value;
-
-            }else{
-              temp =  nums[i]%value;
-            }
+            int temp = ((nums[i]%value)+value)%value;
 
             freq[temp]++;
         }
