@@ -15,11 +15,8 @@ public:
 
         int mex = 0;
 
-        while(freq.find(mex%value) != freq.end() ){
+        while(freq[mex%value] > 0 ){
             freq[mex%value]--;
-            if(freq[mex%value] == 0){
-                freq.erase(mex%value);
-            }
             mex++;
         }
 
