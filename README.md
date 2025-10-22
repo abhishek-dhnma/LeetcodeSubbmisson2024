@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0015-3sum) |
+| [0033-search-in-rotated-sorted-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0037-sudoku-solver) |
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
@@ -636,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0033-search-in-rotated-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0300-longest-increasing-subsequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0300-longest-increasing-subsequence) |
