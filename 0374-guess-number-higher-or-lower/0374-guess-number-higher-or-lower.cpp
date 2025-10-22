@@ -11,28 +11,28 @@ class Solution {
 public:
     int guessNumber(int n) {
 
-        int l=0;
-        int r=n-1;
+        int l=1;
+        int r=n;
 
         while(l<=r){
 
 
-            int mid = l + (r-l)/2;
+            int guess_number = l + (r-l)/2;
             
-            if(guess(mid) == -1){
+            if(guess(guess_number) == -1){
 
-                r = mid-1;
+                r = guess_number-1;
                 
-            }else if(guess(mid) == 1){
-                l = mid+1;
+            }else if(guess(guess_number) == 1){
+                l = guess_number+1;
             }else{
-                return mid;
+                return guess_number;
             }
 
         }
         
 
-    return l;
+    return -1;
     
     }
 };
