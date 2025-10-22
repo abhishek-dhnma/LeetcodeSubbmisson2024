@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0646-maximum-length-of-pair-chain](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0646-maximum-length-of-pair-chain) |
 | [0679-24-game](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0679-24-game) |
 | [0724-find-pivot-index](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0724-find-pivot-index) |
+| [0792-binary-search](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0794-swim-in-rising-water) |
 | [0797-rabbits-in-forest](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0797-rabbits-in-forest) |
 | [0830-largest-triangle-area](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0830-largest-triangle-area) |
@@ -645,6 +646,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0300-longest-increasing-subsequence) |
 | [0374-guess-number-higher-or-lower](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0374-guess-number-higher-or-lower) |
 | [0611-valid-triangle-number](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0611-valid-triangle-number) |
+| [0792-binary-search](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0794-swim-in-rising-water) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1397-search-suggestions-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1397-search-suggestions-system) |
