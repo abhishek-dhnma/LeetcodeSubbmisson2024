@@ -1,53 +1,55 @@
 class Solution {
 public:
-    int n, m;
+int n;
+int m;  
+
 
     vector<vector<int>> dp;
 
-    int solve(string& s1, string& s2, int i, int j) {
+    int  solve(int i, int j, string &w1, string& w2){
 
-        // base cases
+        // bases cases
 
-        if (i == n) {
-
-            return m - j;
+        if (i == n){
+            return m -j;
         }
 
-        if (j == m) {
-
-            return n - i;
+        if(j == m){
+            return n-i;
         }
+
+        // check if precomputed
 
         if(dp[i][j] != -1){
             return dp[i][j];
         }
 
-        // recurion - just move forward and explore next characters
-        if(s1[i] == s2[j]) return dp[i][j] = solve(s1, s2, i + 1, j + 1);
+        // recur fun
 
-        int rep=0, ins=0, del=0;
+        // if both char are same
 
-            rep = 1 + solve(s1, s2, i + 1, j + 1);
+        if(w1[i] == w2[j]) return dp[i][j] =  solve(i+1, j+1, w1, w2);
 
-            ins = 1 + solve(s1, s2, i, j + 1);
 
-            del = 1 + solve(s1, s2, i + 1, j);
 
-        return dp[i][j] = min({ins, del, rep});
+        // if they are matacjiong
+
+        int ins = 1 + solve(i, j+1, w1, w2);
+        int d = 1 + solve(i+1, j, w1, w2);
+        int r = 1 + solve(i+1, j+1, w1, w2);
+
+
+        return dp[i][j] = min({ins, d, r});
     }
-    int minDistance(string s1, string s2) {
 
-        // both are equal we don't need any operations
+    int minDistance(string w1, string w2) {
 
-        n = s1.size();
-        m = s2.size();
+        n = w1.size();
+        m = w2.size();
 
-        if (s1 == s2) {
-            return 0;
-        }
+       dp.assign(n+1, vector<int>(m+1, -1));
 
-        dp.assign(n+1, vector<int>(m+1,-1));
-
-        return solve(s1, s2, 0, 0);
+       return solve(0, 0, w1, w2 );
+        
     }
 };
