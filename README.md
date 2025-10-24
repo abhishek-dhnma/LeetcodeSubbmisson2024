@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0416-partition-equal-subset-sum) |
 | [0498-diagonal-traverse](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0498-diagonal-traverse) |
+| [0540-single-element-in-a-sorted-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0540-single-element-in-a-sorted-array) |
 | [0611-valid-triangle-number](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0611-valid-triangle-number) |
 | [0646-maximum-length-of-pair-chain](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0646-maximum-length-of-pair-chain) |
 | [0679-24-game](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0679-24-game) |
@@ -648,6 +649,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0300-longest-increasing-subsequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0300-longest-increasing-subsequence) |
 | [0374-guess-number-higher-or-lower](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0374-guess-number-higher-or-lower) |
+| [0540-single-element-in-a-sorted-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0540-single-element-in-a-sorted-array) |
 | [0611-valid-triangle-number](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0611-valid-triangle-number) |
 | [0792-binary-search](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0794-swim-in-rising-water) |
