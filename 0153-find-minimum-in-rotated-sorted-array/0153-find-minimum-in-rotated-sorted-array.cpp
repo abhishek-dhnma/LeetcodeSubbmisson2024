@@ -1,33 +1,37 @@
 class Solution {
 public:
+    int findMin(vector<int>& nums) {
 
-    int solve(vector<int> nums){
+        // binary seacrh
 
-        int size = nums.size();
-        int left = 0;
-        int right = size-1;
-        
+        int n = nums.size();
 
-        while(left<right){
+        int l = 0;
+        int r = n-1;
 
-            int mid = ((right-left)>>1)+left;
+        // binary search algo 
+        while(l < r ){
 
-            if(nums[mid] > nums[right]){
-                    left = mid+1;
+            int mid = l + (r-l)/2; // mid
+
+            // move but which side?
+
+            // consditions
+
+            if(nums[mid] > nums[r]){ // non - sorted part
+
+                l = mid + 1;
+
             }else{
-                    right = mid;
+
+                r = mid;
             }
+
 
         }
 
-        return nums[right];
 
-    }
+        return nums[r];
 
-    int findMin(vector<int>& nums) {
-        
-        return solve(nums);
-        
-        
     }
 };
