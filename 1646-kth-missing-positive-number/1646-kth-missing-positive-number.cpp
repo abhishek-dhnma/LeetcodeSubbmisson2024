@@ -9,7 +9,9 @@ public:
         while(l <= r){
             int mid = l + (r-l)/2;
 
-            if(arr[mid]-(mid+1) < k){
+            int num_of_missing_number = arr[mid]-(mid+1);
+
+            if( num_of_missing_number< k){
                 l = mid+1;
             }else{
                 r = mid-1;
