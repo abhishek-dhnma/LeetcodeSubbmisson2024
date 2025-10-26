@@ -7,8 +7,6 @@ public:
         int n = grid.size();
         int m = grid[0].size();
 
-        vector<vector<bool>> rotten(n, vector<bool>(m, false));
-
         queue<pair<int, int>> q;
         int freshOrange = 0;
 
@@ -17,11 +15,14 @@ public:
                 if(grid[i][j] == 1){
                     freshOrange++;
                 }
-                if (grid[i][j] == 2) {
+                else if (grid[i][j] == 2) {
                     q.push({i, j});
-                    rotten[i][j] = true;
                 }
             }
+        }
+
+        if(freshOrange == 0){
+            return 0;
         }
 
         int mins = 0;
@@ -30,25 +31,25 @@ public:
 
         while (!q.empty()) {
 
-            int s = q.size();
+            int N = q.size();
 
-            while (s--) {
+            while (N--) {
 
-                auto f = q.front();
+                auto cell = q.front();
                 q.pop();
 
-                int i = f.first;
-                int j = f.second;
+                int i = cell.first;
+                int j = cell.second;
 
                 for (auto d : dir) {
                     int i_ = i + d[0];
                     int j_ = j + d[1];
 
                     if (i_ >= 0 && i_ < n && j_ >= 0 && j_ < m &&
-                        !rotten[i_][j_] && grid[i_][j_] == 1) {
+                        grid[i_][j_] == 1) {
 
                             q.push({i_,j_});
-                            rotten[i_][j_] = true;
+                            grid[i_][j_] = 2;
                             freshOrange--;
 
                     }
