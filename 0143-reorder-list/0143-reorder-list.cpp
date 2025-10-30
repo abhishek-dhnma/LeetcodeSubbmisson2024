@@ -11,58 +11,44 @@
 class Solution {
 public:
     void reorderList(ListNode* head) {
+        if (!head || !head->next || !head->next->next) return; // 0,1,2 nodes: already ordered
 
-        if(!head || !head->next) return;
-
-        
-        // find mid of linked list
-
+        // 1) Find middle (slow ends at end of first half)
         ListNode* slow = head;
         ListNode* fast = head;
-
-        while(fast && fast->next){
+        while (fast && fast->next) {
             slow = slow->next;
             fast = fast->next->next;
         }
+        // For odd length: first half has one extra node
 
+        // 2) Split and reverse second half
         ListNode* l1 = head;
         ListNode* l2 = slow->next;
-        slow->next = nullptr;
+        slow->next = nullptr;  // split
 
-        // reverse l2
-
-        ListNode* curr = l2;
+        // Reverse l2 in-place
         ListNode* prev = nullptr;
-
-        while(curr){
-            // next pointer
-            ListNode* nxt = curr->next;
-            
-            // reverse link
-            curr->next = prev;
-
-            // shift
-            prev = curr;
-            curr = nxt;
+        ListNode* cur  = l2;
+        while (cur) {
+            ListNode* nxt = cur->next;
+            cur->next = prev;
+            prev = cur;
+            cur = nxt;
         }
-
         l2 = prev; // head of reversed second half
 
-
-        // merge l1 and l2
-
-        while(l1 && l2){
-
+        // 3) Merge alternately: l1 -> l2 -> l1 -> l2 ...
+        while (l1 && l2) {
             ListNode* l1n = l1->next;
             ListNode* l2n = l2->next;
 
             l1->next = l2;
             l2->next = l1n;
 
-
             l1 = l1n;
             l2 = l2n;
         }
-
+        // No need to terminate explicitly; links already correct
     }
 };
