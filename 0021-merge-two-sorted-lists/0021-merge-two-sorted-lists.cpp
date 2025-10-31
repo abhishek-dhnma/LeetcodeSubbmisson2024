@@ -19,40 +19,21 @@ public:
 
         if(!l1 && !l2) return nullptr;
 
-        // 3) Standard merge: append exactly ONE node each step (no duplicates)
-        while(l1  && l2){
-            
+        while(l1 && l2){
             if(l1->val <= l2->val){
-                newlist->next = new ListNode(l1->val);
+                newlist->next = l1;
                 l1 = l1->next;
             }else{
-                newlist->next = new ListNode(l2->val);
+                newlist->next = l2;
                 l2 = l2->next;
             }
             newlist = newlist->next;
         }
 
-           while(l1){
-            
-            newlist->next = new ListNode(l1->val);
+        newlist->next = (l1 ? l1 : l2);
 
-            l1 = l1->next;
-            newlist = newlist->next;
+        return ans->next;
 
-
-        }
-
-        while(l2){
-
-            newlist->next = new ListNode(l2->val);
-
-            l2 = l2->next;
-            newlist = newlist->next;
-        }
-
-
-     ListNode* head = ans->next;
-
-        return head;
+        
     }
 };
