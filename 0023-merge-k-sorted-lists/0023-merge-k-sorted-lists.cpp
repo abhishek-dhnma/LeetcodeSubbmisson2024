@@ -10,51 +10,38 @@
  */
 class Solution {
 public:
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
 
-    ListNode* mergetwo(ListNode* l1, ListNode* l2){
+        auto lambda = [](ListNode* l1, ListNode* l2){
 
-        if(!l1 && !l2) return nullptr;
+            return l1->val > l2->val;
+
+        };
+
+        priority_queue<ListNode*, vector<ListNode*>, decltype(lambda)>  pq(lambda);
+
+        for(auto & lhead : lists){
+            
+            while(lhead){
+                pq.push(lhead);
+                lhead = lhead->next;
+            }
+        }
 
         ListNode* ans = new ListNode(0);
 
         ListNode* newlist = ans;
 
-        while(l1 && l2){
-            if(l1->val <= l2->val){
-                newlist->next = l1;
-                l1 = l1->next;
-            }else{
-                newlist->next = l2;
-                l2 = l2->next;
-            }
+        while(!pq.empty()){
+
+            newlist->next = pq.top();
+            pq.pop();
             newlist = newlist->next;
+            newlist->next = nullptr;
         }
 
-        newlist->next = l1 ? l1 : l2;
 
         return ans->next;
-
-    }
-
-
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
-
-        int n = lists.size();
-
-        if(n==0) return nullptr;
-
-        if(n==1) return lists[0];
-
-        ListNode* prelist = nullptr;
-
-        for(int i=0; i<n; i++){
-
-            ListNode* mergelist = mergetwo(lists[i], prelist);
-            prelist = mergelist;
-
-        }
-
-        return prelist;
         
     }
 };
