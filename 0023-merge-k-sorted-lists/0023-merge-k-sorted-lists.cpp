@@ -27,9 +27,10 @@ public:
             }
         }
 
-        ListNode* ans = new ListNode(0);
+        //ListNode* ans = new ListNode(0);
+        ListNode ans(0);
 
-        ListNode* newlist = ans;
+        ListNode* newlist = &ans;
 
         while(!pq.empty()){
 
@@ -41,7 +42,7 @@ public:
         }
 
 
-        return ans->next;
+        return ans.next;
         
     }
 };
