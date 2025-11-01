@@ -45,14 +45,16 @@ public:
 
         if(n==1) return lists[0];
 
-        for(int i=0; i<n-1; i++){
+        ListNode* prelist = nullptr;
 
-            ListNode* mergelist = mergetwo(lists[i], lists[i+1]);
-            lists[i+1] = mergelist;
+        for(int i=0; i<n; i++){
+
+            ListNode* mergelist = mergetwo(lists[i], prelist);
+            prelist = mergelist;
 
         }
 
-        return lists[n-1];
+        return prelist;
         
     }
 };
