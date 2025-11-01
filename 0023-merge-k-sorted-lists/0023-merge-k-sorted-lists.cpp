@@ -20,11 +20,10 @@ public:
 
         priority_queue<ListNode*, vector<ListNode*>, decltype(lambda)>  pq(lambda);
 
-        for(auto & lhead : lists){
+        for(auto & head : lists){
             
-            while(lhead){
-                pq.push(lhead);
-                lhead = lhead->next;
+            if(head){
+                pq.push(head);
             }
         }
 
@@ -34,9 +33,10 @@ public:
 
         while(!pq.empty()){
 
-            newlist->next = pq.top();
-            pq.pop();
+            ListNode* node = pq.top(); pq.pop();
+            newlist->next = node;
             newlist = newlist->next;
+            if(node->next) pq.push(node->next);
             newlist->next = nullptr;
         }
 
