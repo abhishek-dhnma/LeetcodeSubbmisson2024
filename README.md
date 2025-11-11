@@ -221,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0006-zigzag-conversion](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0006-zigzag-conversion) |
 | [0013-roman-to-integer](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0013-roman-to-integer) |
+| [0020-valid-parentheses](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0038-count-and-say) |
 | [0072-edit-distance](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0072-edit-distance) |
@@ -387,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0143-reorder-list) |
