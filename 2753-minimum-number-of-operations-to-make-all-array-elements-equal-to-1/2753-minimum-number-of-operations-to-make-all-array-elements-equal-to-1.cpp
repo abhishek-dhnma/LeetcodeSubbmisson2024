@@ -15,7 +15,6 @@ public:
         }
         if(onecount > 0) return n - onecount; // I only need to convert other non-one elements to one 
 
-
         // if no one if present in nums
         // we need to convert any num to 1 byself/manually and so the calculatins 
 
@@ -40,6 +39,8 @@ public:
 
         }
 
+        // if operations is still int_max that's mean we cannot able to convert any element into 1
+        // that's why this still int_max 
         if(operations == INT_MAX) {
             return -1;
         }
