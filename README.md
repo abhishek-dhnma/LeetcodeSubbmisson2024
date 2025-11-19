@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0037-sudoku-solver) |
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0053-maximum-subarray) |
+| [0063-unique-paths-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0063-unique-paths-ii) |
 | [0075-sort-colors](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -564,6 +565,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0062-unique-paths) |
+| [0063-unique-paths-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0091-decode-ways) |
@@ -632,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0037-sudoku-solver) |
+| [0063-unique-paths-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0063-unique-paths-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0498-diagonal-traverse) |
 | [0794-swim-in-rising-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0794-swim-in-rising-water) |
