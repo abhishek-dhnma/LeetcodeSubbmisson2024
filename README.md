@@ -353,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0013-roman-to-integer) |
+| [0062-unique-paths](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0326-power-of-three) |
@@ -562,6 +563,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0091-decode-ways) |
@@ -764,6 +766,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Combinatorics
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0062-unique-paths) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3548-find-the-count-of-good-integers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3548-find-the-count-of-good-integers) |
 ## Monotonic Queue
