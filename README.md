@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1253-sort-the-matrix-diagonally](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1253-sort-the-matrix-diagonally) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1293-three-consecutive-odds](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1293-three-consecutive-odds) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -422,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0900-reordered-power-of-2) |
 | [1129-longest-string-chain](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1129-longest-string-chain) |
 | [1253-sort-the-matrix-diagonally](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1253-sort-the-matrix-diagonally) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1397-search-suggestions-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1397-search-suggestions-system) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -483,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0797-rabbits-in-forest) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1612-avoid-flood-in-the-city](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1612-avoid-flood-in-the-city) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -584,6 +587,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1250-longest-common-subsequence) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
 | [1628-count-submatrices-with-all-ones](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
