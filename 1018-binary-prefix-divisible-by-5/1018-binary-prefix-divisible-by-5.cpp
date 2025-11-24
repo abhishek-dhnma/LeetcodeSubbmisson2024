@@ -2,24 +2,21 @@ class Solution {
 public:
     vector<bool> prefixesDivBy5(vector<int>& nums) {
 
-        vector<bool> ans;
+        int n = nums.size();
 
-        int curr = 0;
+        vector<bool> ans(n);
 
-        for(auto & n : nums){
+        int reminder = 0;
 
+        for(int i=0; i<n; i++){
 
-            curr  = (curr * 2 + n)%5;
+            reminder = (reminder * 2 + nums[i])%5;
 
-            if(curr%5 == 0){
-                ans.push_back(true);
-            }else{
-                ans.push_back(false);
-            }
-
-
+            ans[i] = (reminder == 0);
         }
 
-        return ans;        
+
+        return ans;
+        
     }
 };
