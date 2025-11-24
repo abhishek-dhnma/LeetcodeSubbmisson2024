@@ -9,11 +9,16 @@ public:
         vector<vector<int>> dp(n+1, vector<int>(3,-1));
 
 
+        // BASE CASES
+
         dp[n][0] = 0;
 
         dp[n][1] = INT_MIN; 
 
         dp[n][2] = INT_MIN;
+
+
+        // Filling the Matrix
 
 
         for(int i=n-1; i>=0; i--){
