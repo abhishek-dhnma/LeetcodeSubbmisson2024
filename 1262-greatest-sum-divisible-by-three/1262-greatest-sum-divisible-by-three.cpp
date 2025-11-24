@@ -2,15 +2,15 @@ class Solution {
 public:
     int maxSumDivThree(vector<int>& nums) {
 
-        // Bottom-Up Approach
+        // Bottom-Up Approach space optimization
 
         int n =  nums.size();
 
         //vector<vector<int>> dp(2, vector<int>(3,-1));
 
-        vector<int> next = {0, INT_MIN, INT_MIN};
+        vector<int> dp = {0, INT_MIN, INT_MIN};
 
-        vector<int> cur(3);
+        vector<int> new_dp(3);
 
 
         // // BASE CASES
@@ -27,32 +27,31 @@ public:
 
         for(int i=n-1; i>=0; i--){
 
-            fill(cur.begin(), cur.end(), INT_MIN);
-
-            int x = nums[i];
-            int r = x % 3;
+            fill(new_dp.begin(), new_dp.end(), INT_MIN);
+ 
 
             for(int rem=0; rem<3; rem++){
 
                 // take
 
-                int newRem = (r + rem)%3;
+                int newRem = (nums[i] + rem)%3;
 
-                if(next[newRem] != INT_MIN){
-                    cur[rem] = max(cur[rem] ,x+  next[newRem]);
-                }
+                int take =  nums[i] +  dp[newRem];
+                
 
 
                 // skip
             
-                cur[rem] = max(cur[rem], next[rem]);
+                int skip = dp[rem];
+
+                new_dp[rem] = max(take,skip);
 
             }
 
-            next = cur;
+            dp = new_dp;
         }
 
-        return next[0];
+        return dp[0];
 
         
         
