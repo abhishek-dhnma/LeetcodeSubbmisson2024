@@ -6,38 +6,53 @@ public:
 
         int n =  nums.size();
 
-        vector<vector<int>> dp(n+1, vector<int>(3,-1));
+        //vector<vector<int>> dp(2, vector<int>(3,-1));
+
+        vector<int> next = {0, INT_MIN, INT_MIN};
+
+        vector<int> cur(3);
 
 
-        // BASE CASES
+        // // BASE CASES
 
-        dp[n][0] = 0;
+        // dp[1][0] = 0;
 
-        dp[n][1] = INT_MIN; 
+        // dp[1][1] = INT_MIN; 
 
-        dp[n][2] = INT_MIN;
+        // dp[1][2] = INT_MIN;
 
 
         // Filling the Matrix
 
 
         for(int i=n-1; i>=0; i--){
+
+            fill(cur.begin(), cur.end(), INT_MIN);
+
+            int x = nums[i];
+            int r = x % 3;
+
             for(int rem=0; rem<3; rem++){
-                
 
-                int newRem = (nums[i] + rem)%3;
-                int take = nums[i] +  dp[i+1][newRem];
+                // take
 
-                int skip = dp[i+1][rem];
+                int newRem = (r + rem)%3;
+
+                if(next[newRem] != INT_MIN){
+                    cur[rem] = max(cur[rem] ,x+  next[newRem]);
+                }
 
 
-                dp[i][rem] = max(take, skip);
-
+                // skip
+            
+                cur[rem] = max(cur[rem], next[rem]);
 
             }
+
+            next = cur;
         }
 
-        return dp[0][0];
+        return next[0];
 
         
         
