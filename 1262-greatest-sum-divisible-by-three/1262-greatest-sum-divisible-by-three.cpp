@@ -1,29 +1,40 @@
 class Solution {
 public:
-    vector<vector<int>> dp;
-
-    int solve(int i, int rem, vector<int>& nums){
-        if(i >= nums.size()){
-            return (rem == 0) ? 0 : INT_MIN;
-        }
-
-        if(dp[i][rem] != -1){
-            return dp[i][rem];
-        }
-
-        // safe: ask child first
-        int childTake = solve(i+1, (rem + nums[i]) % 3, nums);
-        int take = (childTake == INT_MIN) ? INT_MIN : nums[i] + childTake;
-
-        int skip = solve(i+1, rem, nums);
-
-        return dp[i][rem] = max(take, skip);
-    }
-
     int maxSumDivThree(vector<int>& nums) {
-        int n = nums.size();
-        dp.assign(n, vector<int>(3, -1));
-        int ans = solve(0, 0, nums);
-        return max(0, ans); // ensure non-negative
+
+        // Bottom-Up Approach
+
+        int n =  nums.size();
+
+        vector<vector<int>> dp(n+1, vector<int>(3,-1));
+
+
+        dp[n][0] = 0;
+
+        dp[n][1] = INT_MIN; 
+
+        dp[n][2] = INT_MIN;
+
+
+        for(int i=n-1; i>=0; i--){
+            for(int rem=0; rem<3; rem++){
+                
+
+                int newRem = (nums[i] + rem)%3;
+                int take = nums[i] +  dp[i+1][newRem];
+
+                int skip = dp[i+1][rem];
+
+
+                dp[i][rem] = max(take, skip);
+
+
+            }
+        }
+
+        return dp[0][0];
+
+        
+        
     }
 };
