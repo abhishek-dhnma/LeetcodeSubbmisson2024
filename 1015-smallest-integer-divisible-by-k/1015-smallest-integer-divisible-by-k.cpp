@@ -4,22 +4,13 @@ public:
 
         int rem = 0;
 
-        unordered_set<int> st;
-
-        int i = 1;
-        while(true){
+        for(int L=1; L<=k; L++){
 
             rem = (rem * 10 + 1) % k;
 
             if(rem == 0){
-                return i;
-            }else if(st.find(rem) != st.end() ){
-                break;
+                return L;
             }
-                st.insert(rem);
-            
-            i++;
-
         }
 
         return -1;
