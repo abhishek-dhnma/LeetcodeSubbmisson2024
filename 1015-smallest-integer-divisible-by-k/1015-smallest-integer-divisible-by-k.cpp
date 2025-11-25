@@ -9,15 +9,15 @@ public:
         int i = 1;
         while(true){
 
-            rem = ((rem * 10) + 1) % k;
+            rem = (rem * 10 + 1) % k;
 
             if(rem == 0){
                 return i;
             }else if(st.find(rem) != st.end() ){
                 break;
-            }else{
-                st.insert(rem);
             }
+                st.insert(rem);
+            
             i++;
 
         }
