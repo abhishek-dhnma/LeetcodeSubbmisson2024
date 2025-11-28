@@ -1,17 +1,39 @@
 class Solution {
 public:
-    using ll=long long;
-    static long long maxSubarraySum(vector<int>& nums, int k) {
-        const int n=nums.size();
-        vector<ll> minS(k, LLONG_MAX/2);
-        ll prefix=0, ans=LLONG_MIN;
-        minS[k-1]=0;
-        for(int i=0; i<n; i++){
-            prefix+=nums[i];
-            ll& ksum=minS[i%k];
-            ans=max(ans, prefix-ksum);
-            ksum=min(prefix, ksum);  
+    long long maxSubarraySum(vector<int>& nums, int k) {
+
+        int n = nums.size();
+        vector<long long> prefixSum(n);
+
+            prefixSum[0] = nums[0];
+        for(int i=1; i<n; i++){
+            prefixSum[i] = prefixSum[i-1] + nums[i];
         }
-        return ans;
+
+
+        long long maxsum = LLONG_MIN;
+
+        for(int s=0; s<k; s++){
+
+            int i = s;
+            long long currSum = 0;
+
+            while( i<n && (i+k-1)<n ){
+                int j = i+k-1;
+
+                long long subsum= prefixSum[j] - (i>0 ? prefixSum[i-1] : 0);
+
+                currSum = max(subsum, currSum + subsum );
+
+                maxsum = max(maxsum, currSum);
+
+                i += k;
+
+            }
+
+        }
+
+        return maxsum;
+        
     }
 };
