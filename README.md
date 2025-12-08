@@ -386,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1642-water-bottles](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1642-water-bottles) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [1925-count-square-sum-triples](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1925-count-square-sum-triples) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2432-number-of-zero-filled-subarrays) |
@@ -789,6 +790,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0900-reordered-power-of-2](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0900-reordered-power-of-2) |
 | [1656-count-good-triplets](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1656-count-good-triplets) |
+| [1925-count-square-sum-triples](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1925-count-square-sum-triples) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2215-finding-3-digit-even-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2215-finding-3-digit-even-numbers) |
 | [2998-count-symmetric-integers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2998-count-symmetric-integers) |
