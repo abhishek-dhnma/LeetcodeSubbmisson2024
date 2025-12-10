@@ -20,9 +20,8 @@ long long factorial_mod(int n) {
 
         M = 1000000007;
 
-        auto min_it = min_element(complexity.begin()+1, complexity.end());
+        auto min_el = *min_element(complexity.begin()+1, complexity.end());
 
-        int min_el =  *min_it;
 
         if(min_el <= complexity[0]){
             return 0;
