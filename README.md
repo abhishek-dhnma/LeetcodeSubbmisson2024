@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3483-alternating-groups-ii) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -406,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3336-water-bottles-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3336-water-bottles-ii) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3548-find-the-count-of-good-integers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3548-find-the-count-of-good-integers) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3630-total-characters-in-string-after-transformations-ii) |
@@ -804,6 +806,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0062-unique-paths) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3548-find-the-count-of-good-integers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3548-find-the-count-of-good-integers) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -897,4 +900,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0023-merge-k-sorted-lists) |
+## Brainteaser
+|  |
+| ------- |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 <!---LeetCode Topics End-->
