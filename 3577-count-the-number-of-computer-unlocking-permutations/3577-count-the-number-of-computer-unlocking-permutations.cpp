@@ -1,8 +1,8 @@
 class Solution {
 public:
+long long M;
 
-
-long long factorial_mod(int n, long long M) {
+long long factorial_mod(int n) {
     if (n < 0) {
         // Factorial is not defined for negative numbers
         return 0; // Or throw an exception
@@ -11,14 +11,14 @@ long long factorial_mod(int n, long long M) {
         return 1;
     }
     // Calculate (n * factorial(n-1)) % M
-    return (n * factorial_mod(n - 1, M)) % M;
+    return (n * factorial_mod(n - 1)) % M;
 }
 
     int countPermutations(vector<int>& complexity) {
 
         int n = complexity.size();
 
-        long long modulus = 1000000007;
+        M = 1000000007;
 
         auto min_it = min_element(complexity.begin()+1, complexity.end());
 
@@ -29,7 +29,7 @@ long long factorial_mod(int n, long long M) {
         }
 
         // Calculate factorial(n_value - 1) % modulus
-    long long result = factorial_mod(n - 1, modulus);
+    long long result = factorial_mod(n - 1);
 
         min_el = result;
 
