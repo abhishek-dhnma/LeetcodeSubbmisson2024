@@ -7,9 +7,6 @@ public:
         // edge-case: if no buildings
         if (buildings.empty()) return 0;
 
-        // store extremes as requested: "x_k" -> (minY, maxY), "y_k" -> (minX, maxX)
-        unordered_map<string, pair<int,int>> extremeSave;
-
         // maps for O(n) min/max accumulation
         unordered_map<int, pair<int,int>> x_to_yminmax; // x -> (minY, maxY)
         unordered_map<int, pair<int,int>> y_to_xminmax; // y -> (minX, maxX)
@@ -35,27 +32,14 @@ public:
             }
         }
 
-        // move into extremeSave with the requested keys
-        for (auto &p : x_to_yminmax) {
-            int x = p.first;
-            int minY = p.second.first;
-            int maxY = p.second.second;
-            extremeSave["x_" + to_string(x)] = {minY, maxY};
-        }
-        for (auto &p : y_to_xminmax) {
-            int y = p.first;
-            int minX = p.second.first;
-            int maxX = p.second.second;
-            extremeSave["y_" + to_string(y)] = {minX, maxX};
-        }
 
         // count covered buildings
         int count = 0;
         for (auto &b : buildings) {
             int x = b[0], y = b[1];
-            auto xrangeIt = extremeSave.find("x_" + to_string(x));
-            auto yrangeIt = extremeSave.find("y_" + to_string(y));
-            if (xrangeIt == extremeSave.end() || yrangeIt == extremeSave.end()) continue;
+            auto xrangeIt = x_to_yminmax.find(x);
+            auto yrangeIt = y_to_xminmax.find(y);
+            if (xrangeIt == x_to_yminmax.end() || yrangeIt == y_to_xminmax.end()) continue;
 
             pair<int,int> yrange = xrangeIt->second; // actually minY,maxY for this x
             pair<int,int> xrange = yrangeIt->second; // actually minX,maxX for this y
