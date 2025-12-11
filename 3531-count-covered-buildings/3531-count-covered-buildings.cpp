@@ -2,9 +2,9 @@ class Solution {
 public:
     int countCoveredBuildings(int n, vector<vector<int>>& buildings) {
 
-        vector<int> maxRow(n+1);
+        vector<int> maxRow(n+1, -1);
         vector<int> minRow(n+1, n+1);
-        vector<int> maxCol(n+1);
+        vector<int> maxCol(n+1, -1);
         vector<int> minCol(n+1, n+1);
 
         for(auto & b : buildings){
