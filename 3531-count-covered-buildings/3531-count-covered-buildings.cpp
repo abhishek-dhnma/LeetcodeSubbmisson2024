@@ -37,13 +37,9 @@ public:
         int count = 0;
         for (auto &b : buildings) {
             int x = b[0], y = b[1];
-            auto xrangeIt = x_to_yminmax.find(x);
-            auto yrangeIt = y_to_xminmax.find(y);
-            if (xrangeIt == x_to_yminmax.end() || yrangeIt == y_to_xminmax.end()) continue;
-
-            pair<int,int> yrange = xrangeIt->second; // actually minY,maxY for this x
-            pair<int,int> xrange = yrangeIt->second; // actually minX,maxX for this y
-
+            // guaranteed to exist since we populated from buildings, but checking is cheap
+            const auto &yrange = x_to_yminmax.at(x); // (minY, maxY)
+            const auto &xrange = y_to_xminmax.at(y); // (minX, maxX)
             // check: building strictly inside both ranges (not on boundary)
             if (yrange.first < y && yrange.second > y && xrange.first < x && xrange.second > x) {
                 count++;
