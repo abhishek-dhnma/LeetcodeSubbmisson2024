@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3430-count-days-without-meetings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3430-count-days-without-meetings) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3432-count-partitions-with-even-sum-difference) |
+| [3433-count-mentions-per-user](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3433-count-mentions-per-user) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -318,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2551-apply-operations-to-an-array) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3336-water-bottles-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3336-water-bottles-ii) |
+| [3433-count-mentions-per-user](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3433-count-mentions-per-user) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3447-clear-digits) |
 | [3790-fruits-into-baskets-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3790-fruits-into-baskets-ii) |
@@ -408,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3279-alice-and-bob-playing-flower-game](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3336-water-bottles-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3336-water-bottles-ii) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3432-count-partitions-with-even-sum-difference) |
+| [3433-count-mentions-per-user](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3433-count-mentions-per-user) |
 | [3548-find-the-count-of-good-integers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3548-find-the-count-of-good-integers) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3625-count-number-of-trapezoids-ii) |
@@ -464,6 +467,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3430-count-days-without-meetings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3430-count-days-without-meetings) |
+| [3433-count-mentions-per-user](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3531-count-covered-buildings) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Data Stream
