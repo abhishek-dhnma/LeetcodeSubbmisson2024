@@ -11,6 +11,8 @@ public:
 
         bool check;     
 
+        // O(size of code) 
+
         for(auto & c : code){
             if( ('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z') || ('0' <= c &&  c <= '9') || ( '_' == c)){
                 check = true;
@@ -26,6 +28,8 @@ public:
 
     bool isValidBzLine(string bxline){
 
+        // O(1)
+
         if(bxline == "electronics" || bxline == "grocery" || bxline == "pharmacy" || bxline == "restaurant" ){
             return true;
         }else {
@@ -38,7 +42,7 @@ public:
 
         int n = code.size();
 
-        vector<vector<string>> mp(4);
+        vector<vector<string>> mp(4); 
 
         // e = 0 
         // gro = 1
@@ -76,16 +80,6 @@ public:
 
         }
 
-        // vector<string> ans;
-        
-        // for(int i=0; i<code.size(); i++){
-
-        //     if( !code[i].empty() && isValidCode(code[i]) && isValidBzLine(businessLine[i]) && isActive[i]){
-        //         ans.push_back(code[i]);
-        //     }
-
-        // }
-
         vector<string> ans;
 
         for(auto & vec : mp){
@@ -99,9 +93,7 @@ public:
 
         }
 
-
-
-
+        
         return ans;
     }
 };
