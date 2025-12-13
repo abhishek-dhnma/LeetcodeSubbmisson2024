@@ -47,19 +47,11 @@ public:
 
         for(int i=0; i<n; i++){
 
-            if(!isActive[i]){
-                continue;
-            }
 
             string c = code[i];
-
-            if( !isValidCode(c)){
-                continue;
-            }
-
             string bl = businessLine[i];
 
-            if(!isValidBzLine(bl)){
+            if( !isActive[i] || !isValidCode(c) || !isValidBzLine(bl)){
                 continue;
             }
 
