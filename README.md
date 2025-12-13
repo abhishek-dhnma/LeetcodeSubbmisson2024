@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3531-count-covered-buildings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3531-count-covered-buildings) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
+| [3606-coupon-code-validator](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3606-coupon-code-validator) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -225,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3531-count-covered-buildings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3531-count-covered-buildings) |
 | [3548-find-the-count-of-good-integers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3606-coupon-code-validator](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3606-coupon-code-validator) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -285,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3396-valid-word](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3396-valid-word) |
 | [3447-clear-digits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3447-clear-digits) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3606-coupon-code-validator](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3606-coupon-code-validator) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3797-design-spreadsheet](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3797-design-spreadsheet) |
@@ -469,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3430-count-days-without-meetings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3430-count-days-without-meetings) |
 | [3433-count-mentions-per-user](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3531-count-covered-buildings) |
+| [3606-coupon-code-validator](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3606-coupon-code-validator) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Data Stream
 |  |
