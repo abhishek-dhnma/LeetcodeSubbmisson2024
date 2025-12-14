@@ -278,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2107-find-unique-binary-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2107-find-unique-binary-string) |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2211-count-collisions-on-a-road](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2211-count-collisions-on-a-road) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -395,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1642-water-bottles) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1925-count-square-sum-triples](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1925-count-square-sum-triples) |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2432-number-of-zero-filled-subarrays) |
@@ -632,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2022-maximum-alternating-subsequence-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2022-maximum-alternating-subsequence-sum) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2262-solving-questions-with-brainpower](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2262-solving-questions-with-brainpower) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
