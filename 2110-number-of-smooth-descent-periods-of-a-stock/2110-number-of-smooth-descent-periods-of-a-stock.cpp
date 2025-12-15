@@ -15,9 +15,9 @@ public:
 
             if (j + 1 < n && prices[j] - prices[j + 1] != 1) {
 
-                int winlen = j - i + 1;
+                long long winlen = j - i + 1;
 
-                ans += (winlen * (long long) 1 * (winlen + 1) / 2);
+                ans += (winlen  * (winlen + 1) / 2);
 
                 j++;
                 i = j;
@@ -27,9 +27,9 @@ public:
             j++;
 
             if (j == n) {
-                int winlen = j - i;
+                long long winlen = j - i;
 
-                ans += ((winlen) * (long long)1 * (winlen + 1) / 2);
+                ans += ((winlen)  * (winlen + 1) / 2);
             }
         }
 
