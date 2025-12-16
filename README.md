@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3483-alternating-groups-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3483-alternating-groups-ii) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3531-count-covered-buildings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3531-count-covered-buildings) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3606-coupon-code-validator](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3606-coupon-code-validator) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
@@ -547,6 +548,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2872-maximum-number-of-k-divisible-components) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -568,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2564-most-profitable-path-in-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2793-count-the-number-of-complete-components](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2793-count-the-number-of-complete-components) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2872-maximum-number-of-k-divisible-components) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -645,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3184-maximum-balanced-subsequence-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3184-maximum-balanced-subsequence-sum) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
