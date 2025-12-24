@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3001-apply-operations-to-maximize-score](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3001-apply-operations-to-maximize-score) |
+| [3074-apple-redistribution-into-boxes](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3074-apple-redistribution-into-boxes) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
@@ -481,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3001-apply-operations-to-maximize-score](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3001-apply-operations-to-maximize-score) |
+| [3074-apple-redistribution-into-boxes](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3074-apple-redistribution-into-boxes) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3430-count-days-without-meetings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3430-count-days-without-meetings) |
@@ -542,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2681-put-marbles-in-bags](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2681-put-marbles-in-bags) |
 | [3001-apply-operations-to-maximize-score](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3001-apply-operations-to-maximize-score) |
+| [3074-apple-redistribution-into-boxes](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3074-apple-redistribution-into-boxes) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
