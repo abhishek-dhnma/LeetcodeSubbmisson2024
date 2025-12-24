@@ -15,26 +15,21 @@ public:
             totalapple += apple[i];
         }
 
-
         cout << totalapple;
 
-        for(int i=0; i<m; i++){
+        for (int i = 0; i < m; i++) {
 
-            if(totalapple > 0){
-                int check = totalapple - capacity[i];
+            int check = totalapple - capacity[i];
 
-                if(check > 0){
-                    ans++;
-                }else{
-                    break;
-                }
-
-                
-            totalapple = check;   
+            if (check > 0) {
+                ans++;
+            } else {
+                break;
             }
 
+            totalapple = check;
         }
 
-        return ans+1;
+        return ans + 1;
     }
 };
