@@ -6,7 +6,7 @@ public:
 
         vector<int> vec(10001,0);
 
-        for(int x : nums){
+        for(auto & x : nums){
 
             vec[x]++;
 
