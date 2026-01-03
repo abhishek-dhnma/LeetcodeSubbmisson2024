@@ -4,7 +4,7 @@ public:
 
         int n = nums.size();
 
-        vector<int> vec(10001,0);
+        unordered_map<int, int> vec;
 
         for(auto & x : nums){
 
