@@ -20,7 +20,7 @@ public:
 
         }
 
-        return num ==  (long)x;
+        return num == x;
 
         
     }
