@@ -2,16 +2,25 @@ class Solution {
 public:
     bool isPalindrome(int x) {
 
-        string str = to_string(x);
+        
+        if(x < 0){
+            return false;
+        }
+        
+        long tempx = (long) x;
+        long num = 0;
+        int place = 1;
 
-        string rstr = "";
+        while(tempx){
 
-        for(int i= str.size() - 1; i>=0; i--){
-            rstr += str[i];
+            int rem = tempx%10;
+            num = long (num * 10) + rem;
+         
+            tempx/=10;
+
         }
 
-
-        return str == rstr;
+        return num ==  (long)x;
 
         
     }
