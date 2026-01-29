@@ -7,7 +7,7 @@ public:
             return false;
         }
         
-        long tempx = (long) x;
+        long tempx = x;
         long num = 0;
         int place = 1;
 
