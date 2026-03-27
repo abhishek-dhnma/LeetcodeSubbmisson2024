@@ -441,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3830-find-closest-person](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3830-find-closest-person) |
+| [3871-count-commas-in-range-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3871-count-commas-in-range-ii) |
 ## Stack
 |  |
 | ------- |
