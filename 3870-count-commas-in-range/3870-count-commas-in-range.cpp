@@ -1,12 +1,12 @@
 class Solution {
 public:
     int countCommas(int n) {
-
-        if(n <= 999){
+        // If the number is less than 1000, there are 0 commas.
+        if (n < 1000) {
             return 0;
         }
-
-        return n - 1000 + 1;
         
+        // Otherwise, every number from 1000 to n has exactly 1 comma.
+        return (n - 1000) + 1;
     }
 };
