@@ -112,7 +112,7 @@ public:
         int counta = 0, countb = 0, countc = 0;
 
         // Maps "diffab_diffac" string key → first index where this pair was seen
-        unordered_map<string, int> diffMap;
+        unordered_map<long long, int> diffMap;
 
         for (int i = 0; i < n; i++) {
             // Update prefix counts
@@ -128,7 +128,12 @@ public:
             // Encode the 2D difference state as a composite key
             int diffab = counta - countb;
             int diffac = counta - countc;
-            string key = to_string(diffab) + "_" + to_string(diffac);
+            // Instead of string key
+//string key = to_string(diffab) + "_" + to_string(diffac);
+
+// Use pair with a custom hash or encode as single long
+long long key = (long long)(diffab + n) * (2 * n + 1) + (diffac + n);
+// This maps the 2D difference to a unique integer → pure O(1) hashing
 
             if (diffMap.count(key)) {
                 // Same (diffab, diffac) seen at index diffMap[key]
