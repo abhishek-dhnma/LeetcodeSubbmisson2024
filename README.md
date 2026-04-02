@@ -244,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3678-design-task-manager](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3678-design-task-manager) |
+| [3713-longest-balanced-substring-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3713-longest-balanced-substring-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3797-design-spreadsheet](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3797-design-spreadsheet) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -306,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3606-coupon-code-validator](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3606-coupon-code-validator) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3630-total-characters-in-string-after-transformations-ii) |
+| [3713-longest-balanced-substring-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3713-longest-balanced-substring-i) |
 | [3797-design-spreadsheet](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3797-design-spreadsheet) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Counting
@@ -323,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3630-total-characters-in-string-after-transformations-ii) |
+| [3713-longest-balanced-substring-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3713-longest-balanced-substring-i) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Simulation
 |  |
@@ -859,6 +862,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3548-find-the-count-of-good-integers) |
+| [3713-longest-balanced-substring-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3713-longest-balanced-substring-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 ## Combinatorics
 |  |
