@@ -1,47 +1,57 @@
 class Solution {
 public:
-    /**
-     * Helper finds the longest substring containing ONLY characters x and y 
-     * where the count of x equals the count of y.
+    /*
+     * HELPER: Finds longest balanced substring containing ONLY two characters x and y
+     * (equal count of x and y)
+     * 
+     * CORE IDEA: Track prefix counts of x and y. The difference (countx - county) 
+     * acts like a "balance key". If same difference appears again at index i and j,
+     * then substring s[j+1...i] has equal x and y.
+     * 
+     * This is the classic "Longest Subarray with Equal 0s and 1s" trick —
+     * treat x as +1, y as -1, find longest subarray with sum = 0.
      */
     int helper(string s, char x, char y) {
         int n = s.size();
-        // diffMap stores the FIRST index where a specific (countx - county) was seen.
-        // Logic: If (countx - county) is the same at index i and index j,
-        // then the substring between i and j has an equal number of x and y.
+
+        // Stores first occurrence index of each (countx - county) difference value
+        // Key: difference, Value: earliest index where this difference was seen
         unordered_map<int, int> diffMap;
 
         int countx = 0;
         int county = 0;
         int maxL = 0;
-        
-        // We initialize the difference 0 at index -1 to handle cases where 
-        // the balance starts from the very beginning of the string.
-        diffMap[0] = -1; 
 
         for (int i = 0; i < n; i++) {
-            // If we hit a character that isn't x or y, the current "valid" window breaks.
-            // We reset everything to start fresh for the next potential segment.
+            // If character is neither x nor y → it breaks any possible balanced window
+            // Reset everything since no valid substring can cross this character
             if (s[i] != x && s[i] != y) {
                 diffMap.clear();
-                diffMap[0] = i; // Reset base for the next segment
                 countx = 0;
                 county = 0;
                 continue;
             }
-            
+
+            // Update running prefix counts
             if (s[i] == x) countx++;
             if (s[i] == y) county++;
 
-            int diff = countx - county;
-
-            if (diffMap.count(diff)) {
-                // If we've seen this difference before, the segment between 
-                // the previous index and current index is balanced.
-                maxL = max(maxL, i - diffMap[diff]);
+            // Case A: counts are equal from the very beginning → full window is balanced
+            if (countx == county) {
+                maxL = max(maxL, countx + county);
             } else {
-                // Only store the first occurrence to maximize the distance (i - idx)
-                diffMap[diff] = i;
+                int diff = countx - county;
+
+                // Case B: same difference seen before at index `idx`
+                // → substring from idx+1 to i has equal x and y
+                if (diffMap.count(diff)) {
+                    int idx = diffMap[diff];
+                    maxL = max(maxL, i - idx); // length = i - idx (not +1, since idx is a previous index, not a character boundary)
+                } else {
+                    // First time seeing this difference → record it
+                    // We do NOT overwrite if already exists (we want the EARLIEST occurrence for max length)
+                    diffMap[diff] = i;
+                }
             }
         }
         return maxL;
@@ -51,46 +61,81 @@ public:
         int n = s.size();
         int maxL = 0;
 
-        // --- CASE 1: Longest contiguous substring of a single character ---
-        // Example: "aaabb" -> maxL = 3 (for "aaa")
+        /*
+         * ─────────────────────────────────────────────
+         * CASE 1: All characters are the SAME (single distinct character)
+         * e.g., "aaaa", "bbbb", "cccc"
+         * 
+         * Use two-pointer / sliding window:
+         * Expand window as long as s[i] == s[j]
+         * When s[j] != s[i], move i to j (new character starts a fresh window)
+         * 
+         * NOTE: This also handles substrings like "aaa" or "bbb" inside mixed strings
+         * ─────────────────────────────────────────────
+         */
         int i = 0;
         for (int j = 0; j < n; j++) {
             if (s[i] != s[j]) {
-                i = j; // Reset start pointer when character changes
+                i = j; // Reset window start to current position
             }
             maxL = max(maxL, j - i + 1);
         }
 
-        // --- CASE 2: Longest balanced substring of exactly two distinct characters ---
-        // We check all possible pairings: (a,b), (b,c), and (a,c).
+        /*
+         * ─────────────────────────────────────────────
+         * CASE 2: Substring contains exactly TWO distinct characters
+         * Each pair must have equal counts → balanced means count(x) == count(y)
+         *
+         * We enumerate all 3 possible pairs: (a,b), (b,c), (a,c)
+         * and use the helper above for each
+         * ─────────────────────────────────────────────
+         */
         maxL = max(maxL, helper(s, 'a', 'b'));
         maxL = max(maxL, helper(s, 'b', 'c'));
         maxL = max(maxL, helper(s, 'a', 'c'));
 
-        // --- CASE 3: Longest balanced substring of all three characters (a, b, c) ---
-        // Logic: For a substring to have equal a, b, and c:
-        // (countA - countB) must be the same as a previous point AND
-        // (countA - countC) must be the same as a previous point.
+        /*
+         * ─────────────────────────────────────────────
+         * CASE 3: Substring contains ALL THREE characters a, b, c
+         * Balanced means count(a) == count(b) == count(c)
+         *
+         * TRICK: Instead of tracking one difference, track TWO differences:
+         *   diffab = counta - countb
+         *   diffac = counta - countc
+         *
+         * If at two indices the pair (diffab, diffac) is identical,
+         * then the substring between them has equal a, b, and c.
+         *
+         * We encode the pair as a string key "diffab_diffac" for the hashmap.
+         * ─────────────────────────────────────────────
+         */
         int counta = 0, countb = 0, countc = 0;
+
+        // Maps "diffab_diffac" string key → first index where this pair was seen
         unordered_map<string, int> diffMap;
-        
-        // Base case: at index -1, all counts are 0, so differences are (0,0)
-        diffMap["0_0"] = -1;
 
         for (int i = 0; i < n; i++) {
+            // Update prefix counts
             if (s[i] == 'a') counta++;
-            else if (s[i] == 'b') countb++;
-            else if (s[i] == 'c') countc++;
+            if (s[i] == 'b') countb++;
+            if (s[i] == 'c') countc++;
 
-            // Create a unique key representing the relative differences
+            // All three counts equal from index 0 → entire prefix is balanced
+            if (counta == countb && counta == countc) {
+                maxL = max(maxL, counta + countb + countc);
+            }
+
+            // Encode the 2D difference state as a composite key
             int diffab = counta - countb;
             int diffac = counta - countc;
             string key = to_string(diffab) + "_" + to_string(diffac);
 
             if (diffMap.count(key)) {
-                // If this pair of differences has been seen, the range is balanced for all three
+                // Same (diffab, diffac) seen at index diffMap[key]
+                // → s[diffMap[key]+1 ... i] has equal a, b, c
                 maxL = max(maxL, i - diffMap[key]);
             } else {
+                // Record earliest occurrence of this state
                 diffMap[key] = i;
             }
         }
