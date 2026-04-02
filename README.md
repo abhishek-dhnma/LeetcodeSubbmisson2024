@@ -245,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3678-design-task-manager](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3678-design-task-manager) |
 | [3713-longest-balanced-substring-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3713-longest-balanced-substring-i) |
+| [3714-longest-balanced-substring-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3714-longest-balanced-substring-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3797-design-spreadsheet](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3797-design-spreadsheet) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3713-longest-balanced-substring-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3713-longest-balanced-substring-i) |
+| [3714-longest-balanced-substring-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3714-longest-balanced-substring-ii) |
 | [3797-design-spreadsheet](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3797-design-spreadsheet) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Counting
@@ -525,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3432-count-partitions-with-even-sum-difference](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3643-zero-array-transformation-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3643-zero-array-transformation-ii) |
+| [3714-longest-balanced-substring-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3714-longest-balanced-substring-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Backtracking
 |  |
