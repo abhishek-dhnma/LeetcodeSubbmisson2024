@@ -4,20 +4,21 @@ public:
 
         int n = s.size();
 
-        int maxans = INT_MIN;
+        int maxans = 0;
         
         for(int i=0; i<n; i++){
-            unordered_map<char, int> mapp;
+            vector<int> count(26,0);
             for(int j=i; j<n; j++){
 
                 char curchar = s[j];
 
-                int val = mapp[curchar]++;
+                count[curchar - 'a']++;
+
                 int valid = true;
                 
-                for(auto e : mapp){
+                for(int k=0; k<26; k++){
                     
-                    if(e.second != mapp[curchar]){
+                    if(count[k] > 0 && count[k] != count[curchar - 'a']){
                         
                     valid = false;
                     break;
