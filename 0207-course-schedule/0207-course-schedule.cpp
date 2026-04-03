@@ -1,73 +1,59 @@
 class Solution {
 public:
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        
+        int n = numCourses;
 
-
-    bool dfs( vector<vector<int>>& adj, int  V,vector<bool>& visited,  vector<bool>& onstack){
-
-
-        visited[V] = true;
-        onstack[V] = true;
-
-
-        for(auto & v : adj[V]){
-
-            if(onstack[v]){
-                return true;
-            }
-
-
-            if(!visited[v]){
-                if(dfs(adj, v, visited, onstack)){
-                    return true;
-                }
-            }
-
-        }
-
-
-
-        onstack[V]= false;
-        return false;
-
-
-
-    }
-
-
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites ) {
-int n = numCourses;
         vector<vector<int>> adj(n);
 
-        
-
-
-        for(auto & cour : prerequisites){
-
-            int u = cour[1];
-            int v = cour[0];
-
+        for(auto p : prerequisites){
+            int u = p[0];
+            int v = p[1];
             adj[u].push_back(v);
-
         }
 
-        vector<bool> visited(n, false);
-        vector<bool> onstack(n, false);
 
+        vector<int> indeg(n);
+
+        for(auto u : adj){
+            for(auto v : u){
+                indeg[v]++;
+            }
+        }
+
+
+        queue<int> que;
 
         for(int i=0; i<n; i++){
+            if(indeg[i] == 0){
+                que.push(i);
+            }
+        }
 
-            if(!visited[i]){
+        vector<int> list;
 
-                if(dfs(adj, i, visited, onstack)){
-                    return false;
+
+        while(!que.empty()){
+
+            auto u = que.front();
+            que.pop();
+            list.push_back(u);
+            for(auto v : adj[u]){
+
+                indeg[v]--;
+
+                if(indeg[v] == 0){
+                    que.push(v);
                 }
 
             }
 
-
         }
 
-        return true;
-        
+        return list.size() == n ;
+
+
+
+
     }
 };
