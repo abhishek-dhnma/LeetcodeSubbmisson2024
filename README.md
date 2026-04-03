@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1364-tuple-with-same-product](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1364-tuple-with-same-product) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1397-search-suggestions-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1397-search-suggestions-system) |
@@ -371,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0630-course-schedule-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0630-course-schedule-iii) |
 | [0744-network-delay-time](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0794-swim-in-rising-water) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1397-search-suggestions-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1397-search-suggestions-system) |
 | [1612-avoid-flood-in-the-city](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1612-avoid-flood-in-the-city) |
 | [1753-path-with-minimum-effort](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1753-path-with-minimum-effort) |
@@ -483,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1253-sort-the-matrix-diagonally](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1253-sort-the-matrix-diagonally) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1397-search-suggestions-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1397-search-suggestions-system) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2054-two-best-non-overlapping-events](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2054-two-best-non-overlapping-events) |
@@ -555,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-rabbits-in-forest](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0797-rabbits-in-forest) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1262-greatest-sum-divisible-by-three) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1612-avoid-flood-in-the-city](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1612-avoid-flood-in-the-city) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2141-maximum-running-time-of-n-computers) |
