@@ -1,58 +1,59 @@
 class Solution {
 public:
-    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
 
-        int n = numCourses;
-
+    vector<int> findOrder(int n, vector<vector<int>>& edges) {
+        
         vector<vector<int>> adj(n);
 
-        vector<int> inDegree(n, 0);
-
-        for(auto & p : prerequisites){
-            int u = p[1];
-            int v = p[0];
+        for(auto& e : edges){
+            int v = e[0];
+            int u = e[1];
 
             adj[u].push_back(v);
-            inDegree[v]++;
         }
 
 
-        // insert into queue
-
-        queue<int> q;
-
-        vector<int> ans;
-
-        for(int i=0; i<n; i++){
-            if(inDegree[i] == 0){
-                q.push(i);
+        vector<int> indeg(n, 0);
+        for(auto u : adj){
+            for(auto v : u){
+                indeg[v]++;
             }
         }
 
+        // kahn's algorithm
 
-        // Kahn's Algorithm
 
-        while(!q.empty()){
+        queue<int> que;
 
-            int u = q.front();
-            q.pop();
-            ans.push_back(u);
+        for(int i =0; i<n; i++){
+            if(indeg[i] == 0){
+                que.push(i);
+            }
+        }
+
+        vector<int> list;
+
+
+        while(!que.empty()){
             
+            auto u = que.front();
+            que.pop();
 
-            for(auto & v : adj[u]){
+            list.push_back(u);
 
-                inDegree[v]--;
+            for(auto v : adj[u]){
+                indeg[v]--;
 
-                if(inDegree[v] == 0){
-                    
-                    q.push(v);
+                if(indeg[v] == 0){
+                    que.push(v);
                 }
             }
-            
+
         }
 
-        if((int) ans.size() == n){
-            return ans;
+        
+        if(list.size() == n){
+            return list;
         }
 
         return {};
