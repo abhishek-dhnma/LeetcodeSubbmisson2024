@@ -16,7 +16,6 @@ public:
 
         int maxEvents = 0;
 
-
         int i = 0;
 
         for(int d=start; d<=end; d++){
@@ -36,14 +35,9 @@ public:
                     maxEvents++;
                     pq.pop();
                 }
-
-
-
         }
 
         return maxEvents;
 
-
-        
     }
 };
