@@ -17,7 +17,7 @@ public:
 
                 ans.push_back(x);
                 ans.push_back(mapp[nums[x]]);
-                return ans;
+                break;
 
             }
 
