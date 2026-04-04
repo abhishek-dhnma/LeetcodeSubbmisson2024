@@ -9,9 +9,7 @@ public:
             
             // check 
             if(seenBefore.count(nums[i])){
-                ans.push_back(i);
-                ans.push_back(seenBefore[nums[i]]);
-                return ans;
+                return {seenBefore[nums[i]], i};
             }
 
             // insert
