@@ -2,50 +2,47 @@ class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
 
-        vector<vector<int>> ans;
-        // did sorting
         sort(nums.begin(), nums.end());
-
         int n = nums.size();
 
-        // outer loop for i 
-
-        for(int i=0; i<=n-3; i++){
-
-            // skip duplicate 
-            if(i > 0 && nums[i] == nums[i-1]){
-                continue;
-            }
-
-            // two pointer approach 
-
-            int j = i+1;
-            int k = n-1;
+        vector<vector<int>> ans;
 
 
-            while(j < k){
-                
-                int sum = nums[i] + nums[j] + nums[k];
+        for(int i=0; i<n; i++){
 
-                if(sum == 0){
-                    ans.push_back({nums[i], nums[j], nums[k]});
-                    j++;
-                    k--;
-                    // if there is duplicate values
-                    while(j < k && nums[j] == nums[j-1]) j++;
-                    while( k > j && nums[k] == nums[k+1]) k--;
+            if(i > 0 && nums[i] == nums[i-1]) continue;
 
-                }else if(sum > 0){
-                    // i need to reduce my sum value
-                    k--;
-                }else if(sum < 0){
-                    // i need to increase my sum value
-                    j++;
+            int t = nums[i];
+            int x = i+1;
+            int y = n-1;
+
+            while(x < y){
+
+                int sum = -(nums[x] + nums[y]);
+                if(t ==  sum){
+                    ans.push_back({nums[i], nums[x], nums[y]});
+                    while( x < y && nums[x] == nums[x+1])
+                    {x++;}
+                    while( x < y && nums[y] == nums[y-1]){
+                        y--;
+                    }
+
+                    x++;
+                    y--;
+                }else if(t < sum){
+
+                    x++;
+
+                }else {
+
+                    y--;
                 }
-
             }
+
         }
 
+
         return ans;
+        
     }
 };
