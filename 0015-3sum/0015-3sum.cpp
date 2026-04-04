@@ -18,8 +18,8 @@ public:
 
             while(x < y){
 
-                int sum = -(nums[x] + nums[y]);
-                if(t ==  sum){
+                int sum = nums[i] + nums[x] + nums[y];
+                if(0 ==  sum){
                     ans.push_back({nums[i], nums[x], nums[y]});
                     while( x < y && nums[x] == nums[x+1])
                     {x++;}
@@ -29,13 +29,13 @@ public:
 
                     x++;
                     y--;
-                }else if(t < sum){
+                }else if(0 < sum){
 
-                    x++;
+                    y--;
 
                 }else {
 
-                    y--;
+                    x++;
                 }
             }
 
