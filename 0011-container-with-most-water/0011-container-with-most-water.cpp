@@ -1,27 +1,25 @@
 class Solution {
 public:
     int maxArea(vector<int>& height) {
-        int n = height.size();
 
+        // two pointer approach 
         int i = 0;
-        int j = n - 1;
+        int j = height.size()-1;
+        int ans = 0;
+        while(i < j){
+            
+            int area = (min(height[i], height[j])) * (j - i);
 
-        int maxarea = INT_MIN;
-        int currarea = 0;
-
-        while (i < j) {
-
-            currarea = (j - i) * min(height[i], height[j]);
-
-            maxarea = max(maxarea, currarea);
-
-            if (height[i] >= height[j]) {
-                j--;
-            } else {
+            if(height[i] < height[j]){
                 i++;
+            }else {
+                j--;
             }
-        }
 
-        return maxarea;
+            ans = max(ans, area);
+
+        }
+        return ans;
+        
     }
 };
