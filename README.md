@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2102-find-the-middle-index-in-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2102-find-the-middle-index-in-array) |
 | [2107-find-unique-binary-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2107-find-unique-binary-string) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
+| [2121-intervals-between-identical-elements](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2121-intervals-between-identical-elements) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -227,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2023-design-movie-rental-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2023-design-movie-rental-system) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2107-find-unique-binary-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2107-find-unique-binary-string) |
+| [2121-intervals-between-identical-elements](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2121-intervals-between-identical-elements) |
 | [2215-finding-3-digit-even-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2215-finding-3-digit-even-numbers) |
 | [2434-design-a-number-container-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2448-count-number-of-bad-pairs) |
@@ -531,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1833-find-the-highest-altitude](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1833-find-the-highest-altitude) |
 | [2102-find-the-middle-index-in-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2102-find-the-middle-index-in-array) |
+| [2121-intervals-between-identical-elements](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2121-intervals-between-identical-elements) |
 | [2249-count-the-hidden-sequences](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2249-count-the-hidden-sequences) |
 | [2529-range-product-queries-of-powers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2529-range-product-queries-of-powers) |
 | [2625-increment-submatrices-by-one](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2625-increment-submatrices-by-one) |
