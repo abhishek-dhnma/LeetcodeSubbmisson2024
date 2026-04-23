@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2564-most-profitable-path-in-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2615-sum-of-distances](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2615-sum-of-distances) |
 | [2625-increment-submatrices-by-one](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2625-increment-submatrices-by-one) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2665-minimum-time-to-repair-cars](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2665-minimum-time-to-repair-cars) |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2479-meeting-rooms-iii) |
 | [2486-most-frequent-even-element](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2486-most-frequent-even-element) |
+| [2615-sum-of-distances](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2615-sum-of-distances) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -536,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2121-intervals-between-identical-elements](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2121-intervals-between-identical-elements) |
 | [2249-count-the-hidden-sequences](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2249-count-the-hidden-sequences) |
 | [2529-range-product-queries-of-powers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2529-range-product-queries-of-powers) |
+| [2615-sum-of-distances](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2615-sum-of-distances) |
 | [2625-increment-submatrices-by-one](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2625-increment-submatrices-by-one) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3432-count-partitions-with-even-sum-difference) |
