@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1477-product-of-the-last-k-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1477-product-of-the-last-k-numbers) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1603-running-sum-of-1d-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1603-running-sum-of-1d-array) |
 | [1612-avoid-flood-in-the-city](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1612-avoid-flood-in-the-city) |
 | [1628-count-submatrices-with-all-ones](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1628-count-submatrices-with-all-ones) |
@@ -617,6 +618,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1753-path-with-minimum-effort) |
 | [2092-find-all-people-with-secret](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2092-find-all-people-with-secret) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2400-minimum-score-after-removals-on-a-tree) |
@@ -639,6 +641,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1753-path-with-minimum-effort) |
 | [2092-find-all-people-with-secret](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2092-find-all-people-with-secret) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
@@ -754,6 +757,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1253-sort-the-matrix-diagonally](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1253-sort-the-matrix-diagonally) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1628-count-submatrices-with-all-ones](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1628-count-submatrices-with-all-ones) |
 | [1753-path-with-minimum-effort](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1753-path-with-minimum-effort) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -1001,4 +1005,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0210-course-schedule-ii) |
+## Union-Find
+|  |
+| ------- |
+| [1559-detect-cycles-in-2d-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1559-detect-cycles-in-2d-grid) |
 <!---LeetCode Topics End-->
