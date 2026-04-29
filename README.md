@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3184-maximum-balanced-subsequence-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3184-maximum-balanced-subsequence-sum) |
 | [3194-find-words-containing-character](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3194-find-words-containing-character) |
+| [3225-maximum-score-from-grid-operations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3225-maximum-score-from-grid-operations) |
 | [3227-find-missing-and-repeated-values](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3227-find-missing-and-repeated-values) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
@@ -543,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2529-range-product-queries-of-powers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2529-range-product-queries-of-powers) |
 | [2615-sum-of-distances](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2615-sum-of-distances) |
 | [2625-increment-submatrices-by-one](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2625-increment-submatrices-by-one) |
+| [3225-maximum-score-from-grid-operations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3225-maximum-score-from-grid-operations) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -709,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3184-maximum-balanced-subsequence-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3184-maximum-balanced-subsequence-sum) |
+| [3225-maximum-score-from-grid-operations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3225-maximum-score-from-grid-operations) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
@@ -764,6 +767,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2625-increment-submatrices-by-one](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2625-increment-submatrices-by-one) |
+| [3225-maximum-score-from-grid-operations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3225-maximum-score-from-grid-operations) |
 | [3227-find-missing-and-repeated-values](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3227-find-missing-and-repeated-values) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
