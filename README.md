@@ -1022,5 +1022,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0128-longest-consecutive-sequence) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1559-detect-cycles-in-2d-grid) |
 <!---LeetCode Topics End-->
