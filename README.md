@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2121-intervals-between-identical-elements](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2121-intervals-between-identical-elements) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2141-maximum-running-time-of-n-computers) |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -510,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-two-best-non-overlapping-events](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2054-two-best-non-overlapping-events) |
 | [2092-find-all-people-with-secret](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2092-find-all-people-with-secret) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2141-maximum-running-time-of-n-computers) |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2215-finding-3-digit-even-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2215-finding-3-digit-even-numbers) |
@@ -585,6 +587,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1612-avoid-flood-in-the-city](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1612-avoid-flood-in-the-city) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2141-maximum-running-time-of-n-computers) |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2497-maximum-matching-of-players-with-trainers) |
