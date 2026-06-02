@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3625-count-number-of-trapezoids-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3643-zero-array-transformation-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3643-zero-array-transformation-ii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
@@ -532,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3433-count-mentions-per-user](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3531-count-covered-buildings) |
 | [3606-coupon-code-validator](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3606-coupon-code-validator) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Data Stream
 |  |
@@ -597,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3074-apple-redistribution-into-boxes](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3074-apple-redistribution-into-boxes) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -758,6 +761,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3132-find-the-integer-added-to-array-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3132-find-the-integer-added-to-array-ii) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Matrix
 |  |
 | ------- |
@@ -837,6 +841,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3184-maximum-balanced-subsequence-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3184-maximum-balanced-subsequence-sum) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3643-zero-array-transformation-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3643-zero-array-transformation-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3791-fruits-into-baskets-iii) |
