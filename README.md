@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0023-merge-k-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0237-delete-node-in-a-linked-list) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0242-valid-anagram) |
@@ -372,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0307-range-sum-query-mutable](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0307-range-sum-query-mutable) |
@@ -1032,4 +1035,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0128-longest-consecutive-sequence) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1559-detect-cycles-in-2d-grid) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
