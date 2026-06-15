@@ -43,7 +43,7 @@ public:
 
             // neeed to 2 condition check
 
-            if( j - i + 1 == n && s1freq == s2freq){
+            if( s1freq == s2freq){
                 return true;
             }
 
