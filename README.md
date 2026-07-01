@@ -616,6 +616,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0572-subtree-of-another-tree) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2400-minimum-score-after-removals-on-a-tree) |
@@ -634,6 +635,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0547-number-of-provinces) |
+| [0572-subtree-of-another-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0572-subtree-of-another-tree) |
 | [0744-network-delay-time](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0794-swim-in-rising-water) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
@@ -953,6 +955,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Function
 |  |
 | ------- |
+| [0572-subtree-of-another-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0572-subtree-of-another-tree) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2079-delete-duplicate-folders-in-system) |
 ## Segment Tree
 |  |
@@ -1012,12 +1015,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0572-subtree-of-another-tree) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 ## String Matching
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0572-subtree-of-another-tree](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0572-subtree-of-another-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
