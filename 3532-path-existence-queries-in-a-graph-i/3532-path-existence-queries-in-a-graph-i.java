@@ -24,10 +24,7 @@ class Solution {
             int u = queries[i][0];
             int v =  queries[i][1];
 
-
-            if(component[u] == component[v]){
-                ans[i] = true;
-            }
+            ans[i] = (component[u] == component[v]);
         }
         return ans;       
     }
