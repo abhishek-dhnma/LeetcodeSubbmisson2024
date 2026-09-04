@@ -186,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3791-fruits-into-baskets-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3791-fruits-into-baskets-iii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3797-design-spreadsheet](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3797-design-spreadsheet) |
+| [3903-smallest-stable-index-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3903-smallest-stable-index-i) |
 ## Linked List
 |  |
 | ------- |
@@ -571,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3643-zero-array-transformation-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3643-zero-array-transformation-ii) |
 | [3714-longest-balanced-substring-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3714-longest-balanced-substring-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3903-smallest-stable-index-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3903-smallest-stable-index-i) |
 ## Backtracking
 |  |
 | ------- |
