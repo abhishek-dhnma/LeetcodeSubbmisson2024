@@ -21,7 +21,7 @@ class Solution {
 
         }
 
-        int ans = -1;
+        
         for(int i=0; i<n; i++){
             
             if(k >= (mx[i] - mn[i])){
@@ -30,7 +30,7 @@ class Solution {
 
         }
 
-        return ans;
+        return -1;
          
         
     }
