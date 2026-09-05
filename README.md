@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3797-design-spreadsheet](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3797-design-spreadsheet) |
 | [3903-smallest-stable-index-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3903-smallest-stable-index-i) |
+| [3904-smallest-stable-index-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3904-smallest-stable-index-ii) |
 ## Linked List
 |  |
 | ------- |
@@ -573,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3714-longest-balanced-substring-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3714-longest-balanced-substring-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3903-smallest-stable-index-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3903-smallest-stable-index-i) |
+| [3904-smallest-stable-index-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3904-smallest-stable-index-ii) |
 ## Backtracking
 |  |
 | ------- |
