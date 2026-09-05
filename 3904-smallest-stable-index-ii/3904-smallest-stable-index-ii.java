@@ -9,8 +9,6 @@ class Solution {
         mx[0] = nums[0];
         mn[n-1] = nums[n-1];
 
-
-
         for(int i=1,j=n-2; i<n && j>=0; i++, j--){
             mx[i] = Math.max(mx[i-1], nums[i]);
             mn[j] = Math.min(mn[j+1], nums[j]);
