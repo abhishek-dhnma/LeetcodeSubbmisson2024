@@ -10,14 +10,11 @@ class Solution {
         mn[n-1] = nums[n-1];
 
 
-        for(int i=1; i<n; i++){
+
+        for(int i=1,j=n-2; i<n && j>=0; i++, j--){
             mx[i] = Math.max(mx[i-1], nums[i]);
+            mn[j] = Math.min(mn[j+1], nums[j]);
         }
-
-        for(int i=n-2; i>=0; i--){
-            mn[i] = Math.min(mn[i+1], nums[i]);
-        }
-
 
         for(int i=0; i<n; i++){
             if( k >= (mx[i] - mn[i])){
