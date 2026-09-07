@@ -301,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0567-permutation-in-string) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0768-partition-labels](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0768-partition-labels) |
+| [0940-distinct-subsequences-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0940-distinct-subsequences-ii) |
 | [0944-delete-columns-to-make-sorted](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0944-delete-columns-to-make-sorted) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1032-satisfiability-of-equality-equations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1032-satisfiability-of-equality-equations) |
@@ -730,6 +731,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0806-domino-and-tromino-tiling](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0806-domino-and-tromino-tiling) |
 | [0826-soup-servings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0826-soup-servings) |
+| [0940-distinct-subsequences-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0940-distinct-subsequences-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1129-longest-string-chain](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1170-shortest-common-supersequence) |
