@@ -1,11 +1,12 @@
 class Solution {
     public int countCommas(int n) {
 
+        // numbers less than 4 digit - zero commas 
+        if(n < 1000){
+            return 0;
+        }
 
-
-        int ans = n - 1000 + 1;
-
-        return (ans < 0) ? 0 : ans ;
+        return n - 1000 + 1;
         
 
         
