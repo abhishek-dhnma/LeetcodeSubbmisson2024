@@ -16,9 +16,9 @@
 class Solution {
 
 
-        public static int ans ;
+        int ans = 0;
 
-        public static int[] Average(TreeNode root){
+        public int[] Average(TreeNode root){
 
         if(root == null) return new int[]{0,0};
 
@@ -37,7 +37,7 @@ class Solution {
 
 
     public int averageOfSubtree(TreeNode root) {
-        ans = 0;
+        
         Average(root);  
         return ans;
 
