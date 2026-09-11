@@ -2,71 +2,55 @@ class Solution {
     public int[] findEvenNumbers(int[] digits) {
         
 
-         int n = digits.length;
+        int n = digits.length;
 
         
 
-        Set<Integer> uniqueNumber = new HashSet<>();
+        Set<Integer> uniqueNumber = new TreeSet<>();
 
         for(int i=0; i<n; i++){
-            int d;
-            
-            if(digits[i] != 0){
-                d = digits[i];
-            }else{
-                continue;
-            }
 
             for(int j=0; j<n; j++){
 
-                if(i != j){
-                    
-                    d = (d * 10) + digits[j] ;
-
                     for(int k=0; k<n; k++){
-                        if(i != k && k != j ){
-                            
-                            if(digits[k] % 2 ==0){
-                                d = (d*10) + digits[k] ;
+                        
+                           int a = digits[i];
+                           int b = digits[j];
+                           int c = digits[k];
 
-                                if(!uniqueNumber.contains(d)){
-                                    uniqueNumber.add(d);
-                                }
-                            d /= 10;
+                           if(i==j || j == k || k == i) continue;
 
+                           if(a==0) continue;
 
-                            }
+                            if(c%2 != 0) continue;
 
-                        }
+                            int d = (a*100) + (b*10) + c;
+                            uniqueNumber.add(d);
+
+                        
                     }
 
-                    d /=10;
+
 
                 }
 
             }
 
             
-        }
-
-        int x = uniqueNumber.size();
-        int [] ans = new int[x];
-        int i=0;
+        
 
 
 
         
-         // 2. Convert HashSet to a sorted TreeSet
-        TreeSet<Integer> sortedSet = new TreeSet<>(uniqueNumber);
+        int[] ans = new int[uniqueNumber.size()];
 
-        // 3. Remove from the front one by one
-        System.out.println("Removing elements from the front:");
-        while (!sortedSet.isEmpty()) {
-            ans[i] = sortedSet.pollFirst(); // Removes and returns the lowest element
-            i++;
-        }
+int idx = 0;
+for (int num : uniqueNumber) {
+    ans[idx++] = num;
+}
+
+return ans;
 
 
-        return ans;
     }
 }
