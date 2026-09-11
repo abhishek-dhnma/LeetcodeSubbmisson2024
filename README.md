@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2048-build-array-from-permutation](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2048-build-array-from-permutation) |
 | [2054-two-best-non-overlapping-events](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2054-two-best-non-overlapping-events) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2079-delete-duplicate-folders-in-system) |
+| [2094-finding-3-digit-even-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2094-finding-3-digit-even-numbers) |
 | [2102-find-the-middle-index-in-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2102-find-the-middle-index-in-array) |
 | [2107-find-unique-binary-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2107-find-unique-binary-string) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2023-design-movie-rental-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2023-design-movie-rental-system) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2079-delete-duplicate-folders-in-system) |
+| [2094-finding-3-digit-even-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2094-finding-3-digit-even-numbers) |
 | [2107-find-unique-binary-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2107-find-unique-binary-string) |
 | [2121-intervals-between-identical-elements](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2121-intervals-between-identical-elements) |
 | [2215-finding-3-digit-even-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2215-finding-3-digit-even-numbers) |
@@ -526,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2054-two-best-non-overlapping-events](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2054-two-best-non-overlapping-events) |
 | [2092-find-all-people-with-secret](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2092-find-all-people-with-secret) |
+| [2094-finding-3-digit-even-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2094-finding-3-digit-even-numbers) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -943,6 +946,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0900-reordered-power-of-2) |
 | [1656-count-good-triplets](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1656-count-good-triplets) |
 | [1925-count-square-sum-triples](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1925-count-square-sum-triples) |
+| [2094-finding-3-digit-even-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2094-finding-3-digit-even-numbers) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2215-finding-3-digit-even-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2215-finding-3-digit-even-numbers) |
 | [2998-count-symmetric-integers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2998-count-symmetric-integers) |
@@ -1008,6 +1012,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0326-power-of-three) |
+| [2094-finding-3-digit-even-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2094-finding-3-digit-even-numbers) |
 | [3483-unique-3-digit-even-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3483-unique-3-digit-even-numbers) |
 ## Divide and Conquer
 |  |
