@@ -6,50 +6,38 @@ class Solution {
         Set<Integer> uniqueNumber = new HashSet<>();
 
         for(int i=0; i<n; i++){
-            int d;
-            
-            if(digits[i] != 0){
-                d = digits[i];
-            }else{
-                continue;
-            }
-
             for(int j=0; j<n; j++){
-
-                if(i != j){
-                    
-                    d = (d * 10) + digits[j] ;
-
                     for(int k=0; k<n; k++){
-                        if(i != k && k != j ){
-                            
-                            if(digits[k] % 2 ==0){
-                                d = (d*10) + digits[k] ;
 
-                                if(!uniqueNumber.contains(d)){
-                                    uniqueNumber.add(d);
-                                }
-                            d /= 10;
+                        int a = digits[i];
+                        int b = digits[j];
+                        int c = digits[k];
 
+                        if(i == j || k == j || i == k) continue;
 
-                            }
+                        if( a == 0) continue;
 
-                        }
+                        if(c%2 != 0) continue;
+
+                        int d = (a * 100) + (b * 10) + c ;
+
+                        uniqueNumber.add(d);
+                           
                     }
-
-                    d /=10;
 
                 }
 
+            
+            
+            
+            
             }
+
+             return uniqueNumber.size();
+
 
             
         }
 
-
-        return uniqueNumber.size();
-
-
-        
-    }
+       
 }
