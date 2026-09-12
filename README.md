@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3430-count-days-without-meetings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3430-count-days-without-meetings) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3433-count-mentions-per-user](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3433-count-mentions-per-user) |
@@ -547,6 +548,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3132-find-the-integer-added-to-array-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3132-find-the-integer-added-to-array-ii) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3430-count-days-without-meetings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3430-count-days-without-meetings) |
 | [3433-count-mentions-per-user](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3531-count-covered-buildings) |
@@ -762,6 +764,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3184-maximum-balanced-subsequence-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3184-maximum-balanced-subsequence-sum) |
 | [3225-maximum-score-from-grid-operations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3225-maximum-score-from-grid-operations) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -880,6 +883,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2690-house-robber-iv](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2690-house-robber-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3184-maximum-balanced-subsequence-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3184-maximum-balanced-subsequence-sum) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
