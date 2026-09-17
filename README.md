@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1477-product-of-the-last-k-numbers](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1477-product-of-the-last-k-numbers) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1603-running-sum-of-1d-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1603-running-sum-of-1d-array) |
@@ -241,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1364-tuple-with-same-product](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1364-tuple-with-same-product) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1500-count-largest-group](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1500-count-largest-group) |
 | [1612-avoid-flood-in-the-city](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1612-avoid-flood-in-the-city) |
 | [1813-maximum-erasure-value](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1813-maximum-erasure-value) |
@@ -749,6 +751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1170-shortest-common-supersequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1250-longest-common-subsequence) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1262-greatest-sum-divisible-by-three) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1628-count-submatrices-with-all-ones](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1628-count-submatrices-with-all-ones) |
@@ -851,6 +854,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0567-permutation-in-string) |
 | [0940-fruit-into-baskets](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0940-fruit-into-baskets) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1813-maximum-erasure-value](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1813-maximum-erasure-value) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2478-longest-nice-subarray) |
@@ -875,6 +879,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1397-search-suggestions-system](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1397-search-suggestions-system) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1612-avoid-flood-in-the-city](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1612-avoid-flood-in-the-city) |
 | [1646-kth-missing-positive-number](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1753-path-with-minimum-effort) |
