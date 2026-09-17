@@ -28,9 +28,6 @@ class Solution {
             
 
             if(currSum == target){
-                // I found One subarray which is valid
-                // and I need another non-overlapping array
-                // which is end at i-1 and start from 0 to i-1 any
                 int currLen = j-i+1;
 
                 if(i>0 && bestMinLengthSoFar[i - 1] != Integer.MAX_VALUE){
