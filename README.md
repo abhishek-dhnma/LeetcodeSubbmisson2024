@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0940-fruit-into-baskets) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1096-brace-expansion-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1096-brace-expansion-ii) |
 | [1129-longest-string-chain](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1129-longest-string-chain) |
 | [1160-letter-tile-possibilities](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1160-letter-tile-possibilities) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -319,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0944-delete-columns-to-make-sorted](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0944-delete-columns-to-make-sorted) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1032-satisfiability-of-equality-equations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1032-satisfiability-of-equality-equations) |
+| [1096-brace-expansion-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1096-brace-expansion-ii) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1129-longest-string-chain](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1129-longest-string-chain) |
 | [1160-letter-tile-possibilities](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1160-letter-tile-possibilities) |
@@ -511,6 +513,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0143-reorder-list) |
+| [1096-brace-expansion-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1096-brace-expansion-ii) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1628-count-submatrices-with-all-ones](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1628-count-submatrices-with-all-ones) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -534,6 +537,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0630-course-schedule-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0630-course-schedule-iii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0646-maximum-length-of-pair-chain) |
 | [0900-reordered-power-of-2](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0900-reordered-power-of-2) |
+| [1096-brace-expansion-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1096-brace-expansion-ii) |
 | [1129-longest-string-chain](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1129-longest-string-chain) |
 | [1253-sort-the-matrix-diagonally](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1253-sort-the-matrix-diagonally) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -607,6 +611,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0039-combination-sum) |
 | [0679-24-game](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0679-24-game) |
+| [1096-brace-expansion-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1096-brace-expansion-ii) |
 | [1160-letter-tile-possibilities](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
@@ -708,6 +713,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0794-swim-in-rising-water) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1036-rotting-oranges](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1036-rotting-oranges) |
+| [1096-brace-expansion-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1096-brace-expansion-ii) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1559-detect-cycles-in-2d-grid) |
