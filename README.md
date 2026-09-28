@@ -334,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1823-determine-if-string-halves-are-alike](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1823-determine-if-string-halves-are-alike) |
 | [1894-merge-strings-alternately](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1894-merge-strings-alternately) |
@@ -515,6 +516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0143-reorder-list) |
 | [1096-brace-expansion-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1096-brace-expansion-ii) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1628-count-submatrices-with-all-ones](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1628-count-submatrices-with-all-ones) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2021-remove-all-occurrences-of-a-substring) |
@@ -1131,4 +1133,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0146-lru-cache) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 <!---LeetCode Topics End-->
