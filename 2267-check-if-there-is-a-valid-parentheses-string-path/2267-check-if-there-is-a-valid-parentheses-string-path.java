@@ -1,79 +1,75 @@
 class Solution {
-
-    // Allowed directions: Down and Right
+    // down and right
     int[][] dir = { { 1, 0 }, { 0, 1 } };
 
     public boolean dfs(char[][] grid, int i, int j, int count, boolean[][][] visited) {
 
-        // 1. Update the balance of brackets on the fly
         if (grid[i][j] == '(') {
             count++;
         } else if (grid[i][j] == ')') {
             count--;
         }
 
-        // 2. PRUNING: Too many closing brackets
+        // Pruning 1: Too many closing brackets
         if (count < 0) {
             return false;
         }
 
-        // 3. PRUNING: Too many opening brackets
-        // Calculate the exact number of steps remaining to reach the bottom-right corner.
+        // Pruning 2 (THE FIX): Too many open brackets. 
+        // If we have more open brackets than remaining steps, we can never close them.
+        // This also strictly guarantees 'count' never exceeds our 'visited' array size.
         int remainingSteps = (grid.length - 1 - i) + (grid[0].length - 1 - j);
-        
-        // If we need to close more brackets than the steps we have left, it's impossible.
         if (count > remainingSteps) {
             return false;
         }
 
-        // 4. BASE CASE: Reached the bottom-right corner
+        // Reached the end
         if (i == grid.length - 1 && j == grid[0].length - 1) {
-            return count == 0; // Valid if all brackets are properly closed
+            return count == 0;
         }
 
-        // 5. MEMOIZATION: Have we been at this exact state before?
-        // If we visited this cell with the same 'count' and it returned false, don't re-calculate.
+        // Check Cache
         if (visited[i][j][count]) {
             return false;
         }
-        visited[i][j][count] = true; // Mark state as visited/failed
+        visited[i][j][count] = true;
 
-        // 6. EXPLORE: Move Down and Right
+        // Explore children
         for (int d = 0; d < 2; d++) {
             int in = i + dir[d][0];
             int jn = j + dir[d][1];
 
-            // Bounds check for the next move
-            if (in < grid.length && jn < grid[0].length && in >= 0 && jn >= 0) {
+            if (in < grid.length && jn < grid[0].length) {
                 if (dfs(grid, in, jn, count, visited)) {
                     return true;
                 }
             }
         }
-
+        
         return false;
     }
 
     public boolean hasValidPath(char[][] grid) {
-        int n = grid.length;
-        int m = grid[0].length;
+        int m = grid.length;
+        int n = grid[0].length;
 
-        // PRUNING A: Must start with an open bracket and end with a closed bracket
-        if (grid[0][0] == ')' || grid[n - 1][m - 1] == '(') {
+        // A valid path must start with '(' and end with ')'
+        if (grid[0][0] == ')' || grid[m - 1][n - 1] == '(') {
             return false;
         }
 
-        // PRUNING B: Every path length is exactly (n + m - 1) cells.
-        // A valid parenthesis string must be even. If path length is odd, it's impossible.
-        if ((n + m - 1) % 2 != 0) {
+        // PRO TIP: Every path from top-left to bottom-right takes exactly (m + n - 1) steps.
+        // A valid parenthesis string MUST have an even length.
+        // If the path length is odd, it's mathematically impossible.
+        if ((m + n - 1) % 2 != 0) {
             return false;
         }
 
-        // Maximum possible open brackets is half the path length + 1 (for array sizing)
-        int maxCount = ((n + m) / 2) + 1;
-
-        // 3D cache to store states: visited[row][col][currentBracketCount]
-        boolean[][][] visited = new boolean[n][m][maxCount];
+        // Max possible open brackets at any valid point is half the total path length
+        int maxCount = (m + n) / 2 + 1;
+        
+        // Notice we don't need +1 on m and n anymore since we check bounds before entering dfs
+        boolean[][][] visited = new boolean[m][n][maxCount];
 
         return dfs(grid, 0, 0, 0, visited);
     }
