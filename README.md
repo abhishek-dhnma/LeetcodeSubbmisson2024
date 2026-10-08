@@ -320,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-distinct-subsequences-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0940-distinct-subsequences-ii) |
 | [0944-delete-columns-to-make-sorted](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0944-delete-columns-to-make-sorted) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0960-delete-columns-to-make-sorted-iii) |
+| [1021-remove-outermost-parentheses](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1021-remove-outermost-parentheses) |
 | [1032-satisfiability-of-equality-equations](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1032-satisfiability-of-equality-equations) |
 | [1096-brace-expansion-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
@@ -516,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/0143-reorder-list) |
+| [1021-remove-outermost-parentheses](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1021-remove-outermost-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
@@ -1141,6 +1143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bracket Sequences
 |  |
 | ------- |
+| [1021-remove-outermost-parentheses](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1021-remove-outermost-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/abhishek-dhnma/LeetcodeSubbmisson2024/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
