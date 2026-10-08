@@ -6,13 +6,18 @@ class Solution {
 
         for(int i=0; i<s.length(); i++){
             if(s.charAt(i) == '('){
-                if(count++ > 0){
+               
+                if(count> 0){
                 str += "(";
                 }
+                count++;
             }else if(s.charAt(i) == ')') {
-                if(--count > 0){
+                count--;
+                if(count > 0){
                     str += ")";
                 }
+
+                
                 
             }
            
